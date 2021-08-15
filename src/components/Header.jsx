@@ -31,7 +31,7 @@ const Header = () => {
                     <Nav>
                         <Nav.Link onSelect={()=> test()} as={Link} to="/" >Start</Nav.Link>
                         <Nav.Link as={Link} to="Festkalender">Festkalender</Nav.Link>
-                        <Nav.Link as={Link} to="Fester">Arragemang</Nav.Link>
+                        <Nav.Link as={Link} to="Fester">Arrangemang</Nav.Link>
                         <Nav.Link as={Link} to="WoF">Wall of Fame</Nav.Link>
                         <Nav.Link as={Link} to="groupis">D-Group 21/22</Nav.Link>
                         <Nav.Link href="https://DomD.nu">DÖMD</Nav.Link>

@@ -319,7 +319,7 @@ function WallofFame() {
               <question>Vad gjorde du i sommras?</question> <br/>
               <answer> Lärt D-Group att laga mat</answer> <br/>
               <question>Vad är din go to dricka?</question> <br/>
-              <answer>Smooties</answer> <br/>
+              <answer>Smothies</answer> <br/>
             </Modal.Body>
         </Modal>
       </div>
