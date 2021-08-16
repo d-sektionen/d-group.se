@@ -37,14 +37,26 @@ function WallofFame() {
 
   return (
     <>
+    
     <div className="Groupies">
-      <img
-            src={Tamara}
-            alt='Groupie'
-            height='160px'
-            width='160px'
-            onClick={() => (setTamaraShow(true))}
-          />
+      <div className="row">
+        <div className="col-6 col-md-4">
+          <img
+              src={Tamara}
+              alt='Groupie'
+              height='160px'
+              width='160px'
+              onClick={() => (setTamaraShow(true))}
+            />
+          
+        </div>
+        <div className="col-12 col-md-8">
+
+        </div>
+        
+      </div>
+    
+      
       <img
             src={emmaW}
             alt='Groupie'
@@ -130,6 +142,13 @@ function WallofFame() {
             onClick={() => (setMorganShow(true))}
           />
     </div>
+
+
+
+
+
+
+
     <div className="Modals">
       <div className="eliasModal">
         <Modal
