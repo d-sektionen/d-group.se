@@ -62,6 +62,7 @@ const Start = () => {
                                 popcorn inte gick att göra i micron. 
                                 Innan dess låg vi i mammas kära mage och smed planer om världsherravälde genom pilkastning, 
                                 ölhäfv och självrökande cigaretter. Vi tycker om att ha kul!</p>
+                                <p>Ni hittar oss även på både <a href="https://www.facebook.com/DGroup2021">facebook</a> och <a href="https://www.instagram.com/dgroup2122/">instagram</a></p>
                         
                             </div>
                         <div class="col-sm-4 sidebar">
