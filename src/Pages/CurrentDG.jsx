@@ -1,19 +1,7 @@
 import React, { useState } from 'react';
 import '../css/CurrentDG.css'
 import { Modal} from 'react-bootstrap';
-import Elias from '../images/gropies/EliasH.jpg'
-import Tamara from '../images/gropies/tamara.jpg'
-import Morgan from '../images/gropies/Morgan.jpg'
-import alice from '../images/gropies/alice.jpg'
-import anton from '../images/gropies/anton.jpg'
-import axel from '../images/gropies/axel.jpg'
-import emmaS from '../images/gropies/emmaS.jpg'
-import emmaW from '../images/gropies/emmaW.jpg'
-import erik from '../images/gropies/erik.jpg'
-import marcus from '../images/gropies/marcus.jpg'
-import oscar from '../images/gropies/oscar.jpg'
-import shmail from '../images/gropies/shamil.jpg'
-import johan from '../images/gropies/johan.jpg'
+
 
 import ModalHeader from 'react-bootstrap/esm/ModalHeader';
 
@@ -42,10 +30,10 @@ function WallofFame() {
       <div className="row">
         <div className="col-6 col-md-4">
           <img
-            src={Tamara}
+            src="https://i.imgur.com/9QCprnd.jpg"
             alt='Groupie'
-            height='160px'
-            width='160px'
+            height='230px'
+            width='230px'
             onClick={() => (setTamaraShow(true))}
           />
         </div>
@@ -59,10 +47,10 @@ function WallofFame() {
       <div className="row">
         <div className="col-6 col-md-4">
           <img
-            src={emmaW}
+            src="https://i.imgur.com/3Vrvgj6.jpg"
             alt='Groupie'
-            height='160px'
-            width='160px'
+            height='230px'
+            width='230px'
             onClick={() => (setEmmaWShow(true))}
           />
 
@@ -77,10 +65,10 @@ function WallofFame() {
       <div className="row">
         <div className="col-6 col-md-4">
           <img
-            src={marcus}
+            src="https://i.imgur.com/SGHNmjK.jpg"
             alt='Groupie'
-            height='160px'
-            width='160px'
+            height='230px'
+            width='230px'
             onClick={() => (setMarcusShow(true))}
           />
         </div>
@@ -93,10 +81,10 @@ function WallofFame() {
       <div className="row">
         <div className="col-6 col-md-4">
         <img
-            src={anton}
+            src="https://i.imgur.com/QcsoV4W.jpg"
             alt='Groupie'
-            height='160px'
-            width='160px'
+            height='230px'
+            width='230px'
             onClick={() => (setAntonShow(true))}
           />
         </div>
@@ -109,10 +97,10 @@ function WallofFame() {
       <div className="row">
         <div className="col-6 col-md-4">
           <img
-            src={axel}
+            src="https://i.imgur.com/QpUTpSB.jpg"
             alt='Groupie'
-            height='160px'
-            width='160px'
+            height='230px'
+            width='230px'
             onClick={() => (setAxelShow(true))}
           />
         </div>
@@ -125,10 +113,10 @@ function WallofFame() {
       <div className="row">
         <div className="col-6 col-md-4">
         <img
-            src={shmail}
+            src="https://i.imgur.com/jVaoGVn.jpg"
             alt='Groupie'
-            height='160px'
-            width='160px'
+            height='230px'
+            width='230px'
             onClick={() => (setShamilShow(true))}
           />
         </div>
@@ -141,10 +129,10 @@ function WallofFame() {
       <div className="row">
         <div className="col-6 col-md-4">
           <img
-            src={alice}
+            src="https://i.imgur.com/DvwMyRa.jpg"
             alt='Groupie'
-            height='160px'
-            width='160px'
+            height='230px'
+            width='230px'
             onClick={() => (setAliceShow(true))}
           />
         </div>
@@ -157,10 +145,10 @@ function WallofFame() {
       <div className="row">
         <div className="col-6 col-md-4">
           <img
-            src={emmaS}
+            src="https://i.imgur.com/A1hN172.jpg"
             alt='Groupie'
-            height='160px'
-            width='160px'
+            height='230px'
+            width='230px'
             onClick={() => (setEmmaSShow(true))}
           />
         </div>
@@ -173,10 +161,10 @@ function WallofFame() {
       <div className="row">
         <div className="col-6 col-md-4">
           <img
-            src={Elias}
+            src="https://i.imgur.com/wAEKWn2.jpg"
             alt='Groupie'
-            height='160px'
-            width='160px'
+            height='230px'
+            width='230px'
             onClick={() => (setEliasShow(true))}
           />
         </div>
@@ -189,10 +177,10 @@ function WallofFame() {
       <div className="row">
         <div className="col-6 col-md-4">
         <img
-            src={oscar}
+            src="https://i.imgur.com/xWSoQBM.jpg"
             alt='Groupie'
-            height='160px'
-            width='160px'
+            height='230px'
+            width='230px'
             onClick={() => (setOscarShow(true))}
           />
         </div>
@@ -205,10 +193,10 @@ function WallofFame() {
       <div className="row">
         <div className="col-6 col-md-4">
         <img
-            src={erik}
+            src="https://i.imgur.com/sFY2TtE.jpg"
             alt='Groupie'
-            height='160px'
-            width='160px'
+            height='230px'
+            width='230px'
             onClick={() => (setErikShow(true))}
           />
         </div>
@@ -222,10 +210,10 @@ function WallofFame() {
       <div className="row">
         <div className="col-6 col-md-4">
         <img
-            src={johan}
+            src="https://i.imgur.com/nHiwZiO.jpg"
             alt='Groupie'
-            height='160px'
-            width='160px'
+            height='230px'
+            width='230px'
             onClick={() => (setJohanShow(true))}
           />
         </div>
@@ -238,10 +226,10 @@ function WallofFame() {
       <div className="row">
         <div className="col-6 col-md-4">
           <img
-            src={Morgan}
+            src="https://i.imgur.com/SfjntgL.jpg"
             alt='Groupie'
-            height='160px'
-            width='160px'
+            height='230px'
+            width='230px'
             onClick={() => (setMorganShow(true))}
           />
         </div>
