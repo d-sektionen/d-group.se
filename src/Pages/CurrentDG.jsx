@@ -25,7 +25,9 @@ function WallofFame() {
 
   return (
     <>
-    
+    <div className="row">
+      <h2>Klicka på valfri groupie för att lära oss bättre</h2>
+    </div>
     <div className="Groupies">
       <div className="row">
         <div className="col-6 col-md-4">
@@ -286,7 +288,7 @@ function WallofFame() {
             </Modal.Header>
             <Modal.Body>
               <question>Vilken post har du?</question> <br/>
-              <answer>Öl o Bar</answer> <br/>
+              <answer>Öl & Bar</answer> <br/>
               <question>Vilken klass går du i?</question> <br/>
               <answer>IT2</answer> <br/>
               <question>Vad gjorde du i sommras?</question> <br/>
@@ -336,7 +338,7 @@ function WallofFame() {
               <question>Vilken post har du?</question> <br/>
               <answer>Trykk</answer> <br/>
               <question>Vilken klass går du i?</question> <br/>
-              <answer>U2</answer> <br/>
+              <answer>U2a</answer> <br/>
               <question>Vad gjorde du i sommras?</question> <br/>
               <answer>Trykkt</answer> <br/>
               <question>Vad är din go to dricka?</question> <br/>
