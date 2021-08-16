@@ -25,7 +25,7 @@ const App = () => {
                     <Route exact path="/festkalender" component={FestKalender} />
                     <Route exact path="/fester" component={Fester} />
                     <Route exact path="/WoF" component={HoF} />
-                    <Route exact path="/groupis" component={CurrDG}/>
+                    <Route exact path="/groupies" component={CurrDG}/>
                     <Route exact path="/test" component={test}/>
                 </div>
                 <div className="Footer">
