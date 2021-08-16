@@ -10,7 +10,9 @@ const Footer = () => {
             <div class="col-12 col-md-8">
               <h1>Kontakt</h1>
               
-              Frågor som rör dart eller dartutrustning ställs till <a href="mailto:dart@d-group.se"> dart@D-Group.se</a>. <br/>Kontakt, övriga frågor
+              Frågor som rör dart eller dartutrustning ställs till <a href="mailto:dart@d-group.se"> dart@D-Group.se</a>. <br/>
+              Frågor gällande hemsidan ställs till <a href="mailto:webb@d-group.se">webb@d-group.se</a> <br/>
+              Kontakt, övriga frågor
               , strippförfrågningar, jobbförfrågningar (vi kan jobba på det mesta) eller vad du/ni än må ha på hjärtat görs via mail till <a href="mailto:info@d-group.se">info@D-Group.se</a>. <br/>Frågor om D-Group.se, <a href="https://Tentakravallen.se">Tentakravallen.se</a>, <a href ="https://Dömd.nu">DömD.nu</a>  ställs
               till <a href="mailto:info@d-group.se">info@D-Group.se</a>.
             </div>
