@@ -42,106 +42,215 @@ function WallofFame() {
       <div className="row">
         <div className="col-6 col-md-4">
           <img
-              src={Tamara}
-              alt='Groupie'
-              height='160px'
-              width='160px'
-              onClick={() => (setTamaraShow(true))}
-            />
+            src={Tamara}
+            alt='Groupie'
+            height='160px'
+            width='160px'
+            onClick={() => (setTamaraShow(true))}
+          />
         </div>
         <div className="col-12 col-md-8">
           <h1>Tamara</h1>
           <p>Cheif</p>
-          <p><a href="mailto:cheif@d-group.se">chief@d-group.se</a></p>
+          <p><a href="mailto:tamara.juric@d-group.se">tamara.juric@d-group.se</a></p>
         </div>
         
       </div>
-    
-      
-      <img
+      <div className="row">
+        <div className="col-6 col-md-4">
+          <img
             src={emmaW}
             alt='Groupie'
             height='160px'
             width='160px'
             onClick={() => (setEmmaWShow(true))}
           />
-      <img
+
+        </div>
+        <div className="col-12 col-md-8">
+          <h1>Emma Wahlund</h1>
+          <p>Cha$h</p>
+          <p><a href="mailto:emma.wahlund@d-group.se">emma.wahlund@d-group.se</a></p>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col-6 col-md-4">
+          <img
             src={marcus}
             alt='Groupie'
             height='160px'
             width='160px'
             onClick={() => (setMarcusShow(true))}
           />
-      <img
+        </div>
+        <div className="col-12 col-md-8">
+          <h1>Marcus Döberl</h1>
+          <p>Webb & ÖverDomaren (TM)</p>
+          <p><a href="mailto:marcus.doberl@d-group.se">marcus.doberl@d-group.se</a></p>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-6 col-md-4">
+        <img
             src={anton}
             alt='Groupie'
             height='160px'
             width='160px'
             onClick={() => (setAntonShow(true))}
           />
-      <img
+        </div>
+        <div className="col-12 col-md-8">
+          <h1>Anton Bergman</h1>
+          <p>Werk</p>
+          <p><a href="mailto:anton.bergman@d-group.se">anton.bergman@d-group.se</a></p>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-6 col-md-4">
+          <img
             src={axel}
             alt='Groupie'
             height='160px'
             width='160px'
             onClick={() => (setAxelShow(true))}
           />
-      <img
+        </div>
+        <div className="col-12 col-md-8">
+          <h1>Axel Peters</h1>
+          <p>Pr & Event</p>
+          <p><a href="mailto:axel.peters@d-group.se">axel.peters@d-group.se</a></p>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-6 col-md-4">
+        <img
             src={shmail}
             alt='Groupie'
             height='160px'
             width='160px'
             onClick={() => (setShamilShow(true))}
           />
-      <img
+        </div>
+        <div className="col-12 col-md-8">
+          <h1>Shamil Limbasiya</h1>
+          <p>J^8</p>
+          <p><a href="mailto:shamil.limbasiya@d-group.se">shamil.limbasiya@d-group.se</a></p>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-6 col-md-4">
+          <img
             src={alice}
             alt='Groupie'
             height='160px'
             width='160px'
             onClick={() => (setAliceShow(true))}
           />
-      <img
+        </div>
+        <div className="col-12 col-md-8">
+          <h1>Alice Bramstedt</h1>
+          <p>Spons</p>
+          <p><a href="mailto:alice.bramstedt@d-group.se">alice.bramstedt@d-group.se</a></p>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-6 col-md-4">
+          <img
             src={emmaS}
             alt='Groupie'
             height='160px'
             width='160px'
             onClick={() => (setEmmaSShow(true))}
           />
-      <img
+        </div>
+        <div className="col-12 col-md-8">
+          <h1>Emma Siklosi</h1>
+          <p>Trykk</p>
+          <p><a href="mailto:emma.siklosi@d-group.se">emma.siklosi@d-group.se</a></p>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-6 col-md-4">
+          <img
             src={Elias}
             alt='Groupie'
             height='160px'
             width='160px'
             onClick={() => (setEliasShow(true))}
           />
-      <img
+        </div>
+        <div className="col-12 col-md-8">
+          <h1>Elias Hörnberg</h1>¨
+          <p>Biljett & U-Lag</p>
+          <p><a href="mailto:elias.hornberg@d-group.se">elias.hornberg@d-group.se</a></p>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-6 col-md-4">
+        <img
             src={oscar}
             alt='Groupie'
             height='160px'
             width='160px'
             onClick={() => (setOscarShow(true))}
           />
-      <img
+        </div>
+        <div className="col-12 col-md-8">
+          <h1>Oscar Stolpe</h1>
+          <p>Mat & Sittning</p>
+          <p><a href="mailto:oscar.stolpe@d-group.se">oscar.stolpe@d-group.se</a></p>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-6 col-md-4">
+        <img
             src={erik}
             alt='Groupie'
             height='160px'
             width='160px'
             onClick={() => (setErikShow(true))}
           />
-      <img
+        </div>
+        <div className="col-12 col-md-8">
+          <h1>Erik Hilke</h1>
+          <p>Trykk</p>
+          <p><a href="mailto:erik.hilke@d-group.se">erik.hilke@d-group.se</a></p>
+
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-6 col-md-4">
+        <img
             src={johan}
             alt='Groupie'
             height='160px'
             width='160px'
             onClick={() => (setJohanShow(true))}
           />
-      <img
+        </div>
+        <div className="col-12 col-md-8">
+          <h1>Johan Sjöstedt</h1>
+          <p>Pr & Personal</p>
+          <p><a href="mailtojohan.sjostedt@d-group.se">johan.sjostedt@d-group.se</a></p>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-6 col-md-4">
+          <img
             src={Morgan}
             alt='Groupie'
             height='160px'
             width='160px'
             onClick={() => (setMorganShow(true))}
           />
+        </div>
+        <div className="col-12 col-md-8">
+          <h1>Morgan Uvelid</h1>
+          <p>Öl & Bar</p>
+          <p><a href="mailto:morgan.uvelid@d-group.se">morgan.uvelid@d-group.se</a></p>
+        </div>
+      </div>      
     </div>
 
 
