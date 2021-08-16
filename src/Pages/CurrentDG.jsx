@@ -48,10 +48,11 @@ function WallofFame() {
               width='160px'
               onClick={() => (setTamaraShow(true))}
             />
-          
         </div>
         <div className="col-12 col-md-8">
-
+          <h1>Tamara</h1>
+          <p>Cheif</p>
+          <p><a href="mailto:cheif@d-group.se">chief@d-group.se</a></p>
         </div>
         
       </div>
