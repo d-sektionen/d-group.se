@@ -26,6 +26,19 @@ const Start = () => {
                     <Slide 
                     easing="ease">
                         <div className="each-slide">
+                            <div style={{'backgroundImage': `url(https://i.imgur.com/IXKo07F.jpg)`}}>
+                                <span>
+                                    <h1>
+                                    Lär känna medlemmarna i D-Group 21/22
+                                    </h1>
+                                    
+                                    <p>
+                                        Vilka är vi som går run i Linköpings finaste ovveraller
+                                    </p>
+                                </span>  
+                            </div>
+                        </div>
+                        <div className="each-slide">
                             <div style={{'backgroundImage': `url(${dartimg})`}}>
                                 <span>
                                     <h1>

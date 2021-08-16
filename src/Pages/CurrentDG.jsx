@@ -33,6 +33,7 @@ function WallofFame() {
         <div className="col-6 col-md-4">
           <img
             src="https://i.imgur.com/9QCprnd.jpg"
+            className="GroupieThumb"
             alt='Groupie'
             height='230px'
             width='230px'
@@ -50,6 +51,7 @@ function WallofFame() {
         <div className="col-6 col-md-4">
           <img
             src="https://i.imgur.com/3Vrvgj6.jpg"
+            className="GroupieThumb"
             alt='Groupie'
             height='230px'
             width='230px'
@@ -68,6 +70,7 @@ function WallofFame() {
         <div className="col-6 col-md-4">
           <img
             src="https://i.imgur.com/SGHNmjK.jpg"
+            className="GroupieThumb"
             alt='Groupie'
             height='230px'
             width='230px'
@@ -84,6 +87,7 @@ function WallofFame() {
         <div className="col-6 col-md-4">
         <img
             src="https://i.imgur.com/QcsoV4W.jpg"
+            className="GroupieThumb"
             alt='Groupie'
             height='230px'
             width='230px'
@@ -100,6 +104,7 @@ function WallofFame() {
         <div className="col-6 col-md-4">
           <img
             src="https://i.imgur.com/QpUTpSB.jpg"
+            className="GroupieThumb"
             alt='Groupie'
             height='230px'
             width='230px'
@@ -116,6 +121,7 @@ function WallofFame() {
         <div className="col-6 col-md-4">
         <img
             src="https://i.imgur.com/jVaoGVn.jpg"
+            className="GroupieThumb"
             alt='Groupie'
             height='230px'
             width='230px'
@@ -132,6 +138,7 @@ function WallofFame() {
         <div className="col-6 col-md-4">
           <img
             src="https://i.imgur.com/DvwMyRa.jpg"
+            className="GroupieThumb"
             alt='Groupie'
             height='230px'
             width='230px'
@@ -148,6 +155,7 @@ function WallofFame() {
         <div className="col-6 col-md-4">
           <img
             src="https://i.imgur.com/A1hN172.jpg"
+            className="GroupieThumb"
             alt='Groupie'
             height='230px'
             width='230px'
@@ -164,6 +172,7 @@ function WallofFame() {
         <div className="col-6 col-md-4">
           <img
             src="https://i.imgur.com/wAEKWn2.jpg"
+            className="GroupieThumb"
             alt='Groupie'
             height='230px'
             width='230px'
@@ -180,6 +189,7 @@ function WallofFame() {
         <div className="col-6 col-md-4">
         <img
             src="https://i.imgur.com/xWSoQBM.jpg"
+            className="GroupieThumb"
             alt='Groupie'
             height='230px'
             width='230px'
@@ -196,6 +206,7 @@ function WallofFame() {
         <div className="col-6 col-md-4">
         <img
             src="https://i.imgur.com/sFY2TtE.jpg"
+            className="GroupieThumb"
             alt='Groupie'
             height='230px'
             width='230px'
@@ -213,6 +224,7 @@ function WallofFame() {
         <div className="col-6 col-md-4">
         <img
             src="https://i.imgur.com/nHiwZiO.jpg"
+            className="GroupieThumb"
             alt='Groupie'
             height='230px'
             width='230px'
@@ -228,6 +240,7 @@ function WallofFame() {
       <div className="row">
         <div className="col-6 col-md-4">
           <img
+            className="GroupieThumb"
             src="https://i.imgur.com/SfjntgL.jpg"
             alt='Groupie'
             height='230px'
@@ -271,6 +284,7 @@ function WallofFame() {
               <answer>Dropkick inte någon ;(</answer> <br/>
               <question>Vad är din go to dricka?</question> <br/>
               <answer>Kir eller 7pang</answer> <br/>
+
           </Modal.Body>
         </Modal>
       </div>
