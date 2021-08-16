@@ -38,7 +38,7 @@ function WallofFame() {
           />
         </div>
         <div className="col-12 col-md-8">
-          <h1>Tamara</h1>
+          <h1>Tamara Jurić</h1>
           <p>Cheif</p>
           <p><a href="mailto:tamara.juric@d-group.se">tamara.juric@d-group.se</a></p>
         </div>
@@ -169,7 +169,7 @@ function WallofFame() {
           />
         </div>
         <div className="col-12 col-md-8">
-          <h1>Elias Hörnberg</h1>¨
+          <h1>Elias Hörnberg</h1>
           <p>Biljett & U-Lag</p>
           <p><a href="mailto:elias.hornberg@d-group.se">elias.hornberg@d-group.se</a></p>
         </div>
