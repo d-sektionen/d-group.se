@@ -33,7 +33,7 @@ const Start = () => {
                                     </h1>
                                     
                                     <p>
-                                        Vilka är vi som går run i Linköpings finaste ovveraller
+                                        Vilka är vi som går runt i Linköpings finaste ovveraller
                                     </p>
                                 </span>  
                             </div>
@@ -59,7 +59,7 @@ const Start = () => {
                                         </h1>
                                     
                                     <p>
-                                        Och andra pateter hittar ni i vår Hall of Fame
+                                        Och andra pateter hittar ni i vår Wall of Fame
                                     </p>
                                 
                                 </span>  
@@ -75,7 +75,7 @@ const Start = () => {
                                 popcorn inte gick att göra i micron. 
                                 Innan dess låg vi i mammas kära mage och smed planer om världsherravälde genom pilkastning, 
                                 ölhäfv och självrökande cigaretter. Vi tycker om att ha kul!</p>
-                                <p>Ni hittar oss även på både <a href="https://www.facebook.com/DGroup2021">facebook</a> och <a href="https://www.instagram.com/dgroup2122/">instagram</a></p>
+                                <p>Ni hittar oss även på både <a href="https://www.facebook.com/DGroup2021">Facebook</a> och <a href="https://www.instagram.com/dgroup2122/">Instagram.</a></p>
                         
                             </div>
                         <div class="col-sm-4 sidebar">
