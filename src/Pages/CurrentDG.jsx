@@ -42,7 +42,7 @@ function WallofFame() {
         </div>
         <div className="col-12 col-md-8">
           <h1>Tamara Jurić</h1>
-          <p>Cheif</p>
+          <p>Chief</p>
           <p><a href="mailto:tamara.juric@d-group.se">tamara.juric@d-group.se</a></p>
         </div>
         
@@ -61,7 +61,7 @@ function WallofFame() {
         </div>
         <div className="col-12 col-md-8">
           <h1>Emma Wahlund</h1>
-          <p>Cha$h</p>
+          <p>Ca$h</p>
           <p><a href="mailto:emma.wahlund@d-group.se">emma.wahlund@d-group.se</a></p>
         </div>
       </div>
