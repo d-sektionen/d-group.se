@@ -6,7 +6,7 @@ const Fester = () => {
         <div className="Fester">
             <div className="Nollesittnig">
                 <h1>
-                    Nollestinning & Nollefinalen
+                    Nollesittningen & Nollefinalen
                 </h1>
                 <p>
                     När nolle-p lider mot sitt slut och det börjar bli dags för STABEN att uppgradera nollan till etta bjuder D-Group in till finfest. Faddrar och nollan välkomnas till sittning i sina finaste kläder för att njuta av god mat och underhållning. Kvällen avslutas med ett hejdundrande firande på kårallen tillsammans med Maskin-, TBI- och Y-sektionens nyblivna ettan och faddrar.
