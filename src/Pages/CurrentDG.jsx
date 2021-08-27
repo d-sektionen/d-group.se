@@ -1,9 +1,15 @@
 import React, { useState } from 'react';
 import '../css/CurrentDG.css'
 import { Modal} from 'react-bootstrap';
-
-
+import styled from 'styled-components'
 import ModalHeader from 'react-bootstrap/esm/ModalHeader';
+
+
+const Picture = styled.img`
+  border-radius: 50%;
+  `
+
+
 
 
 
@@ -31,14 +37,14 @@ function WallofFame() {
     <div className="Groupies">
       <div className="row">
         <div className="col-6 col-md-4">
-          <img
+          <Picture
             src="https://i.imgur.com/9QCprnd.jpg"
             className="GroupieThumb"
             alt='Groupie'
             height='230px'
             width='230px'
             onClick={() => (setTamaraShow(true))}
-          />
+          ></Picture>
         </div>
         <div className="col-12 col-md-8">
           <h1>Tamara Jurić</h1>
@@ -49,7 +55,7 @@ function WallofFame() {
       </div>
       <div className="row">
         <div className="col-6 col-md-4">
-          <img
+          <Picture
             src="https://i.imgur.com/3Vrvgj6.jpg"
             className="GroupieThumb"
             alt='Groupie'
@@ -68,7 +74,7 @@ function WallofFame() {
 
       <div className="row">
         <div className="col-6 col-md-4">
-          <img
+          <Picture
             src="https://i.imgur.com/SGHNmjK.jpg"
             className="GroupieThumb"
             alt='Groupie'
@@ -85,7 +91,7 @@ function WallofFame() {
       </div>
       <div className="row">
         <div className="col-6 col-md-4">
-        <img
+        <Picture
             src="https://i.imgur.com/QcsoV4W.jpg"
             className="GroupieThumb"
             alt='Groupie'
@@ -102,7 +108,7 @@ function WallofFame() {
       </div>
       <div className="row">
         <div className="col-6 col-md-4">
-          <img
+          <Picture
             src="https://i.imgur.com/QpUTpSB.jpg"
             className="GroupieThumb"
             alt='Groupie'
@@ -119,7 +125,7 @@ function WallofFame() {
       </div>
       <div className="row">
         <div className="col-6 col-md-4">
-        <img
+        <Picture
             src="https://i.imgur.com/jVaoGVn.jpg"
             className="GroupieThumb"
             alt='Groupie'
@@ -136,7 +142,7 @@ function WallofFame() {
       </div>
       <div className="row">
         <div className="col-6 col-md-4">
-          <img
+          <Picture
             src="https://i.imgur.com/DvwMyRa.jpg"
             className="GroupieThumb"
             alt='Groupie'
@@ -153,7 +159,7 @@ function WallofFame() {
       </div>
       <div className="row">
         <div className="col-6 col-md-4">
-          <img
+          <Picture
             src="https://i.imgur.com/A1hN172.jpg"
             className="GroupieThumb"
             alt='Groupie'
@@ -170,7 +176,7 @@ function WallofFame() {
       </div>
       <div className="row">
         <div className="col-6 col-md-4">
-          <img
+          <Picture
             src="https://i.imgur.com/wAEKWn2.jpg"
             className="GroupieThumb"
             alt='Groupie'
@@ -187,7 +193,7 @@ function WallofFame() {
       </div>
       <div className="row">
         <div className="col-6 col-md-4">
-        <img
+        <Picture
             src="https://i.imgur.com/xWSoQBM.jpg"
             className="GroupieThumb"
             alt='Groupie'
@@ -204,7 +210,7 @@ function WallofFame() {
       </div>
       <div className="row">
         <div className="col-6 col-md-4">
-        <img
+        <Picture
             src="https://i.imgur.com/sFY2TtE.jpg"
             className="GroupieThumb"
             alt='Groupie'
@@ -222,7 +228,7 @@ function WallofFame() {
       </div>
       <div className="row">
         <div className="col-6 col-md-4">
-        <img
+        <Picture
             src="https://i.imgur.com/nHiwZiO.jpg"
             className="GroupieThumb"
             alt='Groupie'
@@ -239,7 +245,7 @@ function WallofFame() {
       </div>
       <div className="row">
         <div className="col-6 col-md-4">
-          <img
+          <Picture
             className="GroupieThumb"
             src="https://i.imgur.com/SfjntgL.jpg"
             alt='Groupie'
