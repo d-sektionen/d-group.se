@@ -19,8 +19,6 @@ export const Col =  styled.div`
 `
 export const Grid = styled.div`
     background-color:   lightpink;
-    border-color:   brown;
-    border: 5px solid brown;
-    border-radius:  5%;
-    overflow:   hidden;
+    text-overflow: ellipsis;
+    
 `

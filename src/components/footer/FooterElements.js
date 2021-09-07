@@ -9,7 +9,7 @@ export const Description = styled.p`
 
 `
 export const Grid = styled.div`
-background-color: solid brown;
+
 
 `
 export const Row = styled.div`
