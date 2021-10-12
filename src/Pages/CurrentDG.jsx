@@ -26,7 +26,7 @@ function WallofFame() {
   return (
     <>
       <div className="row">
-        <h2>Klicka på valfri groupie för att lära oss bättre</h2>
+        <h2>Klicka på valfri groupie för att lära känna oss bättre</h2>
       </div>
       <div className="Groupies">
         <div className="row">
@@ -383,7 +383,7 @@ function WallofFame() {
           >
             <ModalHeader closeButton>
               <Modal.Title id="example-modal-sizes-title-lg">
-                Emma Sikloski
+                Emma Siklosi
               </Modal.Title>
             </ModalHeader>
             <Modal.Body>
