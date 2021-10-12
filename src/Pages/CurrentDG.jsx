@@ -364,7 +364,7 @@ function WallofFame() {
             </ModalHeader>
             <Modal.Body>
               <question>Vilken post har du?</question> <br />
-              <answer>Cheif</answer> <br />
+              <answer>Chief</answer> <br />
               <question>Vilken klass går du i?</question> <br />
               <answer>D2b</answer> <br />
               <question>Vad gjorde du i sommras?</question> <br />
