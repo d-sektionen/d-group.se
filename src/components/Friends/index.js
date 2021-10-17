@@ -60,11 +60,11 @@ const Festerier = [
     websitename: "MedSex",
   },
   {
-    name: "Jur6",
-    sektion: "Affärsjuridiska Föreningen",
-    logo: "https://i.imgur.com/EvSTPbX.png",
-    website: "https://jur6.se/",
-    websitename: "Jur6",
+    name: "4V",
+    sektion: "MatNat - Sektionen",
+    logo: "https://i.imgur.com/8JJzBl6.jpg",
+    website: "http://www.4verkeriet.se/",
+    websitename: "4V",
   },
   {
     name: "OralSpex",
@@ -225,15 +225,7 @@ function Ourfriends() {
         
       </Row>
       <Row>
-        <Col size={1}>
-          <FriendCard
-            logo={Festerier[12].logo}
-            name={Festerier[12].name}
-            sektion={Festerier[12].sektion}
-            website={Festerier[12].website}
-            websitename={Festerier[12].websitename}
-          />
-        </Col>
+        
         <Col size={1}>
           <FriendCard
             logo={Festerier[13].logo}

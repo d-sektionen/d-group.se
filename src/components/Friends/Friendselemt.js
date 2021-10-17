@@ -10,11 +10,11 @@ export const Grid = styled.div`
 export const Row = styled.div`
     display: flex;
     padding-top: 2vh;
-    background-color: blue;
+    
 `
 
 export const Col = styled.div`
     flex: ${(props) => props.size};
-    background-color:red;
+    background-color:lightpink;
     padding: 2vw;
 `

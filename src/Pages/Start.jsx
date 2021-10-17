@@ -15,6 +15,9 @@ import ericsson from "../images/spons/ericssonSpons.png"
 
 const DOMDdate = new Date('2022-04-09T10:00:00');
 
+const render =({days, hours, minutes, seconds}) => {
+    return (<span>Bara {days} dagar {hours} timmar {minutes} minuter och {seconds} sekunder kvar tills DömD!!</span>)
+}
 
 
 
@@ -46,7 +49,7 @@ const Start = () => {
                                     </h1>
                                     
                                     <p>
-                                        Bara <Countdown date={DOMDdate}/> dagar kvar sen är det vår
+                                        <Countdown date={DOMDdate} renderer={render}/> 
                                     </p>
                                 </span>  
                             </div>
