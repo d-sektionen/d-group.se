@@ -16,23 +16,23 @@ function EventsGrid() {
           <Col size={1}>
             <Title>Nollesittningen & Nollefinalen</Title>
             <Description>
-              När nolle-p lider mot sitt slut och det börjar bli dags för STABEN
+              När Nolle-P lider mot sitt slut och det börjar bli dags för STABEN
               att uppgradera nollan till etta bjuder D-Group in till finfest.
               Faddrar och nollan välkomnas till sittning i sina finaste kläder
               för att njuta av god mat och underhållning. Kvällen avslutas med
-              ett hejdundrande firande på kårallen tillsammans med Maskin-, TBI-
+              ett hejdundrande firande på Kårallen tillsammans med Maskin-, TBI-
               och Y-sektionens nyblivna ettan och faddrar.
             </Description>
           </Col>
           <Col size={1}>
-            <Title>Tenta- & Om tentakravallen</Title>
+            <Title>Tenta- & Omtentakravallen</Title>
             <Description>
               När höstens tenta-p äntligen är genomlidet och tankeknölarna
               värker av utmattning är det dags att släpp loss. Därför bjuder
               D-Group, tillsammans med TBI-sektionens festeri Bi6, in till fest
               två dagar i rad - nämligen Tenta- & Omtentakravallen. Då får du
               äntligen tid att fira dina avklarade tentor, alternativt fira att
-              du får chansen att tråna efter tentatanterna en gång.
+              du får chansen att gråta efter tentatanterna en gång.
             </Description>
           </Col>
         </Row>
@@ -54,7 +54,7 @@ function EventsGrid() {
             </Description>
           </Col>
           <Col size={1}>
-            <Title>Åvvefix & Invigning</Title>
+            <Title>Åvvefix & ÅvveInvigning</Title>
             <Description>
               Då nolle-p är över och alla nya ettor har fått sina overaller
               kommer D-Group att hjälpa till att snygga till dem. Vi ser till
