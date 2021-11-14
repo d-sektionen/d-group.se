@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Grid = styled.div`
   margin-top: -5px;
   box-shadow: 0 50vh 0 50vh #000;
-  background-color: brown;
 `;
 
 export const Row = styled.div`
@@ -21,10 +20,9 @@ export const Col = styled.div`
 export const Title = styled.h1`
   color: #e5398d;
   text-align: center;
-
 `;
 
-export const Description = styled.p`
+export const Info = styled.p`
   color: white;
-  font-size: 1.5vw;
+  font-size: 2vw;
 `;

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../css/CurrentDG.css";
+
 import { Modal } from "react-bootstrap";
 import styled from "styled-components";
 import ModalHeader from "react-bootstrap/esm/ModalHeader";

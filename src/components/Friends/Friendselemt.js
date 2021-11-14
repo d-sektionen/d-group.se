@@ -17,4 +17,6 @@ export const Col = styled.div`
     flex: ${(props) => props.size};
     background-color:lightpink;
     padding: 2vw;
+    margin-left: auto;
+    margin-right: auto;
 `

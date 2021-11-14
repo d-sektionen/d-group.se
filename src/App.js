@@ -9,6 +9,7 @@ import Header from "./components/Header.jsx";
 import Footer from "./components/footer";
 import test from "./Pages/Test";
 import Ourfriends from "./components/Friends"
+import taggfilmer from "./components/taggfilmer";
 
 
 const App = () => { 
@@ -28,6 +29,7 @@ const App = () => {
                     <Route exact path="/groupies" component={CurrDG}/>
                     <Route exact path="/test" component={test}/>
                     <Route exact path="/friends" component={Ourfriends}/>
+                    <Route exact path="/movies" component={taggfilmer}/>
                 </div>
                 <div className="Footer">
                     <Footer/>
