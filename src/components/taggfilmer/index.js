@@ -35,10 +35,10 @@ function taggfilmer() {
       <Row>
       <Col size={1}><TaggCard url={taggDescription[0].url} name={taggDescription[0].title}/></Col>
         <Col size={1}>
-          <TaggCard url={taggDescription[3].url} name={taggDescription[3].title}/>
+          <TaggCard url={taggDescription[3].url} name={taggDescription[2].title}/>
         </Col>
         <Col size={1} >
-          <TaggCard url={taggDescription[2].url} name={taggDescription[2].title}/>
+          <TaggCard url={taggDescription[2].url} name={taggDescription[3].title}/>
         </Col>
       </Row>
     </Grid>
