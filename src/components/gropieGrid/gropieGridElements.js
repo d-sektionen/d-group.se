@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Grid = styled.div`
     margin-top: -5px;
-    overflow: hidden;
+    overflow: hidden;   
     padding-bottom: 2vh;
 `
 

@@ -8,7 +8,7 @@ export const Card = styled.div`
 
 export const Picture = styled.img`
   border-radius: 50%;
-  border: #e5398d 1vw solid;
+  
 `;
 export const Details = styled.div`
   display: flex;
@@ -26,7 +26,3 @@ export const Post = styled.h1`
 export const Email = styled.a`
   font-size: 1.5vw;
 `;
-
-export const Question = styled.h2``;
-
-export const Answer = styled.h2``;
