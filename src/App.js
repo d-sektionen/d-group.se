@@ -6,7 +6,7 @@ import Fester from "./Pages/Fester";
 import HoF from "./Pages/HoF";
 import GroupieGrid from "./components/gropieGrid";
 import Header from "./components/Header.jsx";
-import Footer from "./components/footer";
+import Footer from "./components/Footer/index.js";
 import test from "./Pages/Test";
 import Ourfriends from "./components/Friends"
 import taggfilmer from "./components/taggfilmer";
