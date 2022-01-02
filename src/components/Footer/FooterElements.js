@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Grid = styled.div`
   margin-top: -5px;
   box-shadow: 0 50vh 0 50vh #000;
+  overflow: hidden;
 `;
 
 export const Row = styled.div`
@@ -14,7 +15,7 @@ export const Row = styled.div`
 export const Col = styled.div`
   flex: ${(props) => props.size};
   background-color: ${(props) => props.color};
-  padding: 2vw;
+  //padding: 2vw;
 `;
 
 export const Title = styled.h1`
@@ -24,5 +25,5 @@ export const Title = styled.h1`
 
 export const Info = styled.p`
   color: white;
-  font-size: 2vw;
+ 
 `;

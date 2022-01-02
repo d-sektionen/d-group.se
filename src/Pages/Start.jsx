@@ -86,6 +86,7 @@ const Start = () => {
                             <img
                                 src={ericsson}
                                 alt="sponsBild"
+                                width={100}
                             />
                             <p>Vill ni också synas här? Kontakta oss på <a href="mailto:spons@d-group.se!">spons@d-group.se</a></p>
 
