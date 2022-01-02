@@ -7,8 +7,7 @@ import dgroupHog from "../../images/gropies/DG_gruppbild_hog.jpg";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import logo from "../../images/logo.png";
-import FacebookIcon from "../../images/logos/FacebookLogo.png";
-import InstagramIcon from "../../images/logos/InstagramLogo.png";
+
 
 /* <picture>
             <source media="(min-width: 768px)" srcset={dggrupp} height={"100vh"} width={"100%"}/>
@@ -51,7 +50,7 @@ function Start() {
               in på Groupies sidan!
             </Typography>
           </Grid>
-          <Grid sm={12} md={5} /* D-GROUP LOGO */>
+          <Grid sm={12} md={5} sx={{pt:6, pl:5}}/* D-GROUP LOGO */>
             <img src={logo} alt="D-Group logo" />
           </Grid>
         </Grid>
@@ -164,29 +163,10 @@ function Start() {
             Våra Sponsorer
           </Typography>
           <img src={ericsson} alt="Ericsson Spons" />
-          <Typography varaint="h6" guttomButtom>
+          <Typography varaint="h6" guttomButtom sx={{mt:6}}>
             Vill ni också synas här? Kontakta oss på{" "}
-            <a href="mailto:spons@d-group.se!">spons@d-group.se</a>
+            <a href="mailto:spons@d-group.se" style={{color:"#754022"}}>spons@d-group.se</a>
           </Typography>
-        </Grid>
-        <Grid sm={12} sx={{ mb: 6 }} /* LOGS */>
-          <Typography variant="h2" color="#754022" fontWeight={"bold"}>
-            Följ oss gärna på våra social medier
-          </Typography>
-          <a href="https://instagram.com/dgroup2122/">
-          <img
-            src={InstagramIcon}
-            alt="FB_logo"
-            width={"100vw"}
-            height={"100vh"}
-            sx={{mx:6}}
-          /></a>
-          <a href="https://www.facebook.com/DGroup2021"><img
-            src={FacebookIcon}
-            alt="FB_logo"
-            width={"100vw"}
-            height={"100vh"}
-          /></a>
         </Grid>
       </Grid>
     </Box>

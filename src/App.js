@@ -5,11 +5,11 @@ import FestKalender from "./Pages/FestKalender";
 import EventsGrid from "./components/fester/index";
 import Navbar from "./components/Navbar";
 import Ourfriends from "./components/Friends";
-import Starttest from "./components/Start";
+import Start from "./components/Start";
 import Contact from "./components/Kontakt";
 import WallofFame from "./components/WoF";
 import TaggfilmerNy from "./components/Taggfilmer";
-import TestApp from "./components/Groupies";
+import Groupies from "./components/Groupies";
 
 const App = () => {
   
@@ -18,14 +18,14 @@ const App = () => {
       
       <Navbar />
       <Routes>
-        <Route exact path="/" element={<Starttest/>} />
+        <Route exact path="/" element={<Start/>} />
         <Route exact path="/calender" element={<FestKalender/>} />
         <Route exact path="/fester" element={<EventsGrid/>} />
         <Route exact path="/pateter" element={<WallofFame/>} />
-        <Route exact path="/groupies" element={<TestApp/>} />
+        <Route exact path="/groupies" element={<Groupies/>} />
         <Route exact path="/friends" element={<Ourfriends/>} />
         <Route exact path="/movies" element={<TaggfilmerNy/>} />
-        <Route exapt path="/kontakt" element={<Contact />} />
+        <Route exapt path="/kontakt" element={<Contact />} /> 
       </Routes>
 
       

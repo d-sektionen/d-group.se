@@ -7,14 +7,19 @@ import Typography from "@mui/material/Typography";
 import Menu1 from "@mui/material/Menu";
 import { HiMenu } from "react-icons/hi";
 import Container from "@mui/material/Container";
-
+import styled from "styled-components";
 import Button from "@mui/material/Button";
+import FacebookIcon from "../../images/logos/FacebookLogo.png";
+import InstagramIcon from "../../images/logos/InstagramLogo.png";
 
 import MenuItem from "@mui/material/MenuItem";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import { NavLink } from "react-router-dom";
 import logo from "../../images/logo.png";
 
+const Link = styled(NavLink)`
+  text-decoration: none;
+`;
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -40,8 +45,8 @@ const ResponsiveAppBar = () => {
     <ThemeProvider theme={darkTheme}>
       <AppBar position="fixed" color="primary">
         <Container maxWidth="xl">
-          <Toolbar disableGutters>
-            <NavLink to="/">
+          <Toolbar disableGutters sx={{ alignItems: "flex-start" }}>
+            <Link to="/">
               <Typography
                 variant="h6"
                 noWrap
@@ -56,7 +61,7 @@ const ResponsiveAppBar = () => {
                   component="div"
                 />
               </Typography>
-            </NavLink>
+            </Link>
 
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
               <IconButton
@@ -87,34 +92,67 @@ const ResponsiveAppBar = () => {
                   display: { xs: "block", md: "none" },
                 }}
               >
-                <NavLink to="/">
+                <Link to="/">
                   <MenuItem key="/" onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center" color="white">Start</Typography>
+                    <Typography textAlign="center" color="white">
+                      Start
+                    </Typography>
                   </MenuItem>
-                </NavLink>
-                <NavLink to="groupies">
+                </Link>
+                <Link to="groupies">
                   <MenuItem key="groupies" onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center" color="white">Groupies</Typography>
+                    <Typography textAlign="center" color="white">
+                      Groupies
+                    </Typography>
                   </MenuItem>
-                </NavLink>
-                <NavLink to="pateter">
+                </Link>
+                <Link to="pateter">
                   <MenuItem key="WallOfFame" onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center" color="white">Wall Of Fame</Typography>
+                    <Typography textAlign="center" color="white">
+                      Wall Of Fame
+                    </Typography>
                   </MenuItem>
-                </NavLink>
-                <NavLink to="movies">
+                </Link>
+                <Link to="movies">
                   <MenuItem key="Taggfilmer" onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center" color="white">Taggfilmer</Typography>
+                    <Typography textAlign="center" color="white">
+                      Taggfilmer
+                    </Typography>
                   </MenuItem>
-                </NavLink>
-                <NavLink to="calender">
+                </Link>
+                <Link to="calender">
                   <MenuItem key="Festkalender" onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center" color="white">Festkalender</Typography>
+                    <Typography textAlign="center" color="white">
+                      Festkalender
+                    </Typography>
                   </MenuItem>
-                </NavLink>
-                <a href="http://domd.nu/">
+                </Link>
+                <a href="http://domd.nu/" style={{ textDecoration: "none" }}>
                   <MenuItem key="DomD" onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center" color="white">DÖMD</Typography>
+                    <Typography textAlign="center" color="white">
+                    D<span Style="font-size:75%">ÖM</span>D
+                    </Typography>
+                  </MenuItem>
+                </a>
+                <a href="https://www.facebook.com/DGroup2021" style={{ textDecoration: "none" }}>
+                  <MenuItem key="Facebook" onClick={handleCloseNavMenu}>
+                  <img
+                  src={FacebookIcon}
+                  alt="FB_logo"
+                  width={"50vw"}
+                  height={"50vh"}
+                />
+                  </MenuItem>
+                </a>
+                <a href="https://instagram.com/dgroup2122/" style={{ textDecoration: "none" }}>
+                  <MenuItem key="Instagram" onClick={handleCloseNavMenu}>
+                  <img
+                  src={InstagramIcon}
+                  alt="FB_logo"
+                  width={"50vw"}
+                  height={"50vh"}
+                  sx={{ mx: 10 }}
+                />
                   </MenuItem>
                 </a>
               </Menu1>
@@ -134,7 +172,7 @@ const ResponsiveAppBar = () => {
               />
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-            <NavLink to="/">
+              <Link to="/">
                 <Button
                   key="Start"
                   onClick={handleCloseNavMenu}
@@ -142,8 +180,8 @@ const ResponsiveAppBar = () => {
                 >
                   Start
                 </Button>
-              </NavLink>
-              <NavLink to="groupies">
+              </Link>
+              <Link to="groupies">
                 <Button
                   key="hej"
                   onClick={handleCloseNavMenu}
@@ -151,8 +189,8 @@ const ResponsiveAppBar = () => {
                 >
                   Groupies
                 </Button>
-              </NavLink>
-              <NavLink to="pateter">
+              </Link>
+              <Link to="pateter">
                 <Button
                   key="WoF"
                   onClick={handleCloseNavMenu}
@@ -160,8 +198,8 @@ const ResponsiveAppBar = () => {
                 >
                   Wall Of Fame
                 </Button>
-              </NavLink>
-              <NavLink to="movies">
+              </Link>
+              <Link to="movies">
                 <Button
                   key="movies"
                   onClick={handleCloseNavMenu}
@@ -169,24 +207,43 @@ const ResponsiveAppBar = () => {
                 >
                   Taggfilmer
                 </Button>
-              </NavLink>
-              <NavLink to="calender">
+              </Link>
+              <Link to="calender">
                 <Button
                   key="Kalender"
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: "white", display: "block" }}
+                  sx={{ my: 2, color: "white", display: "block", flexGrow: 1 }}
                 >
                   Festkalender
                 </Button>
-              </NavLink>
-              <a href="http://domd.nu/">
+              </Link>
+              <a href="http://domd.nu/" style={{ textDecoration: "none" }}>
                 <Button
                   key="DomD"
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, color: "white", display: "block" }}
                 >
-                  DömD
+                  D<span Style="font-size:75%">ÖM</span>D
                 </Button>
+              </a>
+            </Box>
+            <Box sx={{ flexGrow: 0, mt: 1, display: { xs: "none", md: "flex" } }}>
+              <a href="https://instagram.com/dgroup2122/">
+                <img
+                  src={InstagramIcon}
+                  alt="FB_logo"
+                  width={"50vw"}
+                  height={"50vh"}
+                  sx={{ mx: 10 }}
+                />
+              </a>
+              <a href="https://www.facebook.com/DGroup2021">
+                <img
+                  src={FacebookIcon}
+                  alt="FB_logo"
+                  width={"50vw"}
+                  height={"50vh"}
+                />
               </a>
             </Box>
           </Toolbar>

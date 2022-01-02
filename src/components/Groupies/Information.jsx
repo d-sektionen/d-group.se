@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography'
 
 export default function Frågor ({user}) {
     return(
-        <Box >
+        <Box sx={{pl:3, mt:3}}>
             <Grid>
                 <Typography variant='h6' guttomButtom>
                     Årgång? {user.age}

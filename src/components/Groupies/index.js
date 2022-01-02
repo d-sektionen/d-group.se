@@ -4,7 +4,7 @@ import Grid from "@mui/material/Grid";
 import CardGrid from "./Card";
 import { Typography } from "@mui/material";
 
-function TestApp() {
+function GroupieGrid() {
   const Groupies = [
     {
       name: "Tamara Jurić",
@@ -166,7 +166,7 @@ function TestApp() {
   ];
 
   return (
-    <Box sx={{ mt: 10, textAlign: "center" }}>
+    <Box sx={{ mt: 10, textAlign: "center", overflowX:"hidden" }}>
       <Grid container>
         <Grid xs={12} md={4} sx={{ p: 4 }} /* About card */>
           <Typography
@@ -185,10 +185,10 @@ function TestApp() {
             att ha kul!
           </Typography>
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 4 }} /* EmmaW Card */>
+        <Grid xs={12} md={4} sx={{ p: 2 }} /* Tamara Card */>
           <CardGrid user={Groupies[0]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 4 }} /* Click about Card */>
+        <Grid xs={12} md={4} sx={{ p: 2 }} /* Click about Card */>
           <Typography
             variant="h2"
             guttomButtom
@@ -201,40 +201,40 @@ function TestApp() {
           Tjena Tjena! Vi är familjen Chláirs oüf Phróplîexios, för att veta mer om en specifik medlem är det bara att klicka på bilden!
           </Typography>
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 4 }} /* Tamara Card */>
+        <Grid xs={12} md={4} sx={{ p: 2 }} /* EmmaW Card */>
           <CardGrid user={Groupies[1]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 4 }} /* Morgan Card */>
+        <Grid xs={12} md={4} sx={{ p: 2 }} /* Morgan Card */>
           <CardGrid user={Groupies[12]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 4 }} /* Marcus Card */>
+        <Grid xs={12} md={4} sx={{ p: 2 }} /* Marcus Card */>
           <CardGrid user={Groupies[2]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 4 }} /* Anton Card */>
+        <Grid xs={12} md={4} sx={{ p: 2 }} /* Anton Card */>
           <CardGrid user={Groupies[3]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 4 }} /* Elias Card */>
+        <Grid xs={12} md={4} sx={{ p: 2 }} /* Elias Card */>
           <CardGrid user={Groupies[8]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 4 }} /* Axel Card */>
+        <Grid xs={12} md={4} sx={{ p: 2 }} /* Axel Card */>
           <CardGrid user={Groupies[4]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 4 }} /* Shamil Card */>
+        <Grid xs={12} md={4} sx={{ p: 2 }} /* Shamil Card */>
           <CardGrid user={Groupies[5]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 4 }} /* Alice Card */>
+        <Grid xs={12} md={4} sx={{ p: 2 }} /* Alice Card */>
           <CardGrid user={Groupies[6]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 4 }} /* EmmaS Card */>
+        <Grid xs={12} md={4} sx={{ p: 2 }} /* EmmaS Card */>
           <CardGrid user={Groupies[7]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 4 }} /* Oscar Card */>
+        <Grid xs={12} md={4} sx={{ p: 2 }} /* Oscar Card */>
           <CardGrid user={Groupies[9]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 4 }} /* Erik Card */>
+        <Grid xs={12} md={4} sx={{ p: 2 }} /* Erik Card */>
           <CardGrid user={Groupies[10]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 4 }} /* Johan Card */>
+        <Grid xs={12} md={4} sx={{ p: 2 }} /* Johan Card */>
           <CardGrid user={Groupies[11]} />
         </Grid>
       </Grid>
@@ -242,4 +242,4 @@ function TestApp() {
   );
 }
 
-export default TestApp;
+export default GroupieGrid;
