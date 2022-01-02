@@ -6,8 +6,8 @@ import dggrupp from "../../images/gropies/DG_gruppbild.jpg";
 import dgroupHog from "../../images/gropies/DG_gruppbild_hog.jpg";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
+import Link from "@mui/material/Link";
 import logo from "../../images/logo.png";
-
 
 /* <picture>
             <source media="(min-width: 768px)" srcset={dggrupp} height={"100vh"} width={"100%"}/>
@@ -22,8 +22,8 @@ function Start() {
     <Box sx={{ textAlign: "center" }}>
       <Grid container>
         <Grid sm={12} /* Groupies Bild */>
-          <WidePictureFrame src={dggrupp}/>
-          <HighPictureFrame src={dgroupHog} height={"84vh"}/>
+          <WidePictureFrame src={dggrupp} />
+          <HighPictureFrame src={dgroupHog} height={"84vh"} />
         </Grid>
         <Grid
           sm={12}
@@ -50,7 +50,7 @@ function Start() {
               in på Groupies sidan!
             </Typography>
           </Grid>
-          <Grid sm={12} md={5} sx={{pt:6, pl:5}}/* D-GROUP LOGO */>
+          <Grid sm={12} md={5} sx={{ pt: 6, pl: 5 }} /* D-GROUP LOGO */>
             <img src={logo} alt="D-Group logo" />
           </Grid>
         </Grid>
@@ -59,7 +59,7 @@ function Start() {
             Våra evenemang
           </Typography>
         </Grid>
-        <Grid sm={12} sx={{ mx: 6, mt: 6 }}>
+        <Grid sm={12} md={6} sx={{ px: 6, mt: 6 }}>
           <Typography
             variant="h3"
             guttomButtom
@@ -70,12 +70,42 @@ function Start() {
             D<span STYLE="font-size:75%">ÖM</span>D
           </Typography>
           <Typography variant="h6">
-            Varje vår håller vi i D-Group Datasektiones Öppna Mästerskap i Dart,
-            även kallat för D<span STYLE="font-size:75%">ÖM</span>D. Precis som
-            DömD är norra Europas största amatörtävling så är D
-            <span STYLE="font-size:75%">ÖM</span>D den fetaste festen här på
-            Liu. För mer infomation besök D<span STYLE="font-size:75%">ÖM</span>
-            D{" "}
+            Den 7e april slås dörrarna upp till årets bästa fest, D
+            <span STYLE="font-size:75%">ÖM</span>
+            D! Datateknologsektionens Öppna Mästerskap i Dart är en av norra
+            Europas största darttävlingar som arrangeras för 41:a året i rad.
+            Festen som pågår i tre dagar och börjar med kravall på torsdagen,
+            fortsätter med fest på fredagen och avslutas med tävling, sittning
+            och eftersläpp på lördagen. Denna fest får inte missas så boka in
+            datumen redan nu! För mer infomaton besök{" "}
+            <Link
+              href="http://domd.nu"
+              underlink="hover"
+              color="#E5398D"
+              sx={{ textDecoration: "none" }}
+            >
+              D<span STYLE="font-size:75%">ÖM</span>D.nu
+            </Link>
+          </Typography>
+        </Grid>
+        <Grid sm={12} md={6} sx={{ px: 6, mt: 6 }}>
+          <Typography
+            variant="h3"
+            guttomButtom
+            fontWeight={"bold"}
+            color={"#E5398D"}
+          >
+            {" "}
+            D<span STYLE="font-size:75%">IM</span>D
+          </Typography>
+          <Typography variant="h6">
+            Kliar det i kastarmen? Tycker du att det är lite för långt mellan
+            D<span STYLE="font-size:75%">ÖM</span>D och D<span STYLE="font-size:75%">ÖM</span>D? Misströsta ej, du behöver inte vänta ända till nästa
+            D<span STYLE="font-size:75%">ÖM</span>D för att njuta av D-arnas favoritsport. I februari kommer
+            nämligen D<span STYLE="font-size:75%">IM</span>D, Datateknologsektionens Interna Mästerskap i Dart. Här
+            bjuds du på en helkväll med dart där du kan träna upp dina
+            färdigheter och visa för alla andra att det är du som är kungen av
+            denna ädla sport.
           </Typography>
         </Grid>
         <Grid container sx={{ m: 6 }} /* ANDRA FESTER */>
@@ -162,10 +192,14 @@ function Start() {
           >
             Våra Sponsorer
           </Typography>
-          <img src={ericsson} alt="Ericsson Spons" />
-          <Typography varaint="h6" guttomButtom sx={{mt:6}}>
+          <a href="https://www.ericsson.com/en/careers">
+            <img src={ericsson} alt="Ericsson Spons" />{" "}
+          </a>
+          <Typography varaint="h6" guttomButtom sx={{ mt: 6 }}>
             Vill ni också synas här? Kontakta oss på{" "}
-            <a href="mailto:spons@d-group.se" style={{color:"#754022"}}>spons@d-group.se</a>
+            <a href="mailto:spons@d-group.se" style={{ color: "#754022" }}>
+              spons@d-group.se
+            </a>
           </Typography>
         </Grid>
       </Grid>

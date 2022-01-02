@@ -32,7 +32,7 @@ function GroupieGrid() {
     },
     {
       name: "Marcus Döberl",
-      post: "Webb & ÖverDomaren (TM)",
+      post: "Webb & ÖverDomaren™",
       image: "https://i.imgur.com/SGHNmjK.jpg",
       email: "marcus.doberl@d-group.se",
       age: "2000",
@@ -168,7 +168,7 @@ function GroupieGrid() {
   return (
     <Box sx={{ mt: 10, textAlign: "center", overflowX:"hidden" }}>
       <Grid container>
-        <Grid xs={12} md={4} sx={{ p: 4 }} /* About card */>
+        <Grid xs={12} md={4} sx={{ p:{xs:1, md:2} }} /* About card */>
           <Typography
             variant="h2"
             guttomButtom
@@ -185,10 +185,10 @@ function GroupieGrid() {
             att ha kul!
           </Typography>
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 2 }} /* Tamara Card */>
+        <Grid xs={12} md={4} sx={{ p:{xs:1, md:2} }} /* Tamara Card */>
           <CardGrid user={Groupies[0]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 2 }} /* Click about Card */>
+        <Grid xs={12} md={4} sx={{ p:{xs:1, md:2} }} /* Click about Card */>
           <Typography
             variant="h2"
             guttomButtom
@@ -201,40 +201,40 @@ function GroupieGrid() {
           Tjena Tjena! Vi är familjen Chláirs oüf Phróplîexios, för att veta mer om en specifik medlem är det bara att klicka på bilden!
           </Typography>
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 2 }} /* EmmaW Card */>
+        <Grid xs={12} md={4} sx={{ p:{xs:1, md:2} }} /* EmmaW Card */>
           <CardGrid user={Groupies[1]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 2 }} /* Morgan Card */>
+        <Grid xs={12} md={4} sx={{ p:{xs:1, md:2} }} /* Morgan Card */>
           <CardGrid user={Groupies[12]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 2 }} /* Marcus Card */>
+        <Grid xs={12} md={4} sx={{ p:{xs:1, md:2} }} /* Marcus Card */>
           <CardGrid user={Groupies[2]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 2 }} /* Anton Card */>
+        <Grid xs={12} md={4} sx={{ p:{xs:1, md:2} }} /* Anton Card */>
           <CardGrid user={Groupies[3]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 2 }} /* Elias Card */>
+        <Grid xs={12} md={4} sx={{ p:{xs:1, md:2} }} /* Elias Card */>
           <CardGrid user={Groupies[8]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 2 }} /* Axel Card */>
+        <Grid xs={12} md={4} sx={{ p:{xs:1, md:2} }} /* Axel Card */>
           <CardGrid user={Groupies[4]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 2 }} /* Shamil Card */>
+        <Grid xs={12} md={4} sx={{ p:{xs:1, md:2} }} /* Shamil Card */>
           <CardGrid user={Groupies[5]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 2 }} /* Alice Card */>
+        <Grid xs={12} md={4} sx={{ p:{xs:1, md:2} }} /* Alice Card */>
           <CardGrid user={Groupies[6]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 2 }} /* EmmaS Card */>
+        <Grid xs={12} md={4} sx={{ p:{xs:1, md:2} }} /* EmmaS Card */>
           <CardGrid user={Groupies[7]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 2 }} /* Oscar Card */>
+        <Grid xs={12} md={4} sx={{ p:{xs:1, md:2} }} /* Oscar Card */>
           <CardGrid user={Groupies[9]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 2 }} /* Erik Card */>
+        <Grid xs={12} md={4} sx={{ p:{xs:1, md:2} }} /* Erik Card */>
           <CardGrid user={Groupies[10]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: 2 }} /* Johan Card */>
+        <Grid xs={12} md={4} sx={{ p:{xs:1, md:2} }} /* Johan Card */>
           <CardGrid user={Groupies[11]} />
         </Grid>
       </Grid>

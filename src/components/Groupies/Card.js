@@ -1,7 +1,30 @@
 import React from "react";
-import { Grid, Modal, Typography,  Box, Button} from "@mui/material";
-
+import { Grid, Modal, Typography, Box, Button } from "@mui/material";
+import styled from "styled-components";
 import Frågor from "./Information";
+
+const SmallP = styled.img`
+  width: 40vw;
+  height: 25vh;
+  border-radius: 10%;
+  margin-top:2vh;
+  @media screen and (min-width: 768px) {
+    display: none;
+  } ;
+`;
+
+const BigP = styled.img`
+  width: 15vw;
+  height: auto;
+  padding-top: 2;
+  border-radius: 50%;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  } ;
+`;
+
+
 const style = {
   position: "absolute",
   top: "55%",
@@ -31,11 +54,8 @@ export default function CardGrid({ user }) {
     >
       <Grid container>
         <Grid xs={6}>
-          <img
-            src={user.image}
-            alt="Gropies"
-            style={{ width: "15vw",height:"auto", paddingTop: 2, borderRadius: 50 + "%" }}
-          />
+          <SmallP src={user.image}/>
+          <BigP src={user.image} />
         </Grid>
         <Grid xs={6} sx={{ py: 5 }}>
           <Typography variant="h6" guttomButtom>
