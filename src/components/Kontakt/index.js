@@ -13,7 +13,16 @@ function Contact() {
             Kontakt
           </Typography>
         </Grid>
-
+        <Grid sm={12} md={6} sx={{ p: 6 }} /* Allmän kontakt + analog */>
+          <Typography variant="h4" guttomButtom paragraph color="#E5398D">
+            Allmän kontakt
+          </Typography>
+          <Typography variant="h6" guttomButtom>
+            Vid allmäna frågor, strippförfrågningar, jobbförfrågningar (vi kan
+            jobba på det mesta) eller om du är osäker på vem du ska kontakta skicka ett mail till{" "}
+            <a href="mailto:info@d-group.se">info@d-group.se</a>
+          </Typography>
+        </Grid>
         <Grid sm={12} md={6} sx={{ p: 6 }} /* POST KONTAKT */>
           <Typography variant="h4" guttomButtom paragraph color="#E5398D">
             Post specifik kontakt
@@ -35,17 +44,6 @@ function Contact() {
             Vid Öl o Bar frågor <Link href="mailto:olbar@d-group.se">Olbar@d-group.se</Link> <br />
             Vid kontakt till en specifik groupie se{" "}
             <Link href="/groupies">groupie sidan</Link> <br />
-          </Typography>
-        </Grid>
-
-        <Grid sm={12} md={6} sx={{ p: 6 }} /* Allmän kontakt + analog */>
-          <Typography variant="h4" guttomButtom paragraph color="#E5398D">
-            Allmän kontakt
-          </Typography>
-          <Typography variant="h6" guttomButtom>
-            Vid allmäna frågor, strippförfrågningar, jobbförfrågningar (vi kan
-            jobba på det mesta) eller om du är osäker på vem du ska kontakta skicka ett mail till{" "}
-            <a href="mailto:info@d-group.se">info@d-group.se</a>
           </Typography>
         </Grid>
       </Grid>

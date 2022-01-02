@@ -106,6 +106,13 @@ const ResponsiveAppBar = () => {
                     </Typography>
                   </MenuItem>
                 </Link>
+                <Link to="kontakt">
+                  <MenuItem key="Kontakt" onClick={handleCloseNavMenu}>
+                    <Typography textAlign="center" color="white">
+                      Kontakt
+                    </Typography>
+                  </MenuItem>
+                </Link>
                 <Link to="pateter">
                   <MenuItem key="WallOfFame" onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" color="white">
@@ -190,6 +197,15 @@ const ResponsiveAppBar = () => {
                   Groupies
                 </Button>
               </Link>
+              <Link to="kontakt">
+                <Button
+                  key="Kontakt"
+                  onClick={handleCloseNavMenu}
+                  sx={{ my: 2, color: "white", display: "block" }}
+                >
+                  Kontakt
+                </Button>
+                </Link>
               <Link to="pateter">
                 <Button
                   key="WoF"
