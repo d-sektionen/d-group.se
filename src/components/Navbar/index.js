@@ -46,7 +46,7 @@ const ResponsiveAppBar = () => {
       <AppBar position="fixed" color="primary">
         <Container maxWidth="xl">
           <Toolbar disableGutters sx={{ alignItems: "flex-start" }}>
-            <Link to="/">
+            <Link to="/" /* Computer LOGO */>
               <Typography
                 variant="h6"
                 noWrap
@@ -62,8 +62,7 @@ const ResponsiveAppBar = () => {
                 />
               </Typography>
             </Link>
-
-            <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+            <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }} /* Mobile dropdown */>
               <IconButton
                 size="large"
                 aria-label="account of current user"
@@ -71,10 +70,11 @@ const ResponsiveAppBar = () => {
                 aria-haspopup="true"
                 onClick={handleOpenNavMenu}
                 color="inherit"
+                sx={{pt:2}}
               >
                 <HiMenu />
               </IconButton>
-              <Menu1
+              <Menu1 
                 id="menu-appbar"
                 anchorEl={anchorElNav}
                 anchorOrigin={{
@@ -164,24 +164,17 @@ const ResponsiveAppBar = () => {
                 </a>
               </Menu1>
             </Box>
-            <Typography
-              variant="h6"
-              noWrap
-              component="div"
-              sx={{ flexGrow: 1, display: { xs: "flex", md: "none" }  }}
-            >
-              
+            <Box sx={{ flexGrow: 1.5, display: { xs: "flex", md: "none" }  }} /* Mobile LOGO */>
+            <Link to="/" sx={{textDecoration:"none"}}>
               <img
                 alt="logo"
                 src={logo}
                 width={60}
                 height={60}
-                component="div"
-                
-              />
-            
-            </Typography>
-            <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+              />     
+            </Link>
+            </Box>
+            <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }} /* Computer LinkBar */>
               <Link to="/">
                 <Button
                   key="Start"
@@ -246,7 +239,7 @@ const ResponsiveAppBar = () => {
                 </Button>
               </a>
             </Box>
-            <Box sx={{ flexGrow: 0, mt: 1, display: { xs: "none", md: "flex" } }}>
+            <Box sx={{ flexGrow: 0, mt: 1, display: { xs: "none", md: "flex" } }} /* Computer FB/IG to right */>
               <a href="https://instagram.com/dgroup2122/">
                 <img
                   src={InstagramIcon}
