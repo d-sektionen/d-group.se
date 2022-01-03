@@ -168,15 +168,18 @@ const ResponsiveAppBar = () => {
               variant="h6"
               noWrap
               component="div"
-              sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}
+              sx={{ flexGrow: 1, display: { xs: "flex", md: "none" }  }}
             >
+              
               <img
                 alt="logo"
                 src={logo}
                 width={60}
                 height={60}
                 component="div"
+                
               />
+            
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               <Link to="/">

@@ -6,7 +6,7 @@ import Link from "@mui/material/Link";
 
 function Contact() {
   return (
-    <Box sx={{ textAlign: "center", mt: 10 }}>
+    <Box sx={{ textAlign: "center", mt: 10}}>
       <Grid container>
         <Grid xs={12} /* HEADER */>
           <Typography variant="h1" guttomButtom color="#754022">
@@ -20,7 +20,7 @@ function Contact() {
           <Typography variant="h6" guttomButtom>
             Vid allmäna frågor, strippförfrågningar, jobbförfrågningar (vi kan
             jobba på det mesta) eller om du är osäker på vem du ska kontakta skicka ett mail till{" "}
-            <a href="mailto:info@d-group.se">info@d-group.se</a>
+            <Link href="mailto:info@d-group.se">Info@d-group.se</Link>
           </Typography>
         </Grid>
         <Grid sm={12} md={6} sx={{ p: 6 }} /* POST KONTAKT */>
@@ -43,7 +43,7 @@ function Contact() {
             Vid Transport frågor <Link href="mailto:werk@d-group.se">Werk@d-group.se</Link> <br />
             Vid Öl o Bar frågor <Link href="mailto:olbar@d-group.se">Olbar@d-group.se</Link> <br />
             Vid kontakt till en specifik groupie se{" "}
-            <Link href="/groupies">groupie sidan</Link> <br />
+            <Link href="groupies">groupie sidan</Link> <br />
           </Typography>
         </Grid>
       </Grid>

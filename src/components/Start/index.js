@@ -59,7 +59,7 @@ function Start() {
             Våra evenemang
           </Typography>
         </Grid>
-        <Grid sm={12} md={6} sx={{ px: 6, mt: 6 }}>
+        <Grid sm={12} md={6} sx={{ px: 6, mt: 6 }} /* DÖmD */>
           <Typography
             variant="h3"
             guttomButtom
@@ -88,7 +88,7 @@ function Start() {
             </Link>
           </Typography>
         </Grid>
-        <Grid sm={12} md={6} sx={{ px: 6, mt: 6 }}>
+        <Grid sm={12} md={6} sx={{ px: 6, mt: 6 }} /* DIMD */>
           <Typography
             variant="h3"
             guttomButtom
@@ -108,8 +108,8 @@ function Start() {
             denna ädla sport.
           </Typography>
         </Grid>
-        <Grid container sx={{ m: 6 }} /* ANDRA FESTER */>
-          <Grid sm={12} md={6} sx={{ mb: 6 }} /* Nolle-P */>
+        <Grid container sx={{mt:6 }} /* ANDRA FESTER */>
+          <Grid sm={12} md={6} sx={{ mb: 6, px:5 }} /* Nolle-P */>
             <Typography
               variant="h4"
               guttomButtom
@@ -127,7 +127,7 @@ function Start() {
               och Y-sektionens nyblivna ettan och faddrar.
             </Typography>
           </Grid>
-          <Grid sm={12} md={6} sx={{ mb: 6 }} /* ÅvveInvigningen */>
+          <Grid sm={12} md={6} sx={{ mb: 6, px:5 }} /* ÅvveInvigningen */>
             <Typography
               variant="h4"
               guttomButtom
@@ -146,7 +146,7 @@ function Start() {
               deras nya ettor.
             </Typography>
           </Grid>
-          <Grid sm={12} md={6} sx={{ mb: 6 }} /* ToTK */>
+          <Grid sm={12} md={6} sx={{ mb: 6, px:5 }} /* ToTK */>
             <Typography
               variant="h4"
               guttomButtom
@@ -164,7 +164,7 @@ function Start() {
               du får chansen att gråta efter tentatanterna en gång.
             </Typography>
           </Grid>
-          <Grid sm={12} md={6} /* Julfesten */>
+          <Grid sm={12} md={6} sx={{px:5}} /* Julfesten */>
             <Typography
               variant="h4"
               guttomButtom
