@@ -46,10 +46,11 @@ export default function CardGrid({ user }) {
     <Box
       onClick={handleClick}
       sx={{
-        backgroundColor: "lightgray",
+        /**backgroundColor: "lightgray",**/
         borderRadius: 10,
         cursor: "pointer",
-        border: "#754022 5px solid",
+        border: "black 5px solid",
+        
       }}
     >
       <Grid container>
