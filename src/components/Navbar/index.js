@@ -9,8 +9,8 @@ import { HiMenu } from "react-icons/hi";
 import Container from "@mui/material/Container";
 import styled from "styled-components";
 import Button from "@mui/material/Button";
-import FacebookIcon from "../../images/logos/FacebookLogo.png";
-import InstagramIcon from "../../images/logos/InstagramLogo.png";
+import FacebookIcon from "../../images/logos/FacebookLogo.webp";
+import InstagramIcon from "../../images/logos/InstagramLogo.webp";
 
 import MenuItem from "@mui/material/MenuItem";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
