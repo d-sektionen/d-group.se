@@ -2,12 +2,12 @@ import React from "react";
 import { WidePictureFrame, HighPictureFrame } from "./StartElements";
 import Typography from "@mui/material/Typography";
 import ericsson from "../../images/spons/ericssonSpons.png";
-import dggrupp from "../../images/gropies/DG_gruppbild.jpg";
-import dgroupHog from "../../images/gropies/DG_gruppbild_hog.jpg";
+import dggrupp from "../../images/gropies/DG_gruppbild.webp";
+import dgroupHog from "../../images/gropies/DG_gruppbild_hog.webp";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Link from "@mui/material/Link";
-import logo from "../../images/logo.png";
+import logo from "../../images/logo.webp";
 
 /* <picture>
             <source media="(min-width: 768px)" srcset={dggrupp} height={"100vh"} width={"100%"}/>
