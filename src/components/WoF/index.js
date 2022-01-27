@@ -38,7 +38,7 @@ const images = [
       thumbnailWidth: 320,
       thumbnailHeight: 320,
       caption: "D-Group 20/21 - Familjen Dequerré Altié",
-      thumbnailCaption: "D-Group 21/22",
+      thumbnailCaption: "D-Group 20/21",
     },
     {
       src: dg1920,
