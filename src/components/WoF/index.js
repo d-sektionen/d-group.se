@@ -252,7 +252,7 @@ const images = [
   
   const WallofFame = () => {
     return (
-      <Box sx={{ mt: 10, textAlign: "center", fontWeight:"bold" }}>
+      <Box sx={{ m: 10, textAlign: "center", fontWeight:"bold" }}>
         <Grid>
           <Gallery
             images={images}
