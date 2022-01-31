@@ -22,6 +22,21 @@ function Contact() {
             jobba på det mesta) eller om du är osäker på vem du ska kontakta skicka ett mail till{" "}
             <Link href="mailto:info@d-group.se">Info@d-group.se</Link>
           </Typography>
+          <Typography variant="h4" guttomButtom paragraph color="#E5398D" sx={{pt:5}}>
+            Analog  (SnigelPost?) <br/>
+            </Typography>
+            <Typography variant="h6" guttomButtom>
+            D-Group <br/>
+            Datateknologsektionen <br/>
+            Kårallen, Universitet<br/>
+            581 83 Linköping <br/>
+            Org.nr: 822002-1409 <br/>
+            BG: 436-2497
+            </Typography>
+          
+          <Typography variant="h6" guttomButtom>
+            
+          </Typography>
         </Grid>
         <Grid sm={12} md={6} sx={{ p: 6 }} /* POST KONTAKT */>
           <Typography variant="h4" guttomButtom paragraph color="#E5398D">
