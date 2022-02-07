@@ -48,7 +48,7 @@ function GroupieGrid() {
       image: "https://i.imgur.com/QcsoV4W.jpg",
       email: "anton.bergman@d-group.se",
       age: "2000",
-      home: "Årstaberg",
+      home: "Hudängen",
       pors: "Duschbowling",
       cons: "Att lägga TP",
       relation: "Nunna",
