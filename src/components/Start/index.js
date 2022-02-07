@@ -21,8 +21,8 @@ function Start() {
   return (
     <Box sx={{ textAlign: "center" }}>
       <Grid container>
-        <Grid sm={12} /* Groupies Bild */>
-          <WidePictureFrame src={dggrupp} />
+        <Grid sm={12} sx={{pt:9}} /* Groupies Bild */>
+          <WidePictureFrame src={dggrupp} height={"90vh"}/>
           <HighPictureFrame src={dgroupHog} height={"84vh"} />
         </Grid>
         <Grid
