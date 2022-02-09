@@ -4,7 +4,12 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Link from "@mui/material/Link";
 
+
+
+
+
 function Contact() {
+  
   return (
     <Box sx={{ textAlign: "center", mt: 10}}>
       <Grid container>
@@ -59,6 +64,7 @@ function Contact() {
             Vid Öl & Bar frågor: <Link href="mailto:olbar@d-group.se">Olbar@d-group.se</Link> <br />
             Vid kontakt till en specifik groupie se,{" "}
             <Link href="groupies">Groupie sidan</Link> <br />
+            
           </Typography>
         </Grid>
       </Grid>

@@ -10,6 +10,7 @@ import Contact from "./components/Kontakt";
 import WallofFame from "./components/WoF";
 import TaggfilmerNy from "./components/Taggfilmer";
 import Groupies from "./components/Groupies";
+import Test from "./components/test";
 
 const App = () => {
   
@@ -25,7 +26,8 @@ const App = () => {
         <Route exact path="/groupies" element={<Groupies/>} />
         <Route exact path="/friends" element={<Ourfriends/>} />
         <Route exact path="/movies" element={<TaggfilmerNy/>} />
-        <Route exapt path="/kontakt" element={<Contact />} /> 
+        <Route exapt path="/kontakt" element={<Contact />} />
+        <Route exapt path="/test" element={<Test />} /> 
       </Routes>
 
       
