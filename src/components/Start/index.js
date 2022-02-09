@@ -2,6 +2,7 @@ import React from "react";
 import { WidePictureFrame, HighPictureFrame } from "./StartElements";
 import Typography from "@mui/material/Typography";
 import ericsson from "../../images/spons/ericssonSpons.png";
+import ida from "../../images/spons/idainfrontSpons.png";
 import dggrupp from "../../images/gropies/DG_gruppbild.webp";
 import dgroupHog from "../../images/gropies/DG_gruppbild_hog.webp";
 import Box from "@mui/material/Box";
@@ -194,7 +195,9 @@ function Start() {
           </Typography>
           <a href="https://www.ericsson.com/en/careers">
             <img src={ericsson} alt="Ericsson Spons" />{" "}
-          </a>
+            
+          </a><br/>
+          <img src={ida} alt="Idainfront Spons" />
           <Typography varaint="h6" guttomButtom sx={{ mt: 6 }}>
             Vill ni också synas här? Kontakta oss på{" "}
             <a href="mailto:spons@d-group.se" style={{ color: "#754022" }}>
