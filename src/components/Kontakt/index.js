@@ -9,7 +9,7 @@ import Link from "@mui/material/Link";
 
 
 function Contact() {
-  
+ 
   return (
     <Box sx={{ textAlign: "center", mt: 10}}>
       <Grid container>

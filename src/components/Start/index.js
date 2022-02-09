@@ -1,8 +1,8 @@
 import React from "react";
 import { WidePictureFrame, HighPictureFrame } from "./StartElements";
 import Typography from "@mui/material/Typography";
-import ericsson from "../../images/spons/ericssonSpons.png";
-import ida from "../../images/spons/idainfrontSpons.png";
+import ericsson from "../../images/spons/ericssonSpons.webp";
+import ida from "../../images/spons/idainfrontSpons.webp";
 import dggrupp from "../../images/gropies/DG_gruppbild.webp";
 import dgroupHog from "../../images/gropies/DG_gruppbild_hog.webp";
 import Box from "@mui/material/Box";
@@ -22,8 +22,8 @@ function Start() {
   return (
     <Box sx={{ textAlign: "center" }}>
       <Grid container>
-        <Grid sm={12} sx={{pt:9}} /* Groupies Bild */>
-          <WidePictureFrame src={dggrupp} height={"90vh"}/>
+        <Grid sm={12} sx={{ pt: 9 }} /* Groupies Bild */>
+          <WidePictureFrame src={dggrupp} height={"90vh"} />
           <HighPictureFrame src={dgroupHog} height={"84vh"} />
         </Grid>
         <Grid
@@ -100,17 +100,19 @@ function Start() {
             D<span STYLE="font-size:75%">IM</span>D
           </Typography>
           <Typography variant="h6">
-            Kliar det i kastarmen? Tycker du att det är lite för långt mellan
-            D<span STYLE="font-size:75%">ÖM</span>D och D<span STYLE="font-size:75%">ÖM</span>D? Misströsta ej, du behöver inte vänta ända till nästa
-            D<span STYLE="font-size:75%">ÖM</span>D för att njuta av D-arnas favoritsport. I februari kommer
-            nämligen D<span STYLE="font-size:75%">IM</span>D, Datateknologsektionens Interna Mästerskap i Dart. Här
-            bjuds du på en helkväll med dart där du kan träna upp dina
-            färdigheter och visa för alla andra att det är du som är kungen av
-            denna ädla sport.
+            Kliar det i kastarmen? Tycker du att det är lite för långt mellan D
+            <span STYLE="font-size:75%">ÖM</span>D och D
+            <span STYLE="font-size:75%">ÖM</span>D? Misströsta ej, du behöver
+            inte vänta ända till nästa D<span STYLE="font-size:75%">ÖM</span>D
+            för att njuta av D-arnas favoritsport. I februari kommer nämligen D
+            <span STYLE="font-size:75%">IM</span>D, Datateknologsektionens
+            Interna Mästerskap i Dart. Här bjuds du på en helkväll med dart där
+            du kan träna upp dina färdigheter och visa för alla andra att det är
+            du som är kungen av denna ädla sport.
           </Typography>
         </Grid>
-        <Grid container sx={{mt:6 }} /* ANDRA FESTER */>
-          <Grid sm={12} md={6} sx={{ mb: 6, px:5 }} /* Nolle-P */>
+        <Grid container sx={{ mt: 6 }} /* ANDRA FESTER */>
+          <Grid sm={12} md={6} sx={{ mb: 6, px: 5 }} /* Nolle-P */>
             <Typography
               variant="h4"
               guttomButtom
@@ -128,7 +130,7 @@ function Start() {
               och Y-sektionens nyblivna ettan och faddrar.
             </Typography>
           </Grid>
-          <Grid sm={12} md={6} sx={{ mb: 6, px:5 }} /* ÅvveInvigningen */>
+          <Grid sm={12} md={6} sx={{ mb: 6, px: 5 }} /* ÅvveInvigningen */>
             <Typography
               variant="h4"
               guttomButtom
@@ -147,7 +149,7 @@ function Start() {
               deras nya ettor.
             </Typography>
           </Grid>
-          <Grid sm={12} md={6} sx={{ mb: 6, px:5 }} /* ToTK */>
+          <Grid sm={12} md={6} sx={{ mb: 6, px: 5 }} /* ToTK */>
             <Typography
               variant="h4"
               guttomButtom
@@ -165,7 +167,7 @@ function Start() {
               du får chansen att gråta efter tentatanterna en gång.
             </Typography>
           </Grid>
-          <Grid sm={12} md={6} sx={{px:5}} /* Julfesten */>
+          <Grid sm={12} md={6} sx={{ px: 5 }} /* Julfesten */>
             <Typography
               variant="h4"
               guttomButtom
@@ -193,11 +195,26 @@ function Start() {
           >
             Våra Sponsorer
           </Typography>
-          <a href="https://www.ericsson.com/en/careers">
-            <img src={ericsson} alt="Ericsson Spons" />{" "}
+          <Box sm={12}>
+            <Link
+              href="https://www.ericsson.com/en/careers"
+              underlink="hover"
+              sx={{ textDecoration: "none" }}
+            >
+              <img src={ericsson} alt="Ericsson Spons" />
+            </Link>
+          </Box>
+          <Box sm={12}>
+          <Link
+              href="https://idainfront.se/en/"
+              underlink="hover"
+              sx={{ textDecoration: "none" }}
+            >
+              <img src={ida} alt="Idainfront Spons"/>
+            </Link>
             
-          </a><br/>
-          <img src={ida} alt="Idainfront Spons" />
+          </Box>
+
           <Typography varaint="h6" guttomButtom sx={{ mt: 6 }}>
             Vill ni också synas här? Kontakta oss på{" "}
             <a href="mailto:spons@d-group.se" style={{ color: "#754022" }}>
