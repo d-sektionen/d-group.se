@@ -2,7 +2,7 @@ import React from "react";
 import { WidePictureFrame, HighPictureFrame } from "./StartElements";
 import Typography from "@mui/material/Typography";
 import ericsson from "../../images/spons/ericssonSpons.webp";
-import ida from "../../images/spons/idainfrontSpons.webp";
+import Ida from "../../images/spons/idainfrontSpons.webp";
 import dggrupp from "../../images/gropies/DG_gruppbild.webp";
 import dgroupHog from "../../images/gropies/DG_gruppbild_hog.webp";
 import Box from "@mui/material/Box";
@@ -186,7 +186,14 @@ function Start() {
             </Typography>
           </Grid>
         </Grid>
-        <Grid sm={12} sx={{ m: 6 }} /* Våra Sponsorer*/>
+        <Grid
+          container
+          spacing={0}
+          direction="column"
+          alignItems="center"
+          justifyContent="center"
+          sx={{ m: 6 }} /* Våra Sponsorer*/
+        >
           <Typography
             variant="h2"
             color="#754022"
@@ -195,7 +202,7 @@ function Start() {
           >
             Våra Sponsorer
           </Typography>
-          <Box sm={12}>
+          <Box xs={true}>
             <Link
               href="https://www.ericsson.com/en/careers"
               underlink="hover"
@@ -204,15 +211,19 @@ function Start() {
               <img src={ericsson} alt="Ericsson Spons" />
             </Link>
           </Box>
-          <Box sm={12}>
-          <Link
+          <Box md={5}>
+            <Link
               href="https://idainfront.se/en/"
               underlink="hover"
               sx={{ textDecoration: "none" }}
             >
-              <img src={ida} alt="Idainfront Spons"/>
+              <img
+                src={Ida}
+                alt="Idainfront Spons"
+                width={"100%"}
+                height={"100%"}
+              />
             </Link>
-            
           </Box>
 
           <Typography varaint="h6" guttomButtom sx={{ mt: 6 }}>
