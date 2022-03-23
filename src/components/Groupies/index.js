@@ -50,7 +50,7 @@ function GroupieGrid() {
       age: "2000",
       home: "Hudängen",
       pors: "Duschbowling",
-      cons: "Att lägga TP",
+      cons: "Mobbar Hemsidor",
       relation: "Nunna",
       party: "Rulla magen",
     },
