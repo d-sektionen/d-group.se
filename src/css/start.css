@@ -1,0 +1,25 @@
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+  color: white;
+}
+.each-slide span {
+  font-size: 32px;
+  text-align: center;
+  color: white !important;
+}
+.each-slide
+
+.each-slide lower {
+  font-size: 24px;
+}
+
+.each-slide p {
+  font-size: 20px;
+  
+}
+
+
