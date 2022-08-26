@@ -127,7 +127,7 @@ function Start() {
               att uppgradera nollan till etta bjuder D-Group in till finfest.
               Faddrar och nollan välkomnas till sittning i sina finaste kläder
               för att njuta av god mat och underhållning. Kvällen avslutas med
-              ett hejdundrande firande på Kårallen tillsammans med Maskin-, TBI-
+              ett hejdundrande firande på Kårallen tillsammans med Ling-, TBI-
               och Y-sektionens nyblivna ettan och faddrar.
             </Typography>
           </Grid>

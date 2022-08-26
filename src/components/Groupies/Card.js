@@ -14,6 +14,7 @@ import { findByLabelText } from "@testing-library/react";
 import { pink } from "@mui/material/colors";
 import { red } from "@material-ui/core/colors";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import dg_logo from "../../images/logo.webp";
 
 const SmallP = styled.img`
   width: 100%;
@@ -38,6 +39,13 @@ const BigP = styled.img`
   @media screen and (max-width: 768px) {
     display: none;
   } ;
+`;
+const DGLogo = styled.img`
+  width: 18%;
+  height: 20%;
+  margin-top: 10px;
+  bottom: 0;
+  right: 0;
 `;
 
 const style = {
@@ -98,6 +106,7 @@ export default function CardGrid({ user }) {
             <Typography variant="h6" guttomBottom sx={{ pr: 3 }}>
               <a href={"mailto:" + user.email}>{user.email}</a>
             </Typography>
+            <DGLogo src={dg_logo}></DGLogo>
           </Grid>
         </ThemeProvider>
       </Grid>
@@ -116,8 +125,6 @@ export default function CardGrid({ user }) {
                   marginLeft: 25,
                   objectFit: "cover",
                   borderRadius: 100 + "%",
-                  borderWidth: "10px",
-                  borderColor: "black",
                 }}
               />
             </Grid>

@@ -30,6 +30,7 @@ import dg9798 from "../../images/dpateter/dg9798.jpg";
 import dg9697 from "../../images/dpateter/dg9697.jpg";
 import dg9495 from "../../images/dpateter/dg9495.jpg";
 import dg8788 from "../../images/dpateter/dg8788.jpg";
+import dg8182 from "../../images/dpateter/dg8182.jpg";
 
 const images = [
   {
@@ -255,6 +256,14 @@ const images = [
     thumbnailHeight: 320,
     caption: "D-Group 87/88",
     thumbnailCaption: "D-Group 87/88",
+  },
+  {
+    src: dg8182,
+    thumbnail: dg8182,
+    thumbnailWidth: 320,
+    thumbnailHeight: 320,
+    caption: "D-Group 81/82 - Fathers of DÖMD",
+    thumbnailCaption: "D-Group 81/82",
   },
 ];
 

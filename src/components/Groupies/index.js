@@ -117,7 +117,7 @@ function GroupieGrid() {
       age: "1998",
       home: "Borås",
       pors: "Datateknik",
-      cons: "Behålla mat i matlådan",
+      cons: "Spränga Vattenmeloner",
     },
     {
       name: "Hannes Lindström",
@@ -127,7 +127,7 @@ function GroupieGrid() {
       age: "2001",
       home: "Stockholm",
       pors: "Datateknik",
-      cons: "Solbrännor",
+      cons: "Heta Hannes för jag glömde skicka in mitt partytrick till Webb så nu får jag skämmas",
     },
     {
       name: "Amanda Sternberg",

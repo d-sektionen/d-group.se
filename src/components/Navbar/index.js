@@ -147,7 +147,7 @@ const ResponsiveAppBar = () => {
                   </MenuItem>
                 </a>
                 <a
-                  href="https://www.facebook.com/DGroup2021"
+                  href="https://www.facebook.com/DGroup2223"
                   style={{ textDecoration: "none" }}
                 >
                   <MenuItem key="Facebook" onClick={handleCloseNavMenu}>
@@ -160,7 +160,7 @@ const ResponsiveAppBar = () => {
                   </MenuItem>
                 </a>
                 <a
-                  href="https://instagram.com/dgroup2122/"
+                  href="https://instagram.com/dgroup22_23/"
                   style={{ textDecoration: "none" }}
                 >
                   <MenuItem key="Instagram" onClick={handleCloseNavMenu}>
