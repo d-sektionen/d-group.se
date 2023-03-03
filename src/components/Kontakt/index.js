@@ -51,33 +51,35 @@ function Contact() {
           <Typography variant="h6" guttomButtom paragraph>
             Chief, Junia:{" "}
             <Link href="mailto:Chief@d-group.se">Chief@d-group.se</Link> <br />
-            Vid PR frågor:{" "}
+            Vid Samarbets-frågor:{" "}
+            <Link href="mailto:spons@d-group.se">Spons@d-group.se</Link> <br />
+            Vid PR-frågor:{" "}
             <Link href="mailto:pr@d-group.se">Pr@d-group.se</Link> <br />
-            Vid Personal frågor:{" "}
+            Vid Personal-frågor:{" "}
             <Link href="mailto:personal@d-group.se">
               Personal@d-group.se
             </Link>{" "}
             <br />
-            Vid Ca$h frågor:{" "}
+            Vid Ca$h-frågor:{" "}
             <Link href="mailto:cash@d-group.se">Cash@d-group.se</Link> <br />
-            Vid Webb fårgor:{" "}
+            Vid Webb-fårgor:{" "}
             <Link href="mailto:webb@d-group.se">Webb@d-group.se</Link> <br />
-            Vid DömD/DimD frågor:{" "}
+            Vid DömD/DimD-frågor:{" "}
             <Link href="mailto:dart@d-group.se">Dart@d-group.se</Link> <br />
-            Vid Biljett/Lag frågor:{" "}
+            Vid Biljett/Lag-frågor:{" "}
             <Link href="mailto:biljett@d-group.se">
               Biljett@d-group.se
             </Link>{" "}
             <br />
-            Vid Ljud & Ljus frågor:{" "}
+            Vid Ljud & Ljus-frågor:{" "}
             <Link href="mailto:j8@d-group.se">J8@d-group.se</Link> <br />
-            Vid Trykk frågor:{" "}
+            Vid Trykk-frågor:{" "}
             <Link href="mailto:trykk@d-group.se">Trykk@d-group.se</Link> <br />
-            Vid Mat & Sittning frågor:{" "}
+            Vid Mat & Sittnings-frågor:{" "}
             <Link href="mailto:mat@d-group.se">Mat@d-group.se</Link> <br />
-            Vid Transport frågor:{" "}
+            Vid Transport & Logistik-frågor:{" "}
             <Link href="mailto:werk@d-group.se">Werk@d-group.se</Link> <br />
-            Vid Öl & Bar frågor:{" "}
+            Vid Öl & Bar-frågor:{" "}
             <Link href="mailto:olbar@d-group.se">Olbar@d-group.se</Link> <br />
             Vid kontakt till en specifik groupie se,{" "}
             <Link href="groupies">Groupie sidan</Link> <br />

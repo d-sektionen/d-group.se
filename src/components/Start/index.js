@@ -2,6 +2,7 @@ import React from "react";
 import { WidePictureFrame, HighPictureFrame } from "./StartElements";
 import Typography from "@mui/material/Typography";
 import ericsson from "../../images/spons/ericssonSpons.webp";
+import microtec from "../../images/spons/microtec.png";
 import Ida from "../../images/spons/idainfrontSpons.webp";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
@@ -203,13 +204,31 @@ function Start() {
           >
             Våra Sponsorer
           </Typography>
+          <Box md={6}>
+            <Link
+            href="https://linkoping.microtec.eu/sv/"
+            underlink="hover"
+            sx={{ textDecoration: "none"}}
+            >
+              <img 
+              src={microtec}
+              alt="Microtec Logo"
+              width={"80%"}
+              height={"80%"}
+              />
+            </Link>
+          </Box>
           <Box xs={true}>
             <Link
               href="https://www.ericsson.com/en/careers"
               underlink="hover"
               sx={{ textDecoration: "none" }}
             >
-              <img src={ericsson} alt="Ericsson Spons" />
+              <img 
+              src={ericsson} 
+              alt="Ericsson Logo"
+              
+              />
             </Link>
           </Box>
           <Box md={5}>
@@ -220,7 +239,7 @@ function Start() {
             >
               <img
                 src={Ida}
-                alt="Idainfront Spons"
+                alt="Idainfront Logo"
                 width={"100%"}
                 height={"100%"}
               />
