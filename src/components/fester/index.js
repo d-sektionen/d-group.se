@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Title,
-  Description,
-  Row,
-  Col,
-  Grid,
-  ÖMSpan,
-} from "./fester";
+import { Title, Description, Row, Col, Grid, ÖMSpan } from "./fester";
 
 function EventsGrid() {
   return (

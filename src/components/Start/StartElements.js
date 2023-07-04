@@ -1,25 +1,22 @@
 import styled from "styled-components";
 
-
 export const WidePictureFrame = styled.img`
   width: 100%;
-  height: ${(props) => props.height};
-  @media screen and (max-width: 768px){
-        display: none;
-    };   
+  object-fit: cover;
+  height: 80vh;
+  vertical-align: middle;
+  @media screen and (max-width: 768px) {
+    display: none;
+  } ;
 `;
 export const HighPictureFrame = styled.img`
-  width: 100vw;
-  height: ${(props) => props.height};
-
-  @media screen and (min-width: 768px){
-        display: none;
-        width:0%;
-        height: 0;
-    };  
+  width: 100%;
+  height: 55vh;
+  object-fit: cover;
+  vertical-align: middle;
+  @media screen and (min-width: 768px) {
+    display: none;
+  } ;
 `;
 
-export const SponsImg = styled.img`
-
-`
-
+export const SponsImg = styled.img``;
