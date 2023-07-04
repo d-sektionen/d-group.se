@@ -3,8 +3,6 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import CardGrid from "./Card";
 import { Typography } from "@mui/material";
-<<<<<<< HEAD
-=======
 import junia from "../../images/gropies/profilbilder/Junia.jpg";
 import filip from "../../images/gropies/profilbilder/Filip.jpg";
 import daniel from "../../images/gropies/profilbilder/Daniel.jpg";
@@ -18,168 +16,10 @@ import marcus from "../../images/gropies/profilbilder/Thure.jpg";
 import hannes from "../../images/gropies/profilbilder/Hannes.jpg";
 import amanda from "../../images/gropies/profilbilder/Amanda.jpg";
 import gustav from "../../images/gropies/profilbilder/Gustav.jpg";
->>>>>>> master
 
 function GroupieGrid() {
   const Groupies = [
     {
-<<<<<<< HEAD
-      name: "Tamara Jurić",
-      post: "Chief",
-      image: "https://i.imgur.com/9QCprnd.jpg",
-      email: "tamara.juric@d-group.se",
-      age: "1997",
-      home: "Linköööping",
-      pors: "Boss Bitch",
-      cons: "Barer med öl i",
-      relation: "Nunna",
-      party: "Fingra folk oralt",
-    },
-    {
-      name: "Emma Wahlund",
-      post: "Ca$h",
-      image: "https://i.imgur.com/3Vrvgj6.jpg",
-      email: "emma.wahlund@d-group.se",
-      age: "1998",
-      home: "Sigtuna",
-      pors: "Literal icon",
-      cons: "Starksprit med vatten, baksmällans gudmor",
-      relation: "Nunna",
-      party: "Erfaren",
-    },
-    {
-      name: "Marcus Döberl",
-      post: "Webb & ÖverDomaren™",
-      image: "https://i.imgur.com/SGHNmjK.jpg",
-      email: "marcus.doberl@d-group.se",
-      age: "2000",
-      home: "Östermalm",
-      pors: "Däckar aldrig",
-      cons: "Jobbrealtioner",
-      relation: "Nunna",
-      party: "Pingis boll",
-    },
-    {
-      name: "Anton Bergman",
-      post: "Werk",
-      image: "https://i.imgur.com/QcsoV4W.jpg",
-      email: "anton.bergman@d-group.se",
-      age: "2000",
-      home: "Hudängen",
-      pors: "Duschbowling",
-      cons: "Mobbar Hemsidor",
-      relation: "Nunna",
-      party: "Rulla magen",
-    },
-    {
-      name: "Axel Peters",
-      post: "Pr & Event",
-      image: "https://i.imgur.com/QpUTpSB.jpg",
-      email: "axel.peters@d-group.se",
-      age: "2000",
-      home: "Norrtälje",
-      pors: "Stripp, Mankini(monster), Slak",
-      cons: "Skyltar, Ölglas, Slak",
-      relation: "Nunna",
-      party: "Stoppa stora objekt i min mun",
-    },
-    {
-      name: "Shamil Limbasiya",
-      post: "J^8",
-      image: "https://i.imgur.com/jVaoGVn.jpg",
-      email: "shamil.limbasiya@d-group.se",
-      age: "2001",
-      home: "Väster om viken",
-      pors: "Sover aldrig",
-      cons: "Oddsar",
-      relation: "Nunna",
-      party: "Oddsar",
-    },
-    {
-      name: "Alice Bramstedt",
-      post: "Spons",
-      image: "https://i.imgur.com/DvwMyRa.jpg",
-      email: "alice.bramstedt@d-group.se",
-      age: "1999",
-      home: "Okänt",
-      pors: "Prata engelska",
-      cons: "Prata Svenska",
-      relation: "Nunna",
-      party: "Prata engelska",
-    },
-    {
-      name: "Emma Siklosi",
-      post: "Trykk",
-      image: "https://i.imgur.com/A1hN172.jpg",
-      email: "emma.siklosi@d-group.se",
-      age: "2000",
-      home: "TätBy",
-      pors: "Queen of Lyft",
-      cons: "Alkohol",
-      relation: "Nunna",
-      party: "Snapchat Vloggar",
-    },
-    {
-      name: "Elias Hörnberg",
-      post: "Biljett & U-Lag",
-      image: "https://i.imgur.com/wAEKWn2.jpg",
-      email: "elias.hornberg@d-group.se",
-      age: "2000",
-      home: "Sollentuna",
-      pors: "Mobba Öl o Bar",
-      cons: "Gasquen pissoraren och biljettsläpp",
-      relation: "Nunna",
-      party: "Snacka tyska",
-    },
-    {
-      name: "Oscar Stolpe",
-      post: "Mat & Sittning",
-      image: "https://i.imgur.com/xWSoQBM.jpg",
-      email: "oscar.stolpe@d-group.se",
-      age: "2000",
-      home: "Sollentuunaa",
-      pors: "röd bil, laga mat näck",
-      cons: "Behålla mat i matlådan",
-      relation: "inverse nunna",
-      party: "",
-    },
-    {
-      name: "Erik Hilke",
-      post: "Trykk",
-      image: "https://i.imgur.com/sFY2TtE.jpg",
-      email: "erik.hilke@d-group.se",
-      age: "2001",
-      home: "Älvsjö",
-      pors: "Chiwawa",
-      cons: "Solbrännor",
-      relation: "Super singel",
-      party:
-        "införskaffa strumpor, balkonghäng, ge stripp på fyllan och Pitt eller Pung",
-    },
-    {
-      name: "Johan Sjöstedt",
-      post: "Pr & Personal",
-      image: "https://i.imgur.com/nHiwZiO.jpg",
-      email: "johan.sjostedt@d-group.se",
-      age: "1994",
-      home: "Nackais",
-      pors: "Röstat i flest riksdagsval",
-      cons: "Shotta",
-      relation: "Nunna",
-      party: "Stoldansen B-)",
-    },
-    {
-      name: "Morgan Uvelid",
-      post: "Öl & Bar",
-      image: "https://i.imgur.com/SfjntgL.jpg",
-      email: "morgan.uvelid@d-group.se",
-      age: "1997",
-      home: "Täbyyyy",
-      pors: "------ >",
-      cons: "plugga",
-      relation: "Nunna",
-      party: "Tappar minnet efter två enheter",
-=======
       name: "Junia Mannervik",
       post: "Chief",
       image: junia,
@@ -308,7 +148,6 @@ function GroupieGrid() {
       home: "Skillingaryd, Småland",
       pors: "Mjukvaruteknik",
       cons: "Dansa som om ingen kollar fast alla kollar",
->>>>>>> master
     },
   ];
 
@@ -351,13 +190,8 @@ function GroupieGrid() {
               Vilka är vi?
             </Typography>
             <Typography variant="h6" guttomButtom>
-<<<<<<< HEAD
-              Tjena Tjena! Vi är familjen Chláirs oüf Phróplîexios, för att veta
-              mer om en specifik medlem är det bara att klicka på bilden!
-=======
               Tjena Tjena! Vi är familjen Coulêk tïv néiçúde, för att veta mer
               om en specifik medlem är det bara att klicka på bilden!
->>>>>>> master
             </Typography>
           </Grid>
         </Grid>
@@ -381,13 +215,8 @@ function GroupieGrid() {
             Vilka är vi?
           </Typography>
           <Typography variant="h6" guttomButtom>
-<<<<<<< HEAD
-            Tjena Tjena! Vi är familjen Chláirs oüf Phróplîexios, för att veta
-            mer om en specifik medlem är det bara att klicka på bilden!
-=======
             Tjena Tjena! Vi är familjen Coulêk tïv néiçúde, för att veta mer om
             en specifik medlem är det bara att klicka på bilden!
->>>>>>> master
           </Typography>
         </Grid>
         <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* EmmaW Card */>

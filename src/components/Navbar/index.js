@@ -62,16 +62,12 @@ const ResponsiveAppBar = () => {
                 />
               </Typography>
             </Link>
-<<<<<<< HEAD
-            <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }} /* Mobile dropdown */>
-=======
             <Box
               sx={{
                 flexGrow: 1,
                 display: { xs: "flex", md: "none" },
               }} /* Mobile dropdown */
             >
->>>>>>> master
               <IconButton
                 size="large"
                 aria-label="account of current user"
@@ -79,19 +75,11 @@ const ResponsiveAppBar = () => {
                 aria-haspopup="true"
                 onClick={handleOpenNavMenu}
                 color="inherit"
-<<<<<<< HEAD
-                sx={{pt:2}}
-              >
-                <HiMenu />
-              </IconButton>
-              <Menu1 
-=======
                 sx={{ pt: 2 }}
               >
                 <HiMenu />
               </IconButton>
               <Menu1
->>>>>>> master
                 id="menu-appbar"
                 anchorEl={anchorElNav}
                 anchorOrigin={{
@@ -154,31 +142,6 @@ const ResponsiveAppBar = () => {
                 <a href="http://domd.nu/" style={{ textDecoration: "none" }}>
                   <MenuItem key="DomD" onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" color="white">
-<<<<<<< HEAD
-                    D<span Style="font-size:75%">ÖM</span>D
-                    </Typography>
-                  </MenuItem>
-                </a>
-                <a href="https://www.facebook.com/DGroup2021" style={{ textDecoration: "none" }}>
-                  <MenuItem key="Facebook" onClick={handleCloseNavMenu}>
-                  <img
-                  src={FacebookIcon}
-                  alt="FB_logo"
-                  width={"50vw"}
-                  height={"50vh"}
-                />
-                  </MenuItem>
-                </a>
-                <a href="https://instagram.com/dgroup2122/" style={{ textDecoration: "none" }}>
-                  <MenuItem key="Instagram" onClick={handleCloseNavMenu}>
-                  <img
-                  src={InstagramIcon}
-                  alt="FB_logo"
-                  width={"50vw"}
-                  height={"50vh"}
-                  sx={{ mx: 10 }}
-                />
-=======
                       D<span Style="font-size:75%">ÖM</span>D
                     </Typography>
                   </MenuItem>
@@ -208,24 +171,10 @@ const ResponsiveAppBar = () => {
                       height={"50vh"}
                       sx={{ mx: 10 }}
                     />
->>>>>>> master
                   </MenuItem>
                 </a>
               </Menu1>
             </Box>
-<<<<<<< HEAD
-            <Box sx={{ flexGrow: 1.5, display: { xs: "flex", md: "none" }  }} /* Mobile LOGO */>
-            <Link to="/" sx={{textDecoration:"none"}}>
-              <img
-                alt="logo"
-                src={logo}
-                width={60}
-                height={60}
-              />     
-            </Link>
-            </Box>
-            <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }} /* Computer LinkBar */>
-=======
             <Box
               sx={{
                 flexGrow: 1.5,
@@ -242,7 +191,6 @@ const ResponsiveAppBar = () => {
                 display: { xs: "none", md: "flex" },
               }} /* Computer LinkBar */
             >
->>>>>>> master
               <Link to="/">
                 <Button
                   key="Start"
@@ -269,11 +217,7 @@ const ResponsiveAppBar = () => {
                 >
                   Kontakt
                 </Button>
-<<<<<<< HEAD
-                </Link>
-=======
               </Link>
->>>>>>> master
               <Link to="pateter">
                 <Button
                   key="WoF"
@@ -311,10 +255,6 @@ const ResponsiveAppBar = () => {
                 </Button>
               </a>
             </Box>
-<<<<<<< HEAD
-            <Box sx={{ flexGrow: 0, mt: 1, display: { xs: "none", md: "flex" } }} /* Computer FB/IG to right */>
-              <a href="https://instagram.com/dgroup2122/">
-=======
             <Box
               sx={{
                 flexGrow: 0,
@@ -323,7 +263,6 @@ const ResponsiveAppBar = () => {
               }} /* Computer FB/IG to right */
             >
               <a href="https://instagram.com/dgroup22_23/">
->>>>>>> master
                 <img
                   src={InstagramIcon}
                   alt="FB_logo"
@@ -332,11 +271,7 @@ const ResponsiveAppBar = () => {
                   sx={{ mx: 10 }}
                 />
               </a>
-<<<<<<< HEAD
-              <a href="https://www.facebook.com/DGroup2021">
-=======
               <a href="https://www.facebook.com/DGroup2223">
->>>>>>> master
                 <img
                   src={FacebookIcon}
                   alt="FB_logo"
