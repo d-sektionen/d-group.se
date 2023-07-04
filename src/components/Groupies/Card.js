@@ -23,7 +23,7 @@ const SmallP = styled.img`
   object-fit: cover;
   margin-right: 2vh;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 900px) {
     display: none;
   } ;
 `;
@@ -36,7 +36,7 @@ const BigP = styled.img`
   margin-left: 1px;
   border-radius: 20px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 899px) {
     display: none;
   } ;
 `;
@@ -93,7 +93,7 @@ export default function CardGrid({ user }) {
       <Grid container>
         <ThemeProvider theme={questionTheme}>
           <Grid xs={5}>
-            <SmallP src={user.image} />
+            <SmallP src={user.smallImage} />
             <BigP src={user.image} />
           </Grid>
           <Grid xs={7} sx={{ py: 5 }}>
