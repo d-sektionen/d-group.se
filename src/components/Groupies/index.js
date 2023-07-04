@@ -16,6 +16,19 @@ import marcus from "../../images/gropies/profilbilder/Thure.jpg";
 import hannes from "../../images/gropies/profilbilder/Hannes.jpg";
 import amanda from "../../images/gropies/profilbilder/Amanda.jpg";
 import gustav from "../../images/gropies/profilbilder/Gustav.jpg";
+import junia480px from "../../images/gropies/profilbilder/Junia_480px.jpg";
+import filip480px from "../../images/gropies/profilbilder/Filip_480px.jpg";
+import daniel480px from "../../images/gropies/profilbilder/Daniel_480px.jpg";
+import viktor480px from "../../images/gropies/profilbilder/Viktor_480px.jpg";
+import felix480px from "../../images/gropies/profilbilder/Felix_480px.jpg";
+import daneyal480px from "../../images/gropies/profilbilder/Janne_480px.jpg";
+import jacob480px from "../../images/gropies/profilbilder/Jacob_480px.jpg";
+import silva480px from "../../images/gropies/profilbilder/Silva_480px.jpg";
+import mehmet480px from "../../images/gropies/profilbilder/Mehmet_480px.jpg";
+import marcus480px from "../../images/gropies/profilbilder/Thure_480px.jpg";
+import hannes480px from "../../images/gropies/profilbilder/Hannes_480px.jpg";
+import amanda480px from "../../images/gropies/profilbilder/Amanda_480px.jpg";
+import gustav480px from "../../images/gropies/profilbilder/Gustav_480px.jpg";
 
 function GroupieGrid() {
   const Groupies = [
@@ -23,6 +36,7 @@ function GroupieGrid() {
       name: "Junia Mannervik",
       post: "Chief",
       image: junia,
+      smallImage: junia480px,
       email: "junia.mannervik@d-group.se",
       age: "2001",
       home: "Bromma",
@@ -33,6 +47,7 @@ function GroupieGrid() {
       name: "Filip Nygren",
       post: "Ca$h",
       image: filip,
+      smallImage: filip480px,
       email: "filip.nygren@d-group.se",
       age: "2000",
       home: "Stockholm",
@@ -43,6 +58,7 @@ function GroupieGrid() {
       name: "Daniel Wendin",
       post: "Webb & ÖverDomaren™",
       image: daniel,
+      smallImage: daniel480px,
       email: "daniel.wendin@d-group.se",
       age: "1999",
       home: "Stockholm",
@@ -53,6 +69,7 @@ function GroupieGrid() {
       name: "Viktor Axén",
       post: "Werk",
       image: viktor,
+      smallImage: viktor480px,
       email: "viktor.axen@d-group.se",
       age: "1999",
       home: "Ribbingebäck",
@@ -63,6 +80,7 @@ function GroupieGrid() {
       name: "Felix Ramnelöv",
       post: "Pr & Event",
       image: felix,
+      smallImage: felix480px,
       email: "felix.ramnelov@d-group.se",
       age: "2001",
       home: "Värmdö, Stockholm",
@@ -73,6 +91,7 @@ function GroupieGrid() {
       name: "Daneyal Abdul",
       post: "J^8",
       image: daneyal,
+      smallImage: daneyal480px,
       email: "daneyal.abdul@d-group.se",
       age: "1999",
       home: "Perstorp, Skåne",
@@ -83,6 +102,7 @@ function GroupieGrid() {
       name: "Jacob Volz",
       post: "Spons",
       image: jacob,
+      smallImage: jacob480px,
       email: "jacob.volz@d-group.se",
       age: "2000",
       home: "Bromma",
@@ -93,6 +113,7 @@ function GroupieGrid() {
       name: "Silva Havluciyan",
       post: "Trykk",
       image: silva,
+      smallImage: silva480px,
       email: "silva.havluciyan@d-group.se",
       age: "2002",
       home: "Göteborg",
@@ -103,6 +124,7 @@ function GroupieGrid() {
       name: "Mehmet Celik",
       post: "Biljett & U-Lag",
       image: mehmet,
+      smallImage: mehmet480px,
       email: "mehmet.celik@d-group.se",
       age: "1999",
       home: "Täby, Stockholm",
@@ -113,6 +135,7 @@ function GroupieGrid() {
       name: "Marcus Thuresson",
       post: "Mat & Sittning",
       image: marcus,
+      smallImage: marcus480px,
       email: "marcus.thuresson@d-group.se",
       age: "1998",
       home: "Borås",
@@ -123,6 +146,7 @@ function GroupieGrid() {
       name: "Hannes Lindström",
       post: "Trykk",
       image: hannes,
+      smallImage: hannes480px,
       email: "hannes.lindstrom@d-group.se",
       age: "2001",
       home: "Stockholm",
@@ -133,6 +157,7 @@ function GroupieGrid() {
       name: "Amanda Sternberg",
       post: "Pr & Personal",
       image: amanda,
+      smallImage: amanda480px,
       email: "amanda.sternberg@d-group.se",
       age: "2001",
       home: "Nynäshamn",
@@ -143,6 +168,7 @@ function GroupieGrid() {
       name: "Gustav Bornander",
       post: "Öl & Bar",
       image: gustav,
+      smallImage: gustav480px,
       email: "gustav.bornander@d-group.se",
       age: "2001",
       home: "Skillingaryd, Småland",
