@@ -2,13 +2,15 @@ import React from "react";
 import { WidePictureFrame, HighPictureFrame } from "./StartElements";
 import Typography from "@mui/material/Typography";
 import ericsson from "../../images/spons/ericssonSpons.webp";
+import microtec from "../../images/spons/microtec.png";
 import Ida from "../../images/spons/idainfrontSpons.webp";
-import dggrupp from "../../images/gropies/DG_gruppbild.webp";
-import dgroupHog from "../../images/gropies/DG_gruppbild_hog.webp";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Link from "@mui/material/Link";
 import logo from "../../images/logo.webp";
+import { Slideshow } from "./DgSlideshow";
+import dggrupp from "../../images/gropies/22_23_slapp.jpg";
+import dgroupHog from "../../images/gropies/22_23_formation.jpg";
 
 /* <picture>
             <source media="(min-width: 768px)" srcset={dggrupp} height={"100vh"} width={"100%"}/>
@@ -24,7 +26,7 @@ function Start() {
       <Grid container>
         <Grid sm={12} sx={{ pt: 9 }} /* Groupies Bild */>
           <WidePictureFrame src={dggrupp} height={"90vh"} />
-          <HighPictureFrame src={dgroupHog} height={"84vh"} />
+          <HighPictureFrame src={dggrupp} height={"84vh"} />
         </Grid>
         <Grid
           sm={12}
@@ -39,7 +41,7 @@ function Start() {
               color={"#754022"}
             >
               {" "}
-              D-Group 21/22
+              D-Group 22/23
             </Typography>
             <Typography variant="h6" gutterButtom>
               {" "}
@@ -71,10 +73,10 @@ function Start() {
             D<span STYLE="font-size:75%">ÖM</span>D
           </Typography>
           <Typography variant="h6">
-            Den 7e april slås dörrarna upp till årets bästa fest, D
+            Den 20e april slås dörrarna upp till årets bästa fest, D
             <span STYLE="font-size:75%">ÖM</span>
             D! Datateknologsektionens Öppna Mästerskap i Dart är en av norra
-            Europas största darttävlingar som arrangeras för 41:a året i rad.
+            Europas största darttävlingar som arrangeras för 42:a året i rad.
             Festen som pågår i tre dagar och börjar med kravall på torsdagen,
             fortsätter med fest på fredagen och avslutas med tävling, sittning
             och eftersläpp på lördagen. Denna fest får inte missas så boka in
@@ -126,7 +128,7 @@ function Start() {
               att uppgradera nollan till etta bjuder D-Group in till finfest.
               Faddrar och nollan välkomnas till sittning i sina finaste kläder
               för att njuta av god mat och underhållning. Kvällen avslutas med
-              ett hejdundrande firande på Kårallen tillsammans med Maskin-, TBI-
+              ett hejdundrande firande på Kårallen tillsammans med Ling-, TBI-
               och Y-sektionens nyblivna ettan och faddrar.
             </Typography>
           </Grid>
@@ -202,13 +204,31 @@ function Start() {
           >
             Våra Sponsorer
           </Typography>
+          <Box md={6}>
+            <Link
+            href="https://linkoping.microtec.eu/sv/"
+            underlink="hover"
+            sx={{ textDecoration: "none"}}
+            >
+              <img 
+              src={microtec}
+              alt="Microtec Logo"
+              width={"80%"}
+              height={"80%"}
+              />
+            </Link>
+          </Box>
           <Box xs={true}>
             <Link
               href="https://www.ericsson.com/en/careers"
               underlink="hover"
               sx={{ textDecoration: "none" }}
             >
-              <img src={ericsson} alt="Ericsson Spons" />
+              <img 
+              src={ericsson} 
+              alt="Ericsson Logo"
+              
+              />
             </Link>
           </Box>
           <Box md={5}>
@@ -219,7 +239,7 @@ function Start() {
             >
               <img
                 src={Ida}
-                alt="Idainfront Spons"
+                alt="Idainfront Logo"
                 width={"100%"}
                 height={"100%"}
               />
