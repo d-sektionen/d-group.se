@@ -10,7 +10,7 @@ import ericsson from "../images/spons/ericssonSpons.png";
 //import attentec from "../images/spons/attentecSpons.png"
 //import idainfront from "../images/spons/idainfrontSpons.png"
 
-const DOMDdate = new Date("2022-04-09T10:00:00");
+const DOMDdate = new Date("2024-04-11T10:00:00");
 
 const render = ({ days, hours, minutes, seconds }) => {
   return (

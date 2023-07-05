@@ -2,6 +2,7 @@ import React from "react";
 import Gallery from "react-grid-gallery";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
+import dg2223 from "../../images/dpateter/dg2223.jpg"
 import dg2122 from "../../images/dpateter/dg2122.jpg";
 import dg2021 from "../../images/dpateter/dg2021.png";
 import dg1920 from "../../images/dpateter/dg1920.jpg";
@@ -33,6 +34,14 @@ import dg8788 from "../../images/dpateter/dg8788.jpg";
 import dg8182 from "../../images/dpateter/dg8182.jpg";
 
 const images = [
+  {
+    src: dg2223,
+    thumbnail: dg2223,
+    thumbnailWidth: 320,
+    thumbnailHeight: 320,
+    caption: "D-Group 22/23 - Coulêk tïv néiçúde",
+    thumbnailCaption: "D-Group 22/23",
+  },
   {
     src: dg2122,
     thumbnail: dg2122,
