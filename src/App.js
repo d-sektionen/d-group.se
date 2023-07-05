@@ -20,7 +20,8 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Start/>} />
-        <Route exact path="/calender" element={<FestKalender/>} />
+        <Route exact path="/calendar" element={<FestKalender/>} />
+        {/* fester pathen används ej */}
         <Route exact path="/fester" element={<EventsGrid/>} />
         <Route exact path="/pateter" element={<WallofFame/>} />
         <Route exact path="/groupies" element={<Groupies/>} />

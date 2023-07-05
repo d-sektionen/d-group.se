@@ -20,7 +20,7 @@ const questionTheme = createTheme({
   },
 });
 
-export default function Frågor({ user }) {
+export default function Questions({ user }) {
   return (
     <Box sx={{ pl: 3, mt: 3 }}>
       <Grid>
