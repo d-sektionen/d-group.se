@@ -9,7 +9,8 @@ import Grid from "@mui/material/Grid";
 import Link from "@mui/material/Link";
 import logo from "../../images/logo.webp";
 import { Slideshow } from "./DgSlideshow";
-import dggrupp from "../../images/gropies/22_23_slapp.jpg";
+import dggrupp from "../../images/gropies/dgroup2324.jpg";
+import dggrupp1200px from "../../images/gropies/dgroup2324_landscape.jpg"
 import dgroupHog from "../../images/gropies/22_23_formation.jpg";
 
 /* <picture>
@@ -25,8 +26,8 @@ function Start() {
     <Box sx={{ textAlign: "center" }}>
       <Grid container>
         <Grid sm={12} sx={{ pt: 9 }} /* Groupies Bild */>
-          <WidePictureFrame src={dggrupp} height={"90vh"} />
-          <HighPictureFrame src={dggrupp} height={"84vh"} />
+          <WidePictureFrame src={dggrupp1200px} />
+          <HighPictureFrame src={dggrupp} />
         </Grid>
         <Grid
           sm={12}
@@ -41,7 +42,7 @@ function Start() {
               color={"#754022"}
             >
               {" "}
-              D-Group 22/23
+              D-Group 23/24
             </Typography>
             <Typography variant="h6" gutterButtom>
               {" "}
@@ -53,7 +54,7 @@ function Start() {
               in på Groupies sidan!
             </Typography>
           </Grid>
-          <Grid sm={12} md={5} sx={{ pt: 6, pl: 5 }} /* D-GROUP LOGO */>
+          <Grid sm={12} md={5} sx={{ pt: 6, mx:'auto' }} /* D-GROUP LOGO */>
             <img src={logo} alt="D-Group logo" />
           </Grid>
         </Grid>
@@ -73,10 +74,10 @@ function Start() {
             D<span STYLE="font-size:75%">ÖM</span>D
           </Typography>
           <Typography variant="h6">
-            Den 20e april slås dörrarna upp till årets bästa fest, D
+            Den 11e april slås dörrarna upp till årets bästa fest, D
             <span STYLE="font-size:75%">ÖM</span>
             D! Datateknologsektionens Öppna Mästerskap i Dart är en av norra
-            Europas största darttävlingar som arrangeras för 42:a året i rad.
+            Europas största darttävlingar som arrangeras för 43:e året i rad.
             Festen som pågår i tre dagar och börjar med kravall på torsdagen,
             fortsätter med fest på fredagen och avslutas med tävling, sittning
             och eftersläpp på lördagen. Denna fest får inte missas så boka in
@@ -200,11 +201,11 @@ function Start() {
             variant="h2"
             color="#754022"
             fontWeight={"bold"}
-            sx={{ mb: 6 }}
+            sx={{ mb: 3 }}
           >
             Våra Sponsorer
           </Typography>
-          <Box md={6}>
+          <Box md={6} sx={{ my:3 }}>
             <Link
             href="https://linkoping.microtec.eu/sv/"
             underlink="hover"
@@ -218,7 +219,7 @@ function Start() {
               />
             </Link>
           </Box>
-          <Box xs={true}>
+          <Box xs={true} sx={{ my:3 }}>
             <Link
               href="https://www.ericsson.com/en/careers"
               underlink="hover"
@@ -231,7 +232,7 @@ function Start() {
               />
             </Link>
           </Box>
-          <Box md={5}>
+          <Box md={5} sx={{ my:3 }}>
             <Link
               href="https://idainfront.se/en/"
               underlink="hover"
