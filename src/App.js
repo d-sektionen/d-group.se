@@ -21,7 +21,7 @@ const App = () => {
       <Routes>
         <Route exact path="/" element={<Start/>} />
         <Route exact path="/calendar" element={<FestKalender/>} />
-        {/* fester pathen används ej */}
+        {/* fester path is not used */}
         <Route exact path="/fester" element={<EventsGrid/>} />
         <Route exact path="/pateter" element={<WallofFame/>} />
         <Route exact path="/groupies" element={<Groupies/>} />
