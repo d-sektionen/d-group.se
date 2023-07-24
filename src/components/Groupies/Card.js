@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import {
   Grid,
   Modal,
@@ -19,8 +19,8 @@ import dg_logo from "../../images/logo.webp";
 const SmallP = styled.img`
   width: 100%;
   height: 100%;
-  border-radius: 10%;
   object-fit: cover;
+  border-radius: 20px;
   margin-right: 2vh;
 
   @media screen and (min-width: 900px) {
@@ -32,8 +32,6 @@ const BigP = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
-  margin-right: 4px;
-  margin-left: 1px;
   border-radius: 20px;
 
   @media screen and (max-width: 899px) {
@@ -57,26 +55,29 @@ const style = {
   transform: "translate(-50%, -50%)",
   bgcolor: "background.paper",
   border: "10px solid #000",
-  boxShadow: 24,
+  boxShadow: 30,
 };
 
 const questionTheme = createTheme({
   typography: {
     h6: {
-      fontSize: 20,
+      fontSize: 'min(5vw, 30px)',
       color: "gray",
       fontStyle: "italic",
-      marginRight: 5,
+      textAlign: 'center',
+      '@media (min-width:900px)': {
+        fontSize: '1.1em',
+      },
     },
     h5: {
       fontSize: 20,
-      marginRight: 10,
+      textAlign: 'center',
     },
   },
 });
 
 export default function CardGrid({ user }) {
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
   const handleClick = () => {
     setOpen(!open);
   };
@@ -90,20 +91,20 @@ export default function CardGrid({ user }) {
         boxShadow: "2px 2px 10px #D3D3D3",
       }}
     >
-      <Grid container>
+      <Grid container sx={{width: '100%'}}>
         <ThemeProvider theme={questionTheme}>
           <Grid xs={5}>
             <SmallP src={user.smallImage} />
             <BigP src={user.image} />
           </Grid>
-          <Grid xs={7} sx={{ py: 5 }}>
+          <Grid xs={7} sx={{ py: '2em', px: '1em' }}>
             <Typography variant="h5" guttomButtom>
               {user.name}
             </Typography>
             <Typography variant="h6" guttomButtom>
               {user.post}
             </Typography>
-            <Typography variant="h6" guttomBottom sx={{ pr: 3 }}>
+            <Typography variant="h6" guttomBottom>
               <a href={"mailto:" + user.email}>{user.email}</a>
             </Typography>
             <DGLogo src={dg_logo}></DGLogo>

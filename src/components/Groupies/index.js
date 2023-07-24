@@ -221,7 +221,7 @@ function GroupieGrid() {
             </Typography>
           </Grid>
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Tamara Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Chief Card */>
           <CardGrid user={Groupies[0]} />
         </Grid>
         <Grid
@@ -245,40 +245,40 @@ function GroupieGrid() {
             en specifik medlem är det bara att klicka på bilden!
           </Typography>
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* EmmaW Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Cash Card */>
           <CardGrid user={Groupies[1]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Morgan Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Bar Card */>
           <CardGrid user={Groupies[12]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Marcus Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Webb Card */>
           <CardGrid user={Groupies[2]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Anton Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Werk Card */>
           <CardGrid user={Groupies[3]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Elias Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Ticket Card */>
           <CardGrid user={Groupies[8]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Axel Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Pr & Event Card */>
           <CardGrid user={Groupies[4]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Shamil Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* J⁸ Card */>
           <CardGrid user={Groupies[5]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Alice Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Sponsor Card */>
           <CardGrid user={Groupies[6]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* EmmaS Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Trykk Card */>
           <CardGrid user={Groupies[7]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Oscar Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* MoS Card */>
           <CardGrid user={Groupies[9]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Erik Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Trykk Card */>
           <CardGrid user={Groupies[10]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Johan Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Pr & Personal Card */>
           <CardGrid user={Groupies[11]} />
         </Grid>
       </Grid>
