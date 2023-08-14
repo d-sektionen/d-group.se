@@ -73,12 +73,12 @@ function EventsGrid() {
           </Col>
           <Col size={1}>
             <Title>
-              D<ÖMSpan>ÖM</ÖMSpan>D 2022
+              D<ÖMSpan>ÖM</ÖMSpan>D 2023
             </Title>
             <Description>
-              Den 7e april slås dörrarna upp till årets bästa fest, DÖMD!
+              Den 11e april slås dörrarna upp till årets bästa fest, DÖMD!
               Datateknologsektionens Öppna Mästerskap i Dart är en av norra
-              Europas största darttävlingar som arrangeras för 41:a året i rad.
+              Europas största darttävlingar som arrangeras för 43:e året i rad.
               Festen som pågår i tre dagar och börjar med kravall på torsdagen,
               fortsätter med fest på fredagen och avslutas med tävling, sittning
               och eftersläpp på lördagen. Denna fest får inte missas så boka in

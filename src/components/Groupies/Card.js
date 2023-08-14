@@ -8,7 +8,7 @@ import {
   autocompleteClasses,
 } from "@mui/material";
 import styled from "styled-components";
-import Frågor from "./Information";
+import Questions from "./Information";
 import { FullscreenExit } from "@mui/icons-material";
 import { findByLabelText } from "@testing-library/react";
 import { pink } from "@mui/material/colors";
@@ -23,7 +23,11 @@ const SmallP = styled.img`
   border-radius: 20px;
   margin-right: 2vh;
 
+<<<<<<< HEAD
   @media screen and (min-width: 900px) {
+=======
+  @media screen and (min-width: 769px) {
+>>>>>>> dg2324
     display: none;
   } ;
 `;
@@ -66,7 +70,11 @@ const questionTheme = createTheme({
       fontStyle: "italic",
       textAlign: 'center',
       '@media (min-width:900px)': {
+<<<<<<< HEAD
         fontSize: '1.1em',
+=======
+        fontSize: '0.8em',
+>>>>>>> dg2324
       },
     },
     h5: {
@@ -131,7 +139,7 @@ export default function CardGrid({ user }) {
             </Grid>
 
             <Grid xs={12}>
-              <Frågor user={user} />
+              <Questions user={user} />
             </Grid>
             <Grid>
               <Button variant="contained" onclick={handleClick} sx={{ ml: 17 }}>
