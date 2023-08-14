@@ -24,7 +24,7 @@ function GroupieGrid() {
       post: "Chief",
       image: junia,
       email: "q@d-group.se",
-      age: "1999",
+      age: "2000",
       home: "Huskvarna",
       pors: "Datateknik",
       cons: "Tre cider",
@@ -34,20 +34,20 @@ function GroupieGrid() {
       post: "Ca$h",
       image: filip,
       email: "ken@d-group.se",
-      age: "2001",
-      home: "g-town",
+      age: "2002",
+      home: "Gävle/Stockholm",
       pors: "Mjukvaruteknik",
-      cons: "KBTP",
+      cons: "Hitta en toa",
     },
     {
       name: "Marc Taylor",
       post: "Webb & ÖverDomaren™",
       image: daniel,
-      email: "marc@d-group.se",
+      email: "marc.taylor@d-group.se",
       age: "2001",
       home: "Stockholm",
       pors: "Mjukvaruteknik",
-      cons: "Höger armen",
+      cons: "Aldrig nekad",
     },
     {
       name: "Linus Göransson",
@@ -64,19 +64,19 @@ function GroupieGrid() {
       post: "Pr & Event",
       image: felix,
       email: "elliot.eriksson@d-group.se",
-      age: "2001",
-      home: "Stockholm",
+      age: "2002",
+      home: "Bromma, Stockholm",
       pors: "Datateknik",
-      cons: "Rumpa",
+      cons: "Symaskinsnålar",
     },
     {
       name: "Hugo Jakobsson",
       post: "J^8",
       image: daneyal,
       email: "hugo.jakobsson@d-group.se",
-      age: "1999",
+      age: "2001",
       home: "Skauneeeee",
-      pors: "Mjukvaruteknik",
+      pors: "Datateknik",
       cons: "Vara FULL",
     },
     {
@@ -97,27 +97,27 @@ function GroupieGrid() {
       age: "2002",
       home: "Stockholm",
       pors: "Datateknik",
-      cons: "Full på en öl",
+      cons: "Arboga 10,2",
     },
     {
       name: "Mateo Schütt Zalabardo",
       post: "Biljett & U-Lag",
       image: mehmet,
       email: "mateo.zalabardo@d-group.se",
-      age: "1999",
+      age: "2001",
       home: "Eskilstuna",
       pors: "Mjukvaruteknik",
-      cons: "Dock",
+      cons: "Gillar älg öl",
     },
     {
       name: "Hugo Nilsson",
       post: "Mat & Sittning",
       image: marcus,
       email: "hugo.nilsson@d-group.se",
-      age: "1998",
-      home: "Hgb",
+      age: "2000",
+      home: "Helsingborg",
       pors: "Datateknik",
-      cons: "Grogga",
+      cons: "Trolla bort groggar väldigt snabbt.",
     },
     {
       name: "Simon Harrysson",
@@ -125,9 +125,9 @@ function GroupieGrid() {
       image: hannes,
       email: "simon.harrysson@d-group.se",
       age: "2001",
-      home: "Stockholm, Lidingö",
+      home: "Lidingö, Stockholm",
       pors: "Datateknik",
-      cons: "Bandy",
+      cons: "Sossar groggar från Edgar",
     },
     {
       name: "Eleanor Brunskog",
@@ -137,7 +137,7 @@ function GroupieGrid() {
       age: "2001",
       home: "Stockholm",
       pors: "IT",
-      cons: "Laga mat",
+      cons: "Tre cider",
     },
     {
       name: "Adam Rylander",
@@ -145,9 +145,9 @@ function GroupieGrid() {
       image: gustav,
       email: "adam.rylander@d-group.se",
       age: "2001",
-      home: "Österskär",
+      home: "Åkersberga",
       pors: "IT",
-      cons: "Kir hävet",
+      cons: "Välta barer",
     },
   ];
 
@@ -195,7 +195,7 @@ function GroupieGrid() {
             </Typography>
           </Grid>
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Tamara Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Chief Card */>
           <CardGrid user={Groupies[0]} />
         </Grid>
         <Grid
@@ -219,40 +219,40 @@ function GroupieGrid() {
             en specifik medlem är det bara att klicka på bilden!
           </Typography>
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* EmmaW Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Cash Card */>
           <CardGrid user={Groupies[1]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Morgan Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Bar Card */>
           <CardGrid user={Groupies[12]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Marcus Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Webb Card */>
           <CardGrid user={Groupies[2]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Anton Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Werk Card */>
           <CardGrid user={Groupies[3]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Elias Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Ticket Card */>
           <CardGrid user={Groupies[8]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Axel Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Pr & Event Card */>
           <CardGrid user={Groupies[4]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Shamil Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* J⁸ Card */>
           <CardGrid user={Groupies[5]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Alice Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Sponsor Card */>
           <CardGrid user={Groupies[6]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* EmmaS Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Trykk Card */>
           <CardGrid user={Groupies[7]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Oscar Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* MoS Card */>
           <CardGrid user={Groupies[9]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Erik Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Trykk Card */>
           <CardGrid user={Groupies[10]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Johan Card */>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Pr & Personal Card */>
           <CardGrid user={Groupies[11]} />
         </Grid>
       </Grid>
