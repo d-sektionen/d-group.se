@@ -12,11 +12,17 @@ export const ÖMSpan = styled.span`
 export const Row = styled.div`
     display: flex;
     padding-top:   2vh;
+    @media (max-width: 768px) {
+        flex-direction: column;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
 `
 export const Col =  styled.div`
-    flex: ${(props) => props.size};
+    flex: 2;
     padding: 2vw;
 `
+
 export const Grid = styled.div`
     background-color:   lightpink;
     text-overflow: ellipsis;

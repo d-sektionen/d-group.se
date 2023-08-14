@@ -132,7 +132,7 @@ const ResponsiveAppBar = () => {
                     </Typography>
                   </MenuItem>
                 </Link>
-                <Link to="calender">
+                <Link to="calendar">
                   <MenuItem key="Festkalender" onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" color="white">
                       Festkalender
@@ -147,7 +147,7 @@ const ResponsiveAppBar = () => {
                   </MenuItem>
                 </a>
                 <a
-                  href="https://www.facebook.com/DGroup2223"
+                  href="https://www.facebook.com/DGroup2324"
                   style={{ textDecoration: "none" }}
                 >
                   <MenuItem key="Facebook" onClick={handleCloseNavMenu}>
@@ -160,7 +160,7 @@ const ResponsiveAppBar = () => {
                   </MenuItem>
                 </a>
                 <a
-                  href="https://instagram.com/dgroup22_23/"
+                  href="https://instagram.com/dgroup2324/"
                   style={{ textDecoration: "none" }}
                 >
                   <MenuItem key="Instagram" onClick={handleCloseNavMenu}>
@@ -236,7 +236,7 @@ const ResponsiveAppBar = () => {
                   Taggfilmer
                 </Button>
               </Link>
-              <Link to="calender">
+              <Link to="calendar">
                 <Button
                   key="Kalender"
                   onClick={handleCloseNavMenu}
@@ -262,7 +262,7 @@ const ResponsiveAppBar = () => {
                 display: { xs: "none", md: "flex" },
               }} /* Computer FB/IG to right */
             >
-              <a href="https://instagram.com/dgroup22_23/">
+              <a href="https://instagram.com/dgroup2324/">
                 <img
                   src={InstagramIcon}
                   alt="FB_logo"
@@ -271,7 +271,7 @@ const ResponsiveAppBar = () => {
                   sx={{ mx: 10 }}
                 />
               </a>
-              <a href="https://www.facebook.com/DGroup2223">
+              <a href="https://www.facebook.com/DGroup2324">
                 <img
                   src={FacebookIcon}
                   alt="FB_logo"
