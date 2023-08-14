@@ -70,11 +70,7 @@ const questionTheme = createTheme({
       fontStyle: "italic",
       textAlign: 'center',
       '@media (min-width:900px)': {
-<<<<<<< HEAD
-        fontSize: '1.1em',
-=======
         fontSize: '0.8em',
->>>>>>> dg2324
       },
     },
     h5: {
