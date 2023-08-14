@@ -3,40 +3,40 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import CardGrid from "./Card";
 import { Typography } from "@mui/material";
-import junia from "../../images/gropies/profilbilder/Junia.jpg";
-import filip from "../../images/gropies/profilbilder/Filip.jpg";
-import daniel from "../../images/gropies/profilbilder/Daniel.jpg";
-import viktor from "../../images/gropies/profilbilder/Viktor.jpg";
-import felix from "../../images/gropies/profilbilder/Felix.jpg";
-import daneyal from "../../images/gropies/profilbilder/Janne.jpg";
-import jacob from "../../images/gropies/profilbilder/Jacob.jpg";
-import silva from "../../images/gropies/profilbilder/Silva.jpg";
-import mehmet from "../../images/gropies/profilbilder/Mehmet.jpg";
-import marcus from "../../images/gropies/profilbilder/Thure.jpg";
-import hannes from "../../images/gropies/profilbilder/Hannes.jpg";
-import amanda from "../../images/gropies/profilbilder/Amanda.jpg";
-import gustav from "../../images/gropies/profilbilder/Gustav.jpg";
-import junia480px from "../../images/gropies/profilbilder/Junia_480px.jpg";
-import filip480px from "../../images/gropies/profilbilder/Filip_480px.jpg";
-import daniel480px from "../../images/gropies/profilbilder/Daniel_480px.jpg";
-import viktor480px from "../../images/gropies/profilbilder/Viktor_480px.jpg";
-import felix480px from "../../images/gropies/profilbilder/Felix_480px.jpg";
-import daneyal480px from "../../images/gropies/profilbilder/Janne_480px.jpg";
-import jacob480px from "../../images/gropies/profilbilder/Jacob_480px.jpg";
-import silva480px from "../../images/gropies/profilbilder/Silva_480px.jpg";
-import mehmet480px from "../../images/gropies/profilbilder/Mehmet_480px.jpg";
-import marcus480px from "../../images/gropies/profilbilder/Thure_480px.jpg";
-import hannes480px from "../../images/gropies/profilbilder/Hannes_480px.jpg";
-import amanda480px from "../../images/gropies/profilbilder/Amanda_480px.jpg";
-import gustav480px from "../../images/gropies/profilbilder/Gustav_480px.jpg";
+import disa from "../../images/gropies/profilbilder/Disa.jpg";
+import dan from "../../images/gropies/profilbilder/Dan.jpg";
+import marc from "../../images/gropies/profilbilder/Marc.jpg";
+import linus from "../../images/gropies/profilbilder/Linus.jpg";
+import elliot from "../../images/gropies/profilbilder/Elliot.jpg";
+import edgar from "../../images/gropies/profilbilder/Edgar.jpg";
+import manfred from "../../images/gropies/profilbilder/Manfred.jpg";
+import emma from "../../images/gropies/profilbilder/Emma.jpg";
+import mateo from "../../images/gropies/profilbilder/Mateo.jpg";
+import hugo from "../../images/gropies/profilbilder/Hugo.jpg";
+import simon from "../../images/gropies/profilbilder/Simon.jpg";
+import eleanor from "../../images/gropies/profilbilder/Eleanor.jpg";
+import adam from "../../images/gropies/profilbilder/Adam.jpg";
+import disa480px from "../../images/gropies/profilbilder/Disa_480px.jpg";
+import dan480px from "../../images/gropies/profilbilder/Dan_480px.jpg";
+import marc480px from "../../images/gropies/profilbilder/Marc_480px.jpg";
+import linus480px from "../../images/gropies/profilbilder/Linus_480px.jpg";
+import elliot480px from "../../images/gropies/profilbilder/Elliot_480px.jpg";
+import edgar480px from "../../images/gropies/profilbilder/Edgar_480px.jpg";
+import manfred480px from "../../images/gropies/profilbilder/Manfred_480px.jpg";
+import emma480px from "../../images/gropies/profilbilder/Emma_480px.jpg";
+import mateo480px from "../../images/gropies/profilbilder/Mateo_480px.jpg";
+import hugo480px from "../../images/gropies/profilbilder/Hugo_480px.jpg";
+import simon480px from "../../images/gropies/profilbilder/Simon_480px.jpg";
+import eleanor480px from "../../images/gropies/profilbilder/Eleanor_480px.jpg";
+import adam480px from "../../images/gropies/profilbilder/Adam_480px.jpg";
 
 function GroupieGrid() {
   const Groupies = [
     {
       name: "Disa Kärnbring",
       post: "Chief",
-      image: junia,
-      smallImage: junia480px,
+      image: disa,
+      smallImage: disa480px,
       email: "q@d-group.se",
       age: "2000",
       home: "Huskvarna",
@@ -46,8 +46,8 @@ function GroupieGrid() {
     {
       name: "Dan Suleiman",
       post: "Ca$h",
-      image: filip,
-      smallImage: filip480px,
+      image: dan,
+      smallImage: dan480px,
       email: "ken@d-group.se",
       age: "2002",
       home: "Gävle/Stockholm",
@@ -57,8 +57,8 @@ function GroupieGrid() {
     {
       name: "Marc Taylor",
       post: "Webb & ÖverDomaren™",
-      image: daniel,
-      smallImage: daniel480px,
+      image: marc,
+      smallImage: marc480px,
       email: "marc.taylor@d-group.se",
       age: "2001",
       home: "Stockholm",
@@ -68,8 +68,8 @@ function GroupieGrid() {
     {
       name: "Linus Göransson",
       post: "Werk",
-      image: viktor,
-      smallImage: viktor480px,
+      image: linus,
+      smallImage: linus480px,
       email: "linus.goransson@d-group.se",
       age: "1999",
       home: "Färila",
@@ -79,8 +79,8 @@ function GroupieGrid() {
     {
       name: "Elliot Eriksson",
       post: "Pr & Event",
-      image: felix,
-      smallImage: felix480px,
+      image: elliot,
+      smallImage: elliot480px,
       email: "elliot.eriksson@d-group.se",
       age: "2002",
       home: "Bromma, Stockholm",
@@ -90,8 +90,8 @@ function GroupieGrid() {
     {
       name: "Hugo Jakobsson",
       post: "J^8",
-      image: daneyal,
-      smallImage: daneyal480px,
+      image: edgar,
+      smallImage: edgar480px,
       email: "hugo.jakobsson@d-group.se",
       age: "2001",
       home: "Skauneeeee",
@@ -101,8 +101,8 @@ function GroupieGrid() {
     {
       name: "Manfred Clase",
       post: "Spons",
-      image: jacob,
-      smallImage: jacob480px,
+      image: manfred,
+      smallImage: manfred480px,
       email: "manfred.clase@d-group.se",
       age: "2000",
       home: "Huvudstaden",
@@ -112,8 +112,8 @@ function GroupieGrid() {
     {
       name: "Emma Bertmar",
       post: "Trykk",
-      image: silva,
-      smallImage: silva480px,
+      image: emma,
+      smallImage: emma480px,
       email: "emma.bertmar@d-group.se",
       age: "2002",
       home: "Stockholm",
@@ -123,8 +123,8 @@ function GroupieGrid() {
     {
       name: "Mateo Schütt Zalabardo",
       post: "Biljett & U-Lag",
-      image: mehmet,
-      smallImage: mehmet480px,
+      image: mateo,
+      smallImage: mateo480px,
       email: "mateo.zalabardo@d-group.se",
       age: "2001",
       home: "Eskilstuna",
@@ -134,8 +134,8 @@ function GroupieGrid() {
     {
       name: "Hugo Nilsson",
       post: "Mat & Sittning",
-      image: marcus,
-      smallImage: marcus480px,
+      image: hugo,
+      smallImage: hugo480px,
       email: "hugo.nilsson@d-group.se",
       age: "2000",
       home: "Helsingborg",
@@ -145,8 +145,8 @@ function GroupieGrid() {
     {
       name: "Simon Harrysson",
       post: "Trykk",
-      image: hannes,
-      smallImage: hannes480px,
+      image: simon,
+      smallImage: simon480px,
       email: "simon.harrysson@d-group.se",
       age: "2001",
       home: "Lidingö, Stockholm",
@@ -156,8 +156,8 @@ function GroupieGrid() {
     {
       name: "Eleanor Brunskog",
       post: "Pr & Personal",
-      image: amanda,
-      smallImage: amanda480px,
+      image: eleanor,
+      smallImage: eleanor480px,
       email: "eleanor.brunskog@d-group.se",
       age: "2001",
       home: "Stockholm",
@@ -167,8 +167,8 @@ function GroupieGrid() {
     {
       name: "Adam Rylander",
       post: "Öl & Bar",
-      image: gustav,
-      smallImage: gustav480px,
+      image: adam,
+      smallImage: adam480px,
       email: "adam.rylander@d-group.se",
       age: "2001",
       home: "Åkersberga",
