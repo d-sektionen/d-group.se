@@ -23,11 +23,7 @@ const SmallP = styled.img`
   border-radius: 20px;
   margin-right: 2vh;
 
-<<<<<<< HEAD
   @media screen and (min-width: 900px) {
-=======
-  @media screen and (min-width: 769px) {
->>>>>>> dg2324
     display: none;
   } ;
 `;
