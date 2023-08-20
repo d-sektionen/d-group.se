@@ -216,7 +216,7 @@ function GroupieGrid() {
               Vilka är vi?
             </Typography>
             <Typography variant="h6" guttomButtom>
-              Tjena Tjena! Vi är familjen Coulêk tïv néiçúde, för att veta mer
+              Tjena Tjena! Vi är familjen Nãu Knaëi Fàurãęn, för att veta mer
               om en specifik medlem är det bara att klicka på bilden!
             </Typography>
           </Grid>
