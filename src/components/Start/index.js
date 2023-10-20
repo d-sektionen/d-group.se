@@ -188,6 +188,23 @@ function Start() {
               bord nära dig.
             </Typography>
           </Grid>
+          <Grid sm={12} md={6} sx={{ px: 6, mt: 6, margin: 'auto' }} /* DÖmD */>
+          <Typography
+            variant="h4"
+            guttomButtom
+            fontWeight={"bold"}
+            color={"#E5398D"}
+          >
+            {" "}
+            KOPS
+          </Typography>
+          <Typography variant="h6">
+          I år levererar D-Group det mest episka eventet någonsin - KOPS! 
+          Ni kommer njuta av en kulinarisk aktivitetsrunda, delta i 
+          vårt Korvätarmästerskap och uppleva en natt fullspäckad med spännande underhållning. 
+          Det hela avslutas med en eftersläppsdans på vår omvandlade dansgolv.
+          </Typography>
+        </Grid>
         </Grid>
         <Grid
           container
