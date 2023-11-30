@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/static/js/main.d43b8e83.chunk.js",
-    "main.js.map": "/static/js/main.d43b8e83.chunk.js.map",
+    "main.js": "/static/js/main.b30e840c.chunk.js",
+    "main.js.map": "/static/js/main.b30e840c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.918ef1f3.js",
     "runtime-main.js.map": "/static/js/runtime-main.918ef1f3.js.map",
     "static/css/2.981cf6d3.chunk.css": "/static/css/2.981cf6d3.chunk.css",
@@ -81,13 +81,14 @@
     "static/media/logo.26286695.png": "/static/media/logo.26286695.png",
     "static/media/logo.ad5ea64f.webp": "/static/media/logo.ad5ea64f.webp",
     "static/media/microtec.612dfee3.png": "/static/media/microtec.612dfee3.png",
-    "static/media/index.css": "/static/media/roboto-vietnamese-400-normal.c0bec65d.woff2"
+    "static/media/index.css": "/static/media/roboto-vietnamese-400-normal.c0bec65d.woff2",
+    "static/media/xameraSpons.1abac90f.webp": "/static/media/xameraSpons.1abac90f.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.918ef1f3.js",
     "static/css/2.981cf6d3.chunk.css",
     "static/js/2.e61eb7c5.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.d43b8e83.chunk.js"
+    "static/js/main.b30e840c.chunk.js"
   ]
 }
