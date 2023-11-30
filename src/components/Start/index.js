@@ -225,7 +225,7 @@ function Start() {
           </Typography>
           <Box md={6} sx={{ my:3 }}>
             <Link
-            href="https://linkoping.microtec.eu/sv/"
+            href="https://www.microtec.eu/sv-se"
             underlink="hover"
             sx={{ textDecoration: "none"}}
             >
