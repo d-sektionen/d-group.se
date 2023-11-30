@@ -4,6 +4,7 @@ import Typography from "@mui/material/Typography";
 import ericsson from "../../images/spons/ericssonSpons.webp";
 import microtec from "../../images/spons/microtec.png";
 import Ida from "../../images/spons/idainfrontSpons.webp";
+import xamera from "../../images/spons/xameraSpons.webp";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Link from "@mui/material/Link";
@@ -236,7 +237,7 @@ function Start() {
               />
             </Link>
           </Box>
-          <Box xs={true} sx={{ my:3 }}>
+          <Box md={5} sx={{ my:3 }}>
             <Link
               href="https://www.ericsson.com/en/careers"
               underlink="hover"
@@ -260,6 +261,20 @@ function Start() {
                 alt="Idainfront Logo"
                 width={"100%"}
                 height={"100%"}
+              />
+            </Link>
+          </Box>
+          <Box md={5} sx={{ marginTop:3 }}>
+            <Link
+              href="https://xamera.se/"
+              underlink="hover"
+              sx={{ textDecoration: "none" }}
+            >
+              <img
+                src={xamera}
+                alt="Xamera Logo"
+                width={"40%"}
+                // height={"30%"} 
               />
             </Link>
           </Box>
