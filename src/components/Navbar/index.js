@@ -268,7 +268,7 @@ const ResponsiveAppBar = () => {
                   alt="FB_logo"
                   width={"50vw"}
                   height={"50vh"}
-                  sx={{ mx: 10 }}
+                  style={{ margin: '0 10px'}}
                 />
               </a>
               <a href="https://www.facebook.com/DGroup2324">
