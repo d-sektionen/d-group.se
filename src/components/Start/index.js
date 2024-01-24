@@ -223,7 +223,8 @@ function Start() {
           >
             Våra Sponsorer
           </Typography>
-          <Box md={6} sx={{ my:3 }}>
+          {/* MicroTech spons borta */}
+          {/* <Box md={6} sx={{ my:3 }}>
             <Link
             href="https://www.microtec.eu/sv-se"
             underlink="hover"
@@ -236,7 +237,7 @@ function Start() {
               height={"80%"}
               />
             </Link>
-          </Box>
+          </Box> */}
           <Box md={5} sx={{ my:3 }}>
             <Link
               href="https://www.ericsson.com/en/careers"
