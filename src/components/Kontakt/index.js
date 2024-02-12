@@ -82,7 +82,7 @@ function Contact() {
             Vid Öl & Bar-frågor:{" "}
             <Link href="mailto:olbar@d-group.se">Olbar@d-group.se</Link> <br />
             Vid kontakt till en specifik groupie se,{" "}
-            <Link href="groupies">Groupie sidan</Link> <br />
+            <Link href="/#/groupies">Groupie sidan</Link> <br />
           </Typography>
         </Grid>
       </Grid>
