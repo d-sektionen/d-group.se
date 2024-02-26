@@ -30,6 +30,8 @@ import simon480px from "../../images/gropies/profilbilder/Simon_480px.jpg";
 import eleanor480px from "../../images/gropies/profilbilder/Eleanor_480px.jpg";
 import adam480px from "../../images/gropies/profilbilder/Adam_480px.jpg";
 
+const FAMILYNAME = "Nãu Knaëi Fàurãęn";
+
 function GroupieGrid() {
   const Groupies = [
     {
@@ -216,7 +218,7 @@ function GroupieGrid() {
               Vilka är vi?
             </Typography>
             <Typography variant="h6" guttomButtom>
-              Tjena Tjena! Vi är familjen Nãu Knaëi Fàurãęn, för att veta mer
+              Tjena Tjena! Vi är familjen {FAMILYNAME}, för att veta mer
               om en specifik medlem är det bara att klicka på bilden!
             </Typography>
           </Grid>
@@ -241,7 +243,7 @@ function GroupieGrid() {
             Vilka är vi?
           </Typography>
           <Typography variant="h6" guttomButtom>
-            Tjena Tjena! Vi är familjen Coulêk tïv néiçúde, för att veta mer om
+            Tjena Tjena! Vi är familjen {FAMILYNAME}, för att veta mer om
             en specifik medlem är det bara att klicka på bilden!
           </Typography>
         </Grid>
