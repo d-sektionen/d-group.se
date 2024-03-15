@@ -265,7 +265,7 @@ function Start() {
               />
             </Link>
           </Box>
-          <Box md={5} sx={{ marginTop:3 }}>
+          {/* <Box md={5} sx={{ marginTop:3 }}>
             <Link
               href="https://xamera.se/"
               underlink="hover"
@@ -278,7 +278,7 @@ function Start() {
                 // height={"30%"} 
               />
             </Link>
-          </Box>
+          </Box> */}
 
           <Typography varaint="h6" guttomButtom sx={{ mt: 6 }}>
             Vill ni också synas här? Kontakta oss på{" "}
