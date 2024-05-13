@@ -62,7 +62,7 @@ function Contact() {
             <br />
             Vid Ca$h-frågor:{" "}
             <Link href="mailto:kassor@d-group.se">Kassor@d-group.se</Link> <br />
-            Vid Webb-fårgor:{" "}
+            Vid Webb-frågor:{" "}
             <Link href="mailto:webb@d-group.se">Webb@d-group.se</Link> <br />
             Vid DömD/DimD-frågor:{" "}
             <Link href="mailto:dart@d-group.se">Dart@d-group.se</Link> <br />
