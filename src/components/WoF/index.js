@@ -30,6 +30,7 @@ import dg9899 from "../../images/dpateter/dg9899.jpg";
 import dg9798 from "../../images/dpateter/dg9798.jpg";
 import dg9697 from "../../images/dpateter/dg9697.jpg";
 import dg9495 from "../../images/dpateter/dg9495.jpg";
+import dg9192 from "../../images/dpateter/dg9192.jpg";
 import dg8788 from "../../images/dpateter/dg8788.jpg";
 import dg8182 from "../../images/dpateter/dg8182.jpg";
 
@@ -257,6 +258,14 @@ const images = [
     thumbnailHeight: 320,
     caption: "D-Group 94/95 - Familjen van der Aakroekar",
     thumbnailCaption: " D-Group 94/95",
+  },
+  {
+    src: dg9192,
+    thumbnail: dg9192,
+    thumbnailWidth: 320,
+    thumbnailHeight: 320,
+    caption: "D-Group 91/92",
+    thumbnailCaption: " D-Group 91/92",
   },
   {
     src: dg8788,
