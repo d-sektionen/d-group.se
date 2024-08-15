@@ -11,7 +11,7 @@ import Link from "@mui/material/Link";
 import logo from "../../images/logo.webp";
 import { Slideshow } from "./DgSlideshow";
 import dggrupp from "../../images/gropies/dgroup2324.jpg";
-import dggrupp1200px from "../../images/gropies/dgroup2324_landscape.jpg"
+import dggrupp1200px from "../../images/gropies/dgroup2324_landscape.jpg";
 import dgroupHog from "../../images/gropies/22_23_formation.jpg";
 
 /* <picture>
@@ -26,9 +26,9 @@ function Start() {
   return (
     <Box sx={{ textAlign: "center" }}>
       <Grid container>
-        <Grid sm={12} sx={{ pt: 9 }} /* Groupies Bild */>
-          <WidePictureFrame src={dggrupp1200px} />
-          <HighPictureFrame src={dggrupp} />
+        <Grid sm={/*12*/ 1} sx={{ pt: /*9*/ 0 }} /* Groupies Bild */>
+          <WidePictureFrame src={"dggrupp1200px"} />
+          <HighPictureFrame src={"dggrupp"} />
         </Grid>
         <Grid
           sm={12}
@@ -43,7 +43,7 @@ function Start() {
               color={"#754022"}
             >
               {" "}
-              D-Group 23/24
+              D-Group 24/25
             </Typography>
             <Typography variant="h6" gutterButtom>
               {" "}
@@ -55,7 +55,7 @@ function Start() {
               in på Groupies sidan!
             </Typography>
           </Grid>
-          <Grid sm={12} md={5} sx={{ pt: 6, mx:'auto' }} /* D-GROUP LOGO */>
+          <Grid sm={12} md={5} sx={{ pt: 6, mx: "auto" }} /* D-GROUP LOGO */>
             <img src={logo} alt="D-Group logo" />
           </Grid>
         </Grid>
@@ -78,7 +78,7 @@ function Start() {
             Den 11e april slås dörrarna upp till årets bästa fest, D
             <span STYLE="font-size:75%">ÖM</span>
             D! Datateknologsektionens Öppna Mästerskap i Dart är en av norra
-            Europas största darttävlingar som arrangeras för 43:e året i rad.
+            Europas största darttävlingar som arrangeras för 44:e året i rad.
             Festen som pågår i tre dagar och börjar med kravall på torsdagen,
             fortsätter med fest på fredagen och avslutas med tävling, sittning
             och eftersläpp på lördagen. Denna fest får inte missas så boka in
@@ -189,23 +189,24 @@ function Start() {
               bord nära dig.
             </Typography>
           </Grid>
-          <Grid sm={12} md={6} sx={{ px: 6, mt: 6, margin: 'auto' }} /* DÖmD */>
-          <Typography
-            variant="h4"
-            guttomButtom
-            fontWeight={"bold"}
-            color={"#E5398D"}
-          >
-            {" "}
-            KOPS
-          </Typography>
-          <Typography variant="h6">
-          I år levererar D-Group det mest episka eventet någonsin - KOPS! 
-          Ni kommer njuta av en kulinarisk aktivitetsrunda, delta i 
-          vårt Korvätarmästerskap och uppleva en natt fullspäckad med spännande underhållning. 
-          Det hela avslutas med en eftersläppsdans på vår omvandlade dansgolv.
-          </Typography>
-        </Grid>
+          <Grid sm={12} md={6} sx={{ px: 6, mt: 6, margin: "auto" }} /* DÖmD */>
+            <Typography
+              variant="h4"
+              guttomButtom
+              fontWeight={"bold"}
+              color={"#E5398D"}
+            >
+              {" "}
+              KOPS
+            </Typography>
+            <Typography variant="h6">
+              I år levererar D-Group det mest episka eventet någonsin - KOPS! Ni
+              kommer njuta av en kulinarisk aktivitetsrunda, delta i vårt
+              Korvätarmästerskap och uppleva en natt fullspäckad med spännande
+              underhållning. Det hela avslutas med en eftersläppsdans på vår
+              omvandlade dansgolv.
+            </Typography>
+          </Grid>
         </Grid>
         <Grid
           container
@@ -238,20 +239,16 @@ function Start() {
               />
             </Link>
           </Box> */}
-          <Box md={5} sx={{ my:3 }}>
+          <Box md={5} sx={{ my: 3 }}>
             <Link
               href="https://www.ericsson.com/en/careers"
               underlink="hover"
               sx={{ textDecoration: "none" }}
             >
-              <img 
-              src={ericsson} 
-              alt="Ericsson Logo"
-              
-              />
+              <img src={ericsson} alt="Ericsson Logo" />
             </Link>
           </Box>
-          <Box md={5} sx={{ my:3 }}>
+          <Box md={5} sx={{ my: 3 }}>
             <Link
               href="https://idainfront.se/en/"
               underlink="hover"

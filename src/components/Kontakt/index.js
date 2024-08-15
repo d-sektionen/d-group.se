@@ -49,7 +49,7 @@ function Contact() {
             Post specifik kontakt
           </Typography>
           <Typography variant="h6" guttomButtom paragraph>
-            Chief, Disa:{" "}
+            Chief, Tess:{" "}
             <Link href="mailto:Chief@d-group.se">Chief@d-group.se</Link> <br />
             Vid Samarbets-frågor:{" "}
             <Link href="mailto:spons@d-group.se">Spons@d-group.se</Link> <br />
@@ -61,7 +61,8 @@ function Contact() {
             </Link>{" "}
             <br />
             Vid Ca$h-frågor:{" "}
-            <Link href="mailto:kassor@d-group.se">Kassor@d-group.se</Link> <br />
+            <Link href="mailto:kassor@d-group.se">Kassor@d-group.se</Link>{" "}
+            <br />
             Vid Webb-frågor:{" "}
             <Link href="mailto:webb@d-group.se">Webb@d-group.se</Link> <br />
             Vid DömD/DimD-frågor:{" "}
