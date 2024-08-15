@@ -30,152 +30,152 @@ import simon480px from "../../images/gropies/profilbilder/Simon_480px.jpg";
 import eleanor480px from "../../images/gropies/profilbilder/Eleanor_480px.jpg";
 import adam480px from "../../images/gropies/profilbilder/Adam_480px.jpg";
 
-const FAMILYNAME = "Nãu Knaëi Fàurãęn";
+const FAMILYNAME = "Lü tao paœ fi guręt";
 
 function GroupieGrid() {
   const Groupies = [
     {
-      name: "Disa Kärnbring",
+      name: "Tess Larsson",
       post: "Chief",
-      image: disa,
-      smallImage: disa480px,
-      email: "q@d-group.se",
-      age: "2000",
-      home: "Huskvarna",
-      pors: "Datateknik",
-      cons: "Tre cider",
+      image: "",
+      smallImage: "",
+      email: "malk@d-group.se",
+      age: "2002",
+      home: "Tyringö",
+      pors: "Mjukvaruteknik",
+      cons: "",
     },
     {
-      name: "Dan Suleiman",
+      name: "Simon Andersson",
       post: "Ca$h",
-      image: dan,
-      smallImage: dan480px,
-      email: "ken@d-group.se",
-      age: "2002",
-      home: "Gävle/Stockholm",
-      pors: "Mjukvaruteknik",
-      cons: "Hitta en toa",
+      image: "",
+      smallImage: "",
+      email: "aidy@d-group.se",
+      age: "2003",
+      home: "Stockholm",
+      pors: "Datateknik",
+      cons: "",
     },
     {
-      name: "Marc Taylor",
+      name: "Axel Glöckner",
       post: "Webb & ÖverDomaren™",
-      image: marc,
-      smallImage: marc480px,
-      email: "marc.taylor@d-group.se",
-      age: "2001",
-      home: "Stockholm",
-      pors: "Mjukvaruteknik",
-      cons: "Aldrig nekad",
-    },
-    {
-      name: "Linus Göransson",
-      post: "Werk",
-      image: linus,
-      smallImage: linus480px,
-      email: "linus.goransson@d-group.se",
-      age: "1999",
-      home: "Färila",
-      pors: "IP",
-      cons: "3 öl 13 sek",
-    },
-    {
-      name: "Elliot Eriksson",
-      post: "Pr & Event",
-      image: elliot,
-      smallImage: elliot480px,
-      email: "elliot.eriksson@d-group.se",
-      age: "2002",
-      home: "Bromma, Stockholm",
-      pors: "Datateknik",
-      cons: "Symaskinsnålar",
-    },
-    {
-      name: "Hugo Jakobsson",
-      post: "J^8",
-      image: edgar,
-      smallImage: edgar480px,
-      email: "hugo.jakobsson@d-group.se",
-      age: "2002",
-      home: "Skauneeeee",
-      pors: "Datateknik",
-      cons: "Vara FULL",
-    },
-    {
-      name: "Manfred Clase",
-      post: "Spons",
-      image: manfred,
-      smallImage: manfred480px,
-      email: "manfred.clase@d-group.se",
-      age: "2001",
-      home: "Huvudstaden",
-      pors: "Datateknik",
-      cons: "ADHD",
-    },
-    {
-      name: "Emma Bertmar",
-      post: "Trykk",
-      image: emma,
-      smallImage: emma480px,
-      email: "emma.bertmar@d-group.se",
-      age: "2002",
-      home: "Stockholm",
-      pors: "Datateknik",
-      cons: "Arboga 10,2",
-    },
-    {
-      name: "Mateo Schütt Zalabardo",
-      post: "Biljett & U-Lag",
-      image: mateo,
-      smallImage: mateo480px,
-      email: "mateo.zalabardo@d-group.se",
-      age: "2001",
-      home: "Eskilstuna",
-      pors: "Mjukvaruteknik",
-      cons: "Gillar älg öl",
-    },
-    {
-      name: "Hugo Nilsson",
-      post: "Mat & Sittning",
-      image: hugo,
-      smallImage: hugo480px,
-      email: "hugo.nilsson@d-group.se",
+      image: "",
+      smallImage: "",
+      email: "axel.glockner@d-group.se",
       age: "2000",
-      home: "Helsingborg",
-      pors: "Datateknik",
-      cons: "Trolla bort groggar väldigt snabbt.",
+      home: "Karlskoga",
+      pors: "Informationsteknologi",
+      cons: "",
     },
     {
-      name: "Simon Harrysson",
-      post: "Trykk",
-      image: simon,
-      smallImage: simon480px,
-      email: "simon.harrysson@d-group.se",
+      name: "Christopher Åsberg",
+      post: "Werk",
+      image: "",
+      smallImage: "",
+      email: "christopher.asberg@d-group.se",
+      age: "2003",
+      home: "Linköping",
+      pors: "Mjukvaruteknik",
+      cons: "",
+    },
+    {
+      name: "Isak Song Olsson",
+      post: "Pr & Event",
+      image: "",
+      smallImage: "",
+      email: "isak.song.olsson@d-group.se",
       age: "2002",
-      home: "Lidingö, Stockholm",
+      home: "Läjet",
       pors: "Datateknik",
-      cons: "Sossar groggar från Edgar",
+      cons: "",
     },
     {
-      name: "Eleanor Brunskog",
-      post: "Pr & Personal",
-      image: eleanor,
-      smallImage: eleanor480px,
-      email: "eleanor.brunskog@d-group.se",
-      age: "2001",
+      name: "Jonathan Gårdheim",
+      post: "J^8",
+      image: "",
+      smallImage: "",
+      email: "jonathan.gardheim@d-group.se",
+      age: "2002",
       home: "Stockholm",
-      pors: "IT",
-      cons: "Tre cider",
+      pors: "Informationsteknologi",
+      cons: "",
     },
     {
-      name: "Adam Rylander",
+      name: "Elias Forsell",
+      post: "Spons",
+      image: "",
+      smallImage: "",
+      email: "elias.forsell@d-group.se",
+      age: "2002",
+      home: "Huvudstaden",
+      pors: "Informationsteknologi",
+      cons: "",
+    },
+    {
+      name: "Alma Mateo Johansson",
+      post: "Trykk",
+      image: "",
+      smallImage: "",
+      email: "alma.mateo.johansson@d-group.se",
+      age: "2003",
+      home: "Linköping",
+      pors: "Informationsteknologi",
+      cons: "",
+    },
+    {
+      name: "Jesper Worbel",
+      post: "Biljett & U-Lag",
+      image: "",
+      smallImage: "",
+      email: "jesper.wrobel@d-group.se",
+      age: "2003",
+      home: "Karlskrona",
+      pors: "Informationsteknologi",
+      cons: "",
+    },
+    {
+      name: "Jenny Andersson",
+      post: "Mat & Sittning",
+      image: "",
+      smallImage: "",
+      email: "jenny.andersson@d-group.se",
+      age: "2004",
+      home: "Stockholm",
+      pors: "Mjukvaruteknik",
+      cons: "",
+    },
+    {
+      name: "Melker Forsell",
+      post: "Trykk",
+      image: "",
+      smallImage: "",
+      email: "melker.forsell@d-group.se",
+      age: "2003",
+      home: "Stockholm",
+      pors: "Informationsteknologi",
+      cons: "",
+    },
+    {
+      name: "Embla Olin",
+      post: "Pr & Personal",
+      image: "",
+      smallImage: "",
+      email: "embla.olin@d-group.se",
+      age: "2002",
+      home: "Skåne",
+      pors: "Datateknik",
+      cons: "",
+    },
+    {
+      name: "Olle Håkansson",
       post: "Öl & Bar",
-      image: adam,
-      smallImage: adam480px,
-      email: "adam.rylander@d-group.se",
+      image: "",
+      smallImage: "",
+      email: "olle.hakansson@d-group.se",
       age: "2001",
-      home: "Åkersberga",
-      pors: "IT",
-      cons: "Välta barer",
+      home: "Norrland",
+      pors: "Informationsteknologi",
+      cons: "",
     },
   ];
 
@@ -218,8 +218,8 @@ function GroupieGrid() {
               Vilka är vi?
             </Typography>
             <Typography variant="h6" guttomButtom>
-              Tjena Tjena! Vi är familjen {FAMILYNAME}, för att veta mer
-              om en specifik medlem är det bara att klicka på bilden!
+              Tjena Tjena! Vi är familjen {FAMILYNAME}, för att veta mer om en
+              specifik medlem är det bara att klicka på bilden!
             </Typography>
           </Grid>
         </Grid>
@@ -243,8 +243,8 @@ function GroupieGrid() {
             Vilka är vi?
           </Typography>
           <Typography variant="h6" guttomButtom>
-            Tjena Tjena! Vi är familjen {FAMILYNAME}, för att veta mer om
-            en specifik medlem är det bara att klicka på bilden!
+            Tjena Tjena! Vi är familjen {FAMILYNAME}, för att veta mer om en
+            specifik medlem är det bara att klicka på bilden!
           </Typography>
         </Grid>
         <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Cash Card */>
@@ -280,7 +280,11 @@ function GroupieGrid() {
         <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Trykk Card */>
           <CardGrid user={Groupies[10]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Pr & Personal Card */>
+        <Grid
+          xs={12}
+          md={4}
+          sx={{ p: { xs: 1, md: 2 } }} /* Pr & Personal Card */
+        >
           <CardGrid user={Groupies[11]} />
         </Grid>
       </Grid>
