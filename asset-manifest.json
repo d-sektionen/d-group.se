@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.227214be.css",
-    "main.js": "/static/js/main.01854a9c.js",
+    "main.js": "/static/js/main.0764ab75.js",
     "static/js/787.390a27fe.chunk.js": "/static/js/787.390a27fe.chunk.js",
     "static/media/dgroup2324_landscape.jpg": "/static/media/dgroup2324_landscape.9ca2d0e99b9a58e9bb87.jpg",
     "static/media/dg1920.jpg": "/static/media/dg1920.978f1f612441123106c4.jpg",
@@ -9,9 +9,11 @@
     "static/media/dg2223.jpg": "/static/media/dg2223.712f34e8e53a115e180b.jpg",
     "static/media/dg2021.png": "/static/media/dg2021.4e76df3d6a0235da29e2.png",
     "static/media/22_23_formation.jpg": "/static/media/22_23_formation.937327bad63d4f3d6bdf.jpg",
+    "static/media/gruppbild.jpg": "/static/media/gruppbild.72587db81ef66dc7a072.jpg",
     "static/media/dg1819.jpg": "/static/media/dg1819.b2bfb50c8d7c093f5d67.jpg",
     "static/media/dg9192.jpg": "/static/media/dg9192.b53db1274e885410819c.jpg",
     "static/media/dg1415.jpg": "/static/media/dg1415.2c441f3465b3a9960998.jpg",
+    "static/media/tess.JPG": "/static/media/tess.e4f8fcef27372e431e78.JPG",
     "static/media/dg8182.jpg": "/static/media/dg8182.5b9ed4bf4ea3aa1b3b78.jpg",
     "static/media/dg2122.jpg": "/static/media/dg2122.5b08a7384a875eace7a0.jpg",
     "static/media/dg0910.jpg": "/static/media/dg0910.adbb7aaf4f2b6523f5d9.jpg",
@@ -36,6 +38,7 @@
     "static/media/dg1718.jpg": "/static/media/dg1718.1c8a1c2c289bf5821629.jpg",
     "static/media/dg8788.jpg": "/static/media/dg8788.992e5a2ac04eaf838760.jpg",
     "static/media/dg0809.jpg": "/static/media/dg0809.b441acf177db50346fdb.jpg",
+    "static/media/tess_426x640.jpg": "/static/media/tess_426x640.1ea9a5db19311e7189f7.jpg",
     "static/media/dg0708.jpg": "/static/media/dg0708.8d75f2ff7c8ab8935241.jpg",
     "static/media/dg1011.jpg": "/static/media/dg1011.a362c3b707c7069eb122.jpg",
     "static/media/dg1112.jpg": "/static/media/dg1112.7e6bde018188f665645a.jpg",
@@ -82,11 +85,11 @@
     "static/media/roboto-greek-ext-400-normal.woff2": "/static/media/roboto-greek-ext-400-normal.e769aa77798cffeb5842.woff2",
     "index.html": "/index.html",
     "main.227214be.css.map": "/static/css/main.227214be.css.map",
-    "main.01854a9c.js.map": "/static/js/main.01854a9c.js.map",
+    "main.0764ab75.js.map": "/static/js/main.0764ab75.js.map",
     "787.390a27fe.chunk.js.map": "/static/js/787.390a27fe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.227214be.css",
-    "static/js/main.01854a9c.js"
+    "static/js/main.0764ab75.js"
   ]
 }
