@@ -30,6 +30,9 @@ import simon480px from "../../images/gropies/profilbilder/Simon_480px.jpg";
 import eleanor480px from "../../images/gropies/profilbilder/Eleanor_480px.jpg";
 import adam480px from "../../images/gropies/profilbilder/Adam_480px.jpg";
 
+import tessSmall from "../../images/dg2425/profiler/tess_426x640.jpg";
+import tess from "../../images/dg2425/profiler/tess.JPG";
+
 const FAMILYNAME = "Lü tao paœ fi guręt";
 
 function GroupieGrid() {
@@ -37,8 +40,8 @@ function GroupieGrid() {
     {
       name: "Tess Larsson",
       post: "Chief",
-      image: "",
-      smallImage: "",
+      image: tess,
+      smallImage: tessSmall,
       email: "malk@d-group.se",
       age: "2002",
       home: "Tyringö",
