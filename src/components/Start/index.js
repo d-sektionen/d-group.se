@@ -14,7 +14,7 @@ import dggrupp from "../../images/gropies/dgroup2324.jpg";
 import dggrupp1200px from "../../images/gropies/dgroup2324_landscape.jpg";
 import dgroupHog from "../../images/gropies/22_23_formation.jpg";
 
-import gruppbild from "../../images/dg2425/gruppbild.jpg";
+import gruppbild from "../../images/dg2425/gruppbild1800x1200px.jpg";
 
 /* <picture>
             <source media="(min-width: 768px)" srcset={dggrupp} height={"100vh"} width={"100%"}/>
@@ -28,9 +28,9 @@ function Start() {
   return (
     <Box sx={{ textAlign: "center" }}>
       <Grid container>
-        <Grid sm={12} sx={{ pt: 9 }} /* Groupies Bild */>
-          <WidePictureFrame src={"gruppbild"} />
-          <HighPictureFrame src={"dggrupp"} />
+        <Grid sm={12} sx={{ pt: 0 }} /* Groupies Bild */>
+          <WidePictureFrame src={gruppbild} />
+          <HighPictureFrame src={gruppbild} />
         </Grid>
         <Grid
           sm={12}
