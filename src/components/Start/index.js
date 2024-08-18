@@ -77,7 +77,7 @@ function Start() {
             D<span STYLE="font-size:75%">ÖM</span>D
           </Typography>
           <Typography variant="h6">
-            Den 11e april slås dörrarna upp till årets bästa fest, D
+            Den 12e april slås dörrarna upp till årets bästa fest, D
             <span STYLE="font-size:75%">ÖM</span>
             D! Datateknologsektionens Öppna Mästerskap i Dart är en av norra
             Europas största darttävlingar som arrangeras för 44:e året i rad.
