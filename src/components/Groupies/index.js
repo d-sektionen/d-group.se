@@ -3,205 +3,197 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import CardGrid from "./Card";
 import { Typography } from "@mui/material";
-import disa from "../../images/gropies/profilbilder/Disa_1080px.jpg";
-import dan from "../../images/gropies/profilbilder/Dan_1080px.jpg";
-import marc from "../../images/gropies/profilbilder/Marc_1080px.jpg";
-import linus from "../../images/gropies/profilbilder/Linus_1080px.jpg";
-import elliot from "../../images/gropies/profilbilder/Elliot_1080px.jpg";
-import edgar from "../../images/gropies/profilbilder/Edgar_1080px.jpg";
-import manfred from "../../images/gropies/profilbilder/Manfred_1080px.jpg";
-import emma from "../../images/gropies/profilbilder/Emma_1080px.jpg";
-import mateo from "../../images/gropies/profilbilder/Mateo_1080px.jpg";
-import hugo from "../../images/gropies/profilbilder/Hugo_1080px.jpg";
-import eleanor from "../../images/gropies/profilbilder/Eleanor_1080px.jpg";
-import adam from "../../images/gropies/profilbilder/Adam_1080px.jpg";
-import disa480px from "../../images/gropies/profilbilder/Disa_480px.jpg";
-import dan480px from "../../images/gropies/profilbilder/Dan_480px.jpg";
-import marc480px from "../../images/gropies/profilbilder/Marc_480px.jpg";
-import linus480px from "../../images/gropies/profilbilder/Linus_480px.jpg";
-import elliot480px from "../../images/gropies/profilbilder/Elliot_480px.jpg";
-import edgar480px from "../../images/gropies/profilbilder/Edgar_480px.jpg";
-import manfred480px from "../../images/gropies/profilbilder/Manfred_480px.jpg";
-import emma480px from "../../images/gropies/profilbilder/Emma_480px.jpg";
-import mateo480px from "../../images/gropies/profilbilder/Mateo_480px.jpg";
-import hugo480px from "../../images/gropies/profilbilder/Hugo_480px.jpg";
-import simon480px from "../../images/gropies/profilbilder/Simon_480px.jpg";
-import eleanor480px from "../../images/gropies/profilbilder/Eleanor_480px.jpg";
-import adam480px from "../../images/gropies/profilbilder/Adam_480px.jpg";
 
-import embla from "../../images/dg2425/profiler/embla.jpg";
-import emblaSmall from "../../images/dg2425/profiler/embla_426x640.jpg";
-import tessSmall from "../../images/dg2425/profiler/tess_426x640.jpg";
-import tess from "../../images/dg2425/profiler/tess.JPG";
-import isak from "../../images/dg2425/profiler/isakbig.jpg";
-import isakSmall from "../../images/dg2425/profiler/isakbig_426x640.jpg";
-import jesper from "../../images/dg2425/profiler/jesper.jpg";
-import jesperSmall from "../../images/dg2425/profiler/Jesper-4_426x640.jpg";
-import jenny from "../../images/dg2425/profiler/jenny.jpg";
-import jennySmall from "../../images/dg2425/profiler/jenny_426x640.jpg";
-import elias from "../../images/dg2425/profiler/elias.jpg";
-import eliasSmall from "../../images/dg2425/profiler/elias_426x640.jpg";
-import melker from "../../images/dg2425/profiler/melker.jpg";
-import melkerSmall from "../../images/dg2425/profiler/melker_426x640.jpg";
-import axel from "../../images/dg2425/profiler/axel.jpg";
-import axelSmall from "../../images/dg2425/profiler/axel_426x640.jpg";
-import simon from "../../images/dg2425/profiler/simon.jpg";
-import simonSmall from "../../images/dg2425/profiler/simon_426x640.jpg";
-import alma from "../../images/dg2425/profiler/Alma.jpg";
-import almaSmall from "../../images/dg2425/profiler/Alma_426x640.jpg";
-import chrille from "../../images/dg2425/profiler/chrille.jpg";
-import chrilleSmall from "../../images/dg2425/profiler/chrille_426x640.jpg";
-import jonga from "../../images/dg2425/profiler/jonga.jpg";
-import jongaSmall from "../../images/dg2425/profiler/jonga_426x640.jpg";
-import olle from "../../images/dg2425/profiler/olle.jpg";
-import olleSmall from "../../images/dg2425/profiler/olle_426x640.jpg";
+// import embla from "../../images/dg2425/profiler/embla.jpg";
+// import emblaSmall from "../../images/dg2425/profiler/embla_426x640.jpg";
+// import tessSmall from "../../images/dg2425/profiler/tess_426x640.jpg";
+// import tess from "../../images/dg2425/profiler/tess.JPG";
+// import isak from "../../images/dg2425/profiler/isakbig.jpg";
+// import isakSmall from "../../images/dg2425/profiler/isakbig_426x640.jpg";
+// import jesper from "../../images/dg2425/profiler/jesper.jpg";
+// import jesperSmall from "../../images/dg2425/profiler/Jesper-4_426x640.jpg";
+// import jenny from "../../images/dg2425/profiler/jenny.jpg";
+// import jennySmall from "../../images/dg2425/profiler/jenny_426x640.jpg";
+// import elias from "../../images/dg2425/profiler/elias.jpg";
+// import eliasSmall from "../../images/dg2425/profiler/elias_426x640.jpg";
+// import melker from "../../images/dg2425/profiler/melker.jpg";
+// import melkerSmall from "../../images/dg2425/profiler/melker_426x640.jpg";
+// import axel from "../../images/dg2425/profiler/axel.jpg";
+// import axelSmall from "../../images/dg2425/profiler/axel_426x640.jpg";
+// import simon from "../../images/dg2425/profiler/simon.jpg";
+// import simonSmall from "../../images/dg2425/profiler/simon_426x640.jpg";
+// import alma from "../../images/dg2425/profiler/Alma.jpg";
+// import almaSmall from "../../images/dg2425/profiler/Alma_426x640.jpg";
+// import chrille from "../../images/dg2425/profiler/chrille.jpg";
+// import chrilleSmall from "../../images/dg2425/profiler/chrille_426x640.jpg";
+// import jonga from "../../images/dg2425/profiler/jonga.jpg";
+// import jongaSmall from "../../images/dg2425/profiler/jonga_426x640.jpg";
+// import olle from "../../images/dg2425/profiler/olle.jpg";
+// import olleSmall from "../../images/dg2425/profiler/olle_426x640.jpg";
 
-const FAMILYNAME = "Lü tao paœ fi guręt";
+
+// SMALL ANVÄNDS FÖR NÄR MAN GÖR HEMSIDAN MINDRE NU FÖRSTÅR JAG
+import maxen from "../../images/dg2526/Profiler/maxmax.jpg"
+import emelie from "../../images/dg2526/Profiler/emelie.jpg"
+import klara from "../../images/dg2526/Profiler/klara.jpg"
+import olle from "../../images/dg2526/Profiler/olle.jpg"
+import hugo from "../../images/dg2526/Profiler/hugo.jpg"
+import elin from "../../images/dg2526/Profiler/elin.jpg"
+import gorbel from "../../images/dg2526/Profiler/gorbel.jpg"
+import qelb from "../../images/dg2526/Profiler/qelb.jpg"
+import becky from "../../images/dg2526/Profiler/becky.jpg"
+import jocke from "../../images/dg2526/Profiler/jocke.jpg"
+import jacob from "../../images/dg2526/Profiler/jacob.jpg"
+import kita from "../../images/dg2526/Profiler/kita.jpg"
+import harry from "../../images/dg2526/Profiler/harry.jpg"
+
+// const FAMILYNAME = "Lü tao paœ fi guręt";
+const FAMILYNAME = "Læi gündán iôm bün çsteîna"
 
 function GroupieGrid() {
   const Groupies = [
     {
-      name: "Tess Larsson",
+      name: "Charlotte Nestler",
       post: "Chief",
-      image: tess,
-      smallImage: tessSmall,
-      email: "malk@d-group.se",
-      age: "2002",
-      home: "Tyringö",
-      pors: "Mjukvaruteknik",
-      cons: "Tesstosteron",
+      image: kita,
+      smallImage: kita,
+      email: "kita@d-group.se",
+      age: "2004",
+      home: "Falun",
+      pors: "Datorteknik",
+      cons: "blub blub",
     },
     {
-      name: "Simon Andersson",
+      name: "Nils Modig",
       post: "Ca$h",
-      image: simon,
-      smallImage: simonSmall,
-      email: "aidy@d-group.se",
+      image: qelb,
+      smallImage: qelb,
+      email: "qelb@d-group.se",
       age: "2003",
       home: "Stockholm",
       pors: "Datateknik",
-      cons: "Oooo-ooo aaaa-aaah!",
+      cons: "woof woof ice spice?",
     },
     {
-      name: "Axel Glöckner",
+      name: "Max Eriksson",
       post: "Webb & ÖverDomaren™",
-      image: axel,
-      smallImage: axelSmall,
-      email: "axel.glockner@d-group.se",
-      age: "2000",
-      home: "Karlskoga",
-      pors: "Informationsteknologi",
-      cons: "Farfar",
-    },
-    {
-      name: "Christopher Åsberg",
-      post: "Werk",
-      image: chrille,
-      smallImage: chrilleSmall,
-      email: "christopher.asberg@d-group.se",
-      age: "2003",
-      home: "Linköping",
+      image: maxen,
+      smallImage: maxen,
+      email: "max.eriksson@d-group.se",
+      age: "2001",
+      home: "Stallarholmen",
       pors: "Mjukvaruteknik",
-      cons: "Krumpel!",
+      cons: "Kan simma med kläderna på",
     },
     {
-      name: "Isak Song Olsson",
+      name: "Kevin Larsson",
+      post: "Werk",
+      image: gorbel,
+      smallImage: gorbel,
+      email: "kevin.larsson@d-group.se",
+      age: "2002",
+      home: "Västerås",
+      pors: "IP",
+      cons: "backflips",
+    },
+    {
+      name: "Joakim Centervall",
       post: "Pr & Event",
-      image: isak,
-      smallImage: isakSmall,
-      email: "isak.song.olsson@d-group.se",
-      age: "2002",
-      home: "Läjet",
-      pors: "Datateknik",
-      cons: "Instagram DMs",
-    },
-    {
-      name: "Jonathan Gårdheim",
-      post: "J^8",
-      image: jonga,
-      smallImage: jongaSmall,
-      email: "jonathan.gardheim@d-group.se",
-      age: "2002",
+      image: jocke,
+      smallImage: jocke,
+      email: "joakim.centervall@d-group.se",
+      age: "2003",
       home: "Stockholm",
       pors: "Informationsteknologi",
-      cons: "26 öl",
+      cons: "Har fästingar",
     },
     {
-      name: "Elias Forsell",
-      post: "Spons",
-      image: elias,
-      smallImage: eliasSmall,
-      email: "elias.forsell@d-group.se",
+      name: "Harry Jacobsen",
+      post: "J^8",
+      image: harry,
+      smallImage: harry,
+      email: "harry.jacobsen@d-group.se",
       age: "2002",
-      home: "Huvudstaden",
+      home: "Stockholm",
+      pors: "Datorteknik",
+      cons: "Rumsnummer på armen = knacka galet på dörr 30m bort",
+    },
+    {
+      name: "Emelie Nordeskog",
+      post: "Spons",
+      image: emelie,
+      smallImage: emelie,
+      email: "emelie.nordeskog@d-group.se",
+      age: "2004",
+      home: "Västerås",
       pors: "Informationsteknologi",
       cons: "Lantis",
     },
     {
-      name: "Alma Mateo Johansson",
+      name: "Elin Roos",
       post: "Trykk",
-      image: alma,
-      smallImage: almaSmall,
-      email: "alma.mateo.johansson@d-group.se",
-      age: "2003",
-      home: "Linköping",
-      pors: "Informationsteknologi",
-      cons: "Photoshop",
-    },
-    {
-      name: "Jesper Worbel",
-      post: "Biljett & U-Lag",
-      image: jesper,
-      smallImage: jesperSmall,
-      email: "jesper.wrobel@d-group.se",
-      age: "2003",
-      home: "Karlskrona",
-      pors: "Informationsteknologi",
-      cons: "TM-hångel",
-    },
-    {
-      name: "Jenny Andersson",
-      post: "Mat & Sittning",
-      image: jenny,
-      smallImage: jennySmall,
-      email: "jenny.andersson@d-group.se",
+      image: elin,
+      smallImage: elin,
+      email: "elin.roos@d-group.se",
       age: "2004",
       home: "Stockholm",
-      pors: "Mjukvaruteknik",
-      cons: "Goo goo gaagaa wääää!",
+      pors: "Datorteknik",
+      cons: "Måste kissa",
     },
     {
-      name: "Melker Forsell",
-      post: "Trykk",
-      image: melker,
-      smallImage: melkerSmall,
-      email: "melker.forsell@d-group.se",
+      name: "Klara Ambrosiani",
+      post: "Biljett & U-Lag",
+      image: klara,
+      smallImage: klara,
+      email: "klara.ambrosiani@d-group.se",
+      age: "2005",
+      home: "Vimseby",
+      pors: "Informationsteknologi",
+      cons: "Barn",
+    },
+    {
+      name: "Rebecka Smids",
+      post: "Mat & Sittning",
+      image: becky,
+      smallImage: becky,
+      email: "rebecka.smids@d-group.se",
       age: "2003",
+      home: "Mora",
+      pors: "Informationsteknologi",
+      cons: "Gredos + bastuaggregat + kolla inte",
+    },
+    {
+      name: "Hugo Staaff",
+      post: "Trykk",
+      image: hugo,
+      smallImage: hugo,
+      email: "hugo.staaff@d-group.se",
+      age: "2001",
       home: "Stockholm",
       pors: "Informationsteknologi",
-      cons: "Gredos 1L Tetra",
+      cons: "Huligan",
     },
     {
-      name: "Embla Olin",
+      name: "Olle Morberg",
       post: "Pr & Personal",
-      image: embla,
-      smallImage: emblaSmall,
-      email: "embla.olin@d-group.se",
-      age: "2002",
-      home: "Skåne",
+      image: olle,
+      smallImage: olle,
+      email: "olle.morberg@d-group.se",
+      age: "2003",
+      home: "Lund",
       pors: "Datateknik",
-      cons: "Sälja märken",
+      cons: "2.5 kir",
     },
     {
-      name: "Olle Håkansson",
+      name: "Jacob Ranebjer",
       post: "Öl & Bar",
-      image: olle,
-      smallImage: olleSmall,
-      email: "olle.hakansson@d-group.se",
+      image: jacob,
+      smallImage: jacob,
+      email: "jacob.ranebjer@d-group.se",
       age: "2001",
-      home: "Norrland",
-      pors: "Informationsteknologi",
-      cons: "Får plats under en stol",
+      home: "Malmö",
+      pors: "Mjukvaruteknik",
+      cons: "BOORJARE",
     },
   ];
 
