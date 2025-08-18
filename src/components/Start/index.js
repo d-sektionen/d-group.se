@@ -14,7 +14,7 @@ import dggrupp from "../../images/gropies/dgroup2324.jpg";
 import dggrupp1200px from "../../images/gropies/dgroup2324_landscape.jpg";
 import dgroupHog from "../../images/gropies/22_23_formation.jpg";
 
-// import gruppbild from "../../images/dg2425/gruppbild1800x1200px.jpg";
+
 import gruppbild from "../../images/dg2526/dg2526-gruppbild-offeciell.jpg"
 
 /* <picture>

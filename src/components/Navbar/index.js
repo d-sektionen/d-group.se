@@ -160,7 +160,7 @@ const ResponsiveAppBar = () => {
                   </MenuItem>
                 </a>
                 <a
-                  href="https://www.instagram.com/dgroup2425?igsh=MWIxOXMyOHA1aDNwaw=="
+                  href="https://www.instagram.com/dgroup2526/#"
                   style={{ textDecoration: "none" }}
                 >
                   <MenuItem key="Instagram" onClick={handleCloseNavMenu}>
@@ -262,7 +262,7 @@ const ResponsiveAppBar = () => {
                 display: { xs: "none", md: "flex" },
               }} /* Computer FB/IG to right */
             >
-              <a href="https://www.instagram.com/dgroup2425?igsh=MWIxOXMyOHA1aDNwaw==">
+              <a href="https://www.instagram.com/dgroup2526/#">
                 <img
                   src={InstagramIcon}
                   alt="FB_logo"
