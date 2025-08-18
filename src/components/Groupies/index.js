@@ -60,7 +60,7 @@ function GroupieGrid() {
       email: "kita@d-group.se",
       age: "2004",
       home: "Falun",
-      pors: "Datorteknik",
+      pors: "Datateknik",
       cons: "blub blub",
     },
     {
@@ -93,7 +93,7 @@ function GroupieGrid() {
       email: "kevin.larsson@d-group.se",
       age: "2002",
       home: "Västerås",
-      pors: "IP",
+      pors: "Innovativ programmering",
       cons: "backflips",
     },
     {
@@ -115,7 +115,7 @@ function GroupieGrid() {
       email: "harry.jacobsen@d-group.se",
       age: "2002",
       home: "Stockholm",
-      pors: "Datorteknik",
+      pors: "Datateknik",
       cons: "Rumsnummer på armen = knacka galet på dörr 30m bort",
     },
     {
@@ -137,7 +137,7 @@ function GroupieGrid() {
       email: "elin.roos@d-group.se",
       age: "2004",
       home: "Stockholm",
-      pors: "Datorteknik",
+      pors: "Datateknik",
       cons: "Måste kissa",
     },
     {
@@ -170,7 +170,7 @@ function GroupieGrid() {
       email: "hugo.staaff@d-group.se",
       age: "2001",
       home: "Stockholm",
-      pors: "Informationsteknologi",
+      pors: "Datateknik",
       cons: "Huligan",
     },
     {
@@ -193,7 +193,7 @@ function GroupieGrid() {
       age: "2001",
       home: "Malmö",
       pors: "Mjukvaruteknik",
-      cons: "BOORJARE",
+      cons: "Holy Shit",
     },
   ];
 
