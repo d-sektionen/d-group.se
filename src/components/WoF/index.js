@@ -2,6 +2,7 @@ import React from "react";
 import Gallery from "react-grid-gallery";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
+import dg2425 from "../../images/dpateter/dg2425.jpg";
 import dg2324 from "../../images/gropies/dgroup2324_landscape.jpg";
 import dg2223 from "../../images/dpateter/dg2223.jpg";
 import dg2122 from "../../images/dpateter/dg2122.jpg";
@@ -36,6 +37,14 @@ import dg8788 from "../../images/dpateter/dg8788.jpg";
 import dg8182 from "../../images/dpateter/dg8182.jpg";
 
 const images = [
+   {
+    src: dg2425,
+    thumbnail: dg2425,
+    thumbnailWidth: 320,
+    thumbnailHeight: 320,
+    caption: "D-Group 24/25 - Familjen Lü tao paœ fi guręt",
+    thumbnailCaption: "D-Group 24/25",
+  },
   {
     src: dg2324,
     thumbnail: dg2324,

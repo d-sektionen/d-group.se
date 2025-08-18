@@ -49,7 +49,7 @@ function Contact() {
             Post specifik kontakt
           </Typography>
           <Typography variant="h6" guttomButtom paragraph>
-            Chief, Tess:{" "}
+            Chief, Charlotte:{" "}
             <Link href="mailto:Chief@d-group.se">Chief@d-group.se</Link> <br />
             Vid Samarbets-frågor:{" "}
             <Link href="mailto:spons@d-group.se">Spons@d-group.se</Link> <br />

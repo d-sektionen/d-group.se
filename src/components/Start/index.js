@@ -14,7 +14,8 @@ import dggrupp from "../../images/gropies/dgroup2324.jpg";
 import dggrupp1200px from "../../images/gropies/dgroup2324_landscape.jpg";
 import dgroupHog from "../../images/gropies/22_23_formation.jpg";
 
-import gruppbild from "../../images/dg2425/gruppbild1800x1200px.jpg";
+// import gruppbild from "../../images/dg2425/gruppbild1800x1200px.jpg";
+import gruppbild from "../../images/dg2526/dg2526-gruppbild-offeciell.jpg"
 
 /* <picture>
             <source media="(min-width: 768px)" srcset={dggrupp} height={"100vh"} width={"100%"}/>
@@ -45,7 +46,7 @@ function Start() {
               color={"#754022"}
             >
               {" "}
-              D-Group 24/25
+              D-Group 25/26
             </Typography>
             <Typography variant="h6" gutterButtom>
               {" "}
