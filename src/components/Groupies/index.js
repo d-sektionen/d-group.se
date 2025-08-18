@@ -50,51 +50,6 @@ import harry from "../../images/dg2526/Profiler/harry.jpg"
 // const FAMILYNAME = "Lü tao paœ fi guręt";
 const FAMILYNAME = "Læi gündán iôm bün çsteîna"
 
-// import embla from "../../images/dg2425/profiler/embla.jpg";
-// import emblaSmall from "../../images/dg2425/profiler/embla_426x640.jpg";
-// import tessSmall from "../../images/dg2425/profiler/tess_426x640.jpg";
-// import tess from "../../images/dg2425/profiler/tess.JPG";
-// import isak from "../../images/dg2425/profiler/isakbig.jpg";
-// import isakSmall from "../../images/dg2425/profiler/isakbig_426x640.jpg";
-// import jesper from "../../images/dg2425/profiler/jesper.jpg";
-// import jesperSmall from "../../images/dg2425/profiler/Jesper-4_426x640.jpg";
-// import jenny from "../../images/dg2425/profiler/jenny.jpg";
-// import jennySmall from "../../images/dg2425/profiler/jenny_426x640.jpg";
-// import elias from "../../images/dg2425/profiler/elias.jpg";
-// import eliasSmall from "../../images/dg2425/profiler/elias_426x640.jpg";
-// import melker from "../../images/dg2425/profiler/melker.jpg";
-// import melkerSmall from "../../images/dg2425/profiler/melker_426x640.jpg";
-// import axel from "../../images/dg2425/profiler/axel.jpg";
-// import axelSmall from "../../images/dg2425/profiler/axel_426x640.jpg";
-// import simon from "../../images/dg2425/profiler/simon.jpg";
-// import simonSmall from "../../images/dg2425/profiler/simon_426x640.jpg";
-// import alma from "../../images/dg2425/profiler/Alma.jpg";
-// import almaSmall from "../../images/dg2425/profiler/Alma_426x640.jpg";
-// import chrille from "../../images/dg2425/profiler/chrille.jpg";
-// import chrilleSmall from "../../images/dg2425/profiler/chrille_426x640.jpg";
-// import jonga from "../../images/dg2425/profiler/jonga.jpg";
-// import jongaSmall from "../../images/dg2425/profiler/jonga_426x640.jpg";
-// import olle from "../../images/dg2425/profiler/olle.jpg";
-// import olleSmall from "../../images/dg2425/profiler/olle_426x640.jpg";
-
-
-// SMALL ANVÄNDS FÖR NÄR MAN GÖR HEMSIDAN MINDRE NU FÖRSTÅR JAG
-import maxen from "../../images/dg2526/Profiler/maxmax.jpg"
-import emelie from "../../images/dg2526/Profiler/emelie.jpg"
-import klara from "../../images/dg2526/Profiler/klara.jpg"
-import olle from "../../images/dg2526/Profiler/olle.jpg"
-import hugo from "../../images/dg2526/Profiler/hugo.jpg"
-import elin from "../../images/dg2526/Profiler/elin.jpg"
-import gorbel from "../../images/dg2526/Profiler/gorbel.jpg"
-import qelb from "../../images/dg2526/Profiler/qelb.jpg"
-import becky from "../../images/dg2526/Profiler/becky.jpg"
-import jocke from "../../images/dg2526/Profiler/jocke.jpg"
-import jacob from "../../images/dg2526/Profiler/jacob.jpg"
-import kita from "../../images/dg2526/Profiler/kita.jpg"
-import harry from "../../images/dg2526/Profiler/harry.jpg"
-
-// const FAMILYNAME = "Lü tao paœ fi guręt";
-const FAMILYNAME = "Læi gündán iôm bün çsteîna"
 
 function GroupieGrid() {
   const Groupies = [
