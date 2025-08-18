@@ -5,6 +5,7 @@ import ericsson from "../../images/spons/ericssonSpons.webp";
 import microtec from "../../images/spons/microtec.png";
 import Ida from "../../images/spons/idainfrontSpons.webp";
 import xamera from "../../images/spons/xameraSpons.webp";
+import xamera from "../../images/spons/xameraSpons.webp";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Link from "@mui/material/Link";
@@ -12,7 +13,12 @@ import logo from "../../images/logo.webp";
 import { Slideshow } from "./DgSlideshow";
 import dggrupp from "../../images/gropies/dgroup2324.jpg";
 import dggrupp1200px from "../../images/gropies/dgroup2324_landscape.jpg";
+import dggrupp from "../../images/gropies/dgroup2324.jpg";
+import dggrupp1200px from "../../images/gropies/dgroup2324_landscape.jpg";
 import dgroupHog from "../../images/gropies/22_23_formation.jpg";
+
+// import gruppbild from "../../images/dg2425/gruppbild1800x1200px.jpg";
+import gruppbild from "../../images/dg2526/dg2526-gruppbild-offeciell.jpg"
 
 // import gruppbild from "../../images/dg2425/gruppbild1800x1200px.jpg";
 import gruppbild from "../../images/dg2526/dg2526-gruppbild-offeciell.jpg"
@@ -32,6 +38,9 @@ function Start() {
         <Grid sm={12} sx={{ pt: 0 }} /* Groupies Bild */>
           <WidePictureFrame src={gruppbild} />
           <HighPictureFrame src={gruppbild} />
+        <Grid sm={12} sx={{ pt: 0 }} /* Groupies Bild */>
+          <WidePictureFrame src={gruppbild} />
+          <HighPictureFrame src={gruppbild} />
         </Grid>
         <Grid
           sm={12}
@@ -47,6 +56,7 @@ function Start() {
             >
               {" "}
               D-Group 25/26
+              D-Group 25/26
             </Typography>
             <Typography variant="h6" gutterButtom>
               {" "}
@@ -58,6 +68,7 @@ function Start() {
               in på Groupies sidan!
             </Typography>
           </Grid>
+          <Grid sm={12} md={5} sx={{ pt: 6, mx: "auto" }} /* D-GROUP LOGO */>
           <Grid sm={12} md={5} sx={{ pt: 6, mx: "auto" }} /* D-GROUP LOGO */>
             <img src={logo} alt="D-Group logo" />
           </Grid>
