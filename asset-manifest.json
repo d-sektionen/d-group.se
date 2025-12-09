@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.227214be.css",
-    "main.js": "/static/js/main.a6e20e54.js",
+    "main.js": "/static/js/main.f7fe136b.js",
     "static/js/787.390a27fe.chunk.js": "/static/js/787.390a27fe.chunk.js",
     "static/media/dgroup2324_landscape.jpg": "/static/media/dgroup2324_landscape.9ca2d0e99b9a58e9bb87.jpg",
-    "static/media/dg2526-gruppbild-offeciell.jpg": "/static/media/dg2526-gruppbild-offeciell.23940167f9d5623a7fe4.jpg",
     "static/media/dg1920.jpg": "/static/media/dg1920.978f1f612441123106c4.jpg",
     "static/media/22_23_slapp.jpg": "/static/media/22_23_slapp.712f34e8e53a115e180b.jpg",
     "static/media/dg2223.jpg": "/static/media/dg2223.712f34e8e53a115e180b.jpg",
@@ -24,13 +23,13 @@
     "static/media/klara.jpg": "/static/media/klara.aaf77aa1f75f5c8610dd.jpg",
     "static/media/kita.jpg": "/static/media/kita.c922ae99aa3a6034cfe3.jpg",
     "static/media/becky.jpg": "/static/media/becky.de480acdc6d164cd8fb1.jpg",
-    "static/media/harry.jpg": "/static/media/harry.46823885d481f80bfb45.jpg",
     "static/media/qelb.jpg": "/static/media/qelb.1a941a1d5226c79dd96f.jpg",
     "static/media/jacob.jpg": "/static/media/jacob.626d3f2c94c6a306f1b4.jpg",
     "static/media/hugo.jpg": "/static/media/hugo.6068bd2257cac266345f.jpg",
     "static/media/maxmax.jpg": "/static/media/maxmax.48a49f2a1b212e51374c.jpg",
     "static/media/olle.jpg": "/static/media/olle.996f7f7a602795e45612.jpg",
     "static/media/dg1516.jpg": "/static/media/dg1516.e1f490351e0fd56391a4.jpg",
+    "static/media/dg2526_jul.JPG": "/static/media/dg2526_jul.4e8655c650d5b9640872.JPG",
     "static/media/dgroup2324.jpg": "/static/media/dgroup2324.bb429f4b11e7160371ed.jpg",
     "static/media/dg1617.jpg": "/static/media/dg1617.8460649cbe3a561fb102.jpg",
     "static/media/dg1213.jpg": "/static/media/dg1213.3e92cb3ffa2b9c526fcb.jpg",
@@ -71,11 +70,11 @@
     "static/media/roboto-greek-ext-400-normal.woff2": "/static/media/roboto-greek-ext-400-normal.e769aa77798cffeb5842.woff2",
     "index.html": "/index.html",
     "main.227214be.css.map": "/static/css/main.227214be.css.map",
-    "main.a6e20e54.js.map": "/static/js/main.a6e20e54.js.map",
+    "main.f7fe136b.js.map": "/static/js/main.f7fe136b.js.map",
     "787.390a27fe.chunk.js.map": "/static/js/787.390a27fe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.227214be.css",
-    "static/js/main.a6e20e54.js"
+    "static/js/main.f7fe136b.js"
   ]
 }
