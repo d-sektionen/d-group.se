@@ -38,8 +38,7 @@ function Contact() {
             Kårallen, Universitet
             <br />
             581 83 Linköping <br />
-            Org.nr: 822002-1409 <br />
-            BG: 436-2497
+            Org.nr: 822002-1409
           </Typography>
 
           <Typography variant="h6" guttomButtom></Typography>

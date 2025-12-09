@@ -32,7 +32,7 @@ import { Typography } from "@mui/material";
 // import olleSmall from "../../images/dg2425/profiler/olle_426x640.jpg";
 
 
-// SMALL ANVÄNDS FÖR NÄR MAN GÖR HEMSIDAN MINDRE NU FÖRSTÅR JAG
+// SMALL behövs typ inte men kolla in på det om du är intresserad av att optimera laddningstider
 import maxen from "../../images/dg2526/Profiler/maxmax.jpg"
 import emelie from "../../images/dg2526/Profiler/emelie.jpg"
 import klara from "../../images/dg2526/Profiler/klara.jpg"
@@ -45,7 +45,18 @@ import becky from "../../images/dg2526/Profiler/becky.jpg"
 import jocke from "../../images/dg2526/Profiler/jocke.jpg"
 import jacob from "../../images/dg2526/Profiler/jacob.jpg"
 import kita from "../../images/dg2526/Profiler/kita.jpg"
-import harry from "../../images/dg2526/Profiler/harry.jpg"
+
+
+/* 
+Det som måste göras för att lägga tillbaka j'8 på hemsidan:
+J'8 har alltid haft index 5 och ska ha det, men pga en kommenterades bort tillfälligt så ska det ändras på ett antal ställen:
+1. Rad 307 ska stå Groupies[11] istället för Groupies[10]
+2. Alla som har index 5 och uppåt:
+<CardGrid user={Groupies[5]}>
+ska ökas med +1, så de faller tillbaka på korrekt plats. Denna kommentar kan tas bort när ändringarna är gjorda. Fråga mig om du är osäker :) //Max
+
+*/ 
+
 
 // const FAMILYNAME = "Lü tao paœ fi guręt";
 const FAMILYNAME = "Læi gündán iôm bün çsteîna"
@@ -108,17 +119,17 @@ function GroupieGrid() {
       pors: "Informationsteknologi",
       cons: "Har fästingar",
     },
-    {
-      name: "Harry Jacobsen",
-      post: "J^8",
-      image: harry,
-      smallImage: harry,
-      email: "harry.jacobsen@d-group.se",
-      age: "2002",
-      home: "Stockholm",
-      pors: "Datateknik",
-      cons: "Rumsnummer på armen = knacka galet på dörr 30m bort",
-    },
+    // {
+    //   name: "Din mamma",
+    //   post: "J^8",
+    //   image: din mamma,
+    //   smallImage: din mamma,
+    //   email: "din.mamma@d-group.se",
+    //   age: "ingen vet",
+    //   home: "skyttet",
+    //   pors: "Datateknik",
+    //   cons: "hon lirar bara bangers",
+    // },
     {
       name: "Emelie Nordeskog",
       post: "Spons",
@@ -150,7 +161,7 @@ function GroupieGrid() {
       age: "2005",
       home: "Vimseby",
       pors: "Informationsteknologi",
-      cons: "Barn",
+      cons: "Har Barn",
     },
     {
       name: "Rebecka Smids",
@@ -270,7 +281,7 @@ function GroupieGrid() {
           <CardGrid user={Groupies[1]} />
         </Grid>
         <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Bar Card */>
-          <CardGrid user={Groupies[12]} />
+          <CardGrid user={Groupies[11]} />
         </Grid>
         <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Webb Card */>
           <CardGrid user={Groupies[2]} />
@@ -279,32 +290,32 @@ function GroupieGrid() {
           <CardGrid user={Groupies[3]} />
         </Grid>
         <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Ticket Card */>
-          <CardGrid user={Groupies[8]} />
+          <CardGrid user={Groupies[7]} />
         </Grid>
         <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Pr & Event Card */>
           <CardGrid user={Groupies[4]} />
-        </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* J⁸ Card */>
-          <CardGrid user={Groupies[5]} />
+        {/* </Grid> */}
+        {/* <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} >
+          <CardGrid user={Groupies[5]} /> */}
         </Grid>
         <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Sponsor Card */>
+          <CardGrid user={Groupies[5]} />
+        </Grid>
+        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Trykk Card */>
           <CardGrid user={Groupies[6]} />
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Trykk Card */>
-          <CardGrid user={Groupies[7]} />
-        </Grid>
         <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* MoS Card */>
-          <CardGrid user={Groupies[9]} />
+          <CardGrid user={Groupies[8]} />
         </Grid>
         <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Trykk Card */>
-          <CardGrid user={Groupies[10]} />
+          <CardGrid user={Groupies[9]} />
         </Grid>
         <Grid
           xs={12}
           md={4}
           sx={{ p: { xs: 1, md: 2 } }} /* Pr & Personal Card */
         >
-          <CardGrid user={Groupies[11]} />
+          <CardGrid user={Groupies[10]} />
         </Grid>
       </Grid>
     </Box>
@@ -312,3 +323,5 @@ function GroupieGrid() {
 }
 
 export default GroupieGrid;
+
+

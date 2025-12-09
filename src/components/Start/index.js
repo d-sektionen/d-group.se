@@ -15,7 +15,9 @@ import dggrupp1200px from "../../images/gropies/dgroup2324_landscape.jpg";
 import dgroupHog from "../../images/gropies/22_23_formation.jpg";
 
 
-import gruppbild from "../../images/dg2526/dg2526-gruppbild-offeciell.jpg"
+// import gruppbild from "../../images/dg2526/dg2526-gruppbild-offeciell.jpg"
+import gruppbild from "../../images/dg2526/dg2526_jul.JPG"
+
 
 /* <picture>
             <source media="(min-width: 768px)" srcset={dggrupp} height={"100vh"} width={"100%"}/>
