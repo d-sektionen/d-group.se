@@ -16,7 +16,8 @@ import dgroupHog from "../../images/gropies/22_23_formation.jpg";
 
 
 // import gruppbild from "../../images/dg2526/dg2526-gruppbild-offeciell.jpg"
-import gruppbild from "../../images/dg2526/dg2526_jul.JPG"
+// import gruppbild from "../../images/dg2526/dg2526_jul.JPG"
+import gruppbild from "../../images/dg2526/dg2526_dimd.JPG"
 
 
 /* <picture>

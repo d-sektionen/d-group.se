@@ -40,6 +40,10 @@ import olle from "../../images/dg2526/Profiler/olle.jpg"
 import hugo from "../../images/dg2526/Profiler/hugo.jpg"
 import elin from "../../images/dg2526/Profiler/elin.jpg"
 import gorbel from "../../images/dg2526/Profiler/gorbel.jpg"
+
+// import gorbel from "../../images/dg2526/Profiler/gorbel2.0.jpg"
+
+
 import qelb from "../../images/dg2526/Profiler/qelb.jpg"
 import becky from "../../images/dg2526/Profiler/becky.jpg"
 import jocke from "../../images/dg2526/Profiler/jocke.jpg"
@@ -84,7 +88,7 @@ function GroupieGrid() {
       age: "2003",
       home: "Stockholm",
       pors: "Datateknik",
-      cons: "woof woof ice spice?",
+      cons: "BB114",
     },
     {
       name: "Max Eriksson",
@@ -95,7 +99,7 @@ function GroupieGrid() {
       age: "2001",
       home: "Stallarholmen",
       pors: "Mjukvaruteknik",
-      cons: "Kan simma med kläderna på",
+      cons: "sten",
     },
     {
       name: "Kevin Larsson",
@@ -106,7 +110,7 @@ function GroupieGrid() {
       age: "2002",
       home: "Västerås",
       pors: "Innovativ programmering",
-      cons: "backflips",
+      cons: "celibat",
     },
     {
       name: "Joakim Centervall",
@@ -117,7 +121,7 @@ function GroupieGrid() {
       age: "2003",
       home: "Stockholm",
       pors: "Informationsteknologi",
-      cons: "Har fästingar",
+      cons: "slipsfredag",
     },
     // {
     //   name: "Din mamma",
@@ -150,7 +154,7 @@ function GroupieGrid() {
       age: "2004",
       home: "Stockholm",
       pors: "Datateknik",
-      cons: "Måste kissa",
+      cons: "buffé",
     },
     {
       name: "Klara Ambrosiani",
@@ -161,7 +165,7 @@ function GroupieGrid() {
       age: "2005",
       home: "Vimseby",
       pors: "Informationsteknologi",
-      cons: "Har Barn",
+      cons: "helga olivia",
     },
     {
       name: "Rebecka Smids",
@@ -172,7 +176,7 @@ function GroupieGrid() {
       age: "2003",
       home: "Mora",
       pors: "Informationsteknologi",
-      cons: "Gredos + bastuaggregat + kolla inte",
+      cons: "cockblock",
     },
     {
       name: "Hugo Staaff",
@@ -183,7 +187,7 @@ function GroupieGrid() {
       age: "2001",
       home: "Stockholm",
       pors: "Datateknik",
-      cons: "Huligan",
+      cons: "farfar",
     },
     {
       name: "Olle Morberg",
@@ -194,7 +198,7 @@ function GroupieGrid() {
       age: "2003",
       home: "Lund",
       pors: "Datateknik",
-      cons: "2.5 kir",
+      cons: "hmm, chips t",
     },
     {
       name: "Jacob Ranebjer",
@@ -205,7 +209,7 @@ function GroupieGrid() {
       age: "2001",
       home: "Malmö",
       pors: "Mjukvaruteknik",
-      cons: "Holy Shit",
+      cons: "blå",
     },
   ];
 
