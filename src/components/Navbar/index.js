@@ -132,6 +132,15 @@ const ResponsiveAppBar = () => {
                     </Typography>
                   </MenuItem>
                 </Link>
+
+                  <Link to="kastapil">
+                  <MenuItem key="KastaPil" onClick={handleCloseNavMenu}>
+                    <Typography textAlign="center" color="white">
+                      Kasta pil
+                    </Typography>
+                  </MenuItem>
+                </Link>
+
                 <Link to="calendar">
                   <MenuItem key="Festkalender" onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" color="white">
@@ -236,6 +245,17 @@ const ResponsiveAppBar = () => {
                   Taggfilmer
                 </Button>
               </Link>
+
+               <Link to="kastapil">
+                <Button
+                  key="kastapil"
+                  onClick={handleCloseNavMenu}
+                  sx={{ my: 2, color: "white", display: "block" }}
+                >
+                  Kasta pil
+                </Button>
+              </Link>
+
               <Link to="calendar">
                 <Button
                   key="Kalender"

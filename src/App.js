@@ -12,6 +12,8 @@ import TaggfilmerNy from "./components/Taggfilmer";
 import Groupies from "./components/Groupies";
 import Test from "./components/test";
 
+import KastaPil from "./components/kastaPil";
+
 const App = () => {
   
   return (
@@ -29,6 +31,8 @@ const App = () => {
         <Route exact path="/movies" element={<TaggfilmerNy/>} />
         <Route exapt path="/kontakt" element={<Contact />} />
         <Route exapt path="/test" element={<Test />} /> 
+
+        <Route exapt path="/kastapil" element={<KastaPil />} /> 
       </Routes>
 
       
