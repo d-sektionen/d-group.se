@@ -123,7 +123,7 @@ function GroupieGrid() {
     },
     {
       name: "Felicia Rogestedt",
-      post: "Pr & Event",
+      post: "PREvent",
       image: felicia,
       smallImage: felicia,
       email: "felicia.rogestedt@d-group.se",
@@ -200,7 +200,7 @@ function GroupieGrid() {
     },
     {
       name: "Theodor Stiebel",
-      post: "Pr & Personal",
+      post: "Personal",
       image: totte,
       smallImage: totte,
       email: "theodor.stiebel@d-group.se",
