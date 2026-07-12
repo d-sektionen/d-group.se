@@ -14,11 +14,9 @@ import dggrupp from "../../images/gropies/dgroup2324.jpg";
 import dggrupp1200px from "../../images/gropies/dgroup2324_landscape.jpg";
 import dgroupHog from "../../images/gropies/22_23_formation.jpg";
 
-
 // import gruppbild from "../../images/dg2526/dg2526-gruppbild-offeciell.jpg"
 // import gruppbild from "../../images/dg2526/dg2526_jul.JPG"
-import gruppbild from "../../images/dg2526/dg2526_dimd.JPG"
-
+import gruppbild from "../../images/dg2627/gruppbild.jpeg";
 
 /* <picture>
             <source media="(min-width: 768px)" srcset={dggrupp} height={"100vh"} width={"100%"}/>
@@ -49,7 +47,7 @@ function Start() {
               color={"#754022"}
             >
               {" "}
-              D-Group 25/26
+              D-Group 26/27
             </Typography>
             <Typography variant="h6" gutterButtom>
               {" "}
@@ -81,7 +79,7 @@ function Start() {
             D<span STYLE="font-size:75%">ÖM</span>D
           </Typography>
           <Typography variant="h6">
-            Den 23:e april slås dörrarna upp till årets bästa fest, D
+            Den 24:e april slås dörrarna upp till årets bästa fest, D
             <span STYLE="font-size:75%">ÖM</span>
             D! Datateknologsektionens Öppna Mästerskap i Dart är en av norra
             Europas största darttävlingar som arrangeras för 45:e året i rad.
@@ -147,7 +145,7 @@ function Start() {
               color="#E5398D"
               fontWeight={"bold"}
             >
-              Åvvefix & ÅvveInvigning
+              Ovvefix & Ovveinvigning
             </Typography>
             <Typography variant="h6" guttomButtom>
               Då nolle-p är över och alla nya ettor har fått sina overaller
