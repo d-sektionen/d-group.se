@@ -133,7 +133,7 @@ const ResponsiveAppBar = () => {
                   </MenuItem>
                 </Link>
 
-                  <Link to="kastapil">
+                <Link to="kastapil">
                   <MenuItem key="KastaPil" onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" color="white">
                       Kasta pil
@@ -169,7 +169,7 @@ const ResponsiveAppBar = () => {
                   </MenuItem>
                 </a>
                 <a
-                  href="https://www.instagram.com/dgroup2526/#"
+                  href="https://www.instagram.com/dgroup2627/#"
                   style={{ textDecoration: "none" }}
                 >
                   <MenuItem key="Instagram" onClick={handleCloseNavMenu}>
@@ -246,7 +246,7 @@ const ResponsiveAppBar = () => {
                 </Button>
               </Link>
 
-               <Link to="kastapil">
+              <Link to="kastapil">
                 <Button
                   key="kastapil"
                   onClick={handleCloseNavMenu}
