@@ -28,7 +28,15 @@ import gruppbild from "../../images/dg2627/gruppbild.jpeg";
 
 function Start() {
   return (
-    <Box sx={{ textAlign: "center" }}>
+    <Box
+      sx={{
+        textAlign: "center",
+        pt: {
+          xs: "50px",
+          md: 0,
+        },
+      }}
+    >
       <Grid container>
         <Grid sm={12} sx={{ pt: 0 }} /* Groupies Bild */>
           <WidePictureFrame src={gruppbild} />
