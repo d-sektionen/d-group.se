@@ -48,19 +48,19 @@ import { Typography } from "@mui/material";
 // import jacob from "../../images/dg2526/Profiler/jacob.jpg";
 // import kita from "../../images/dg2526/Profiler/kita.jpg";
 
-import oliver from "../../images/dg2627/profiler/oliver.jpg";
-import nanna from "../../images/dg2627/profiler/nanna.jpg";
-import gurr from "../../images/dg2627/profiler/gurr.jpg";
-import burbel from "../../images/dg2627/profiler/burbel.jpg";
-import melle from "../../images/dg2627/profiler/melle.jpg";
-import pino from "../../images/dg2627/profiler/pino.jpg";
-import sixten from "../../images/dg2627/profiler/sixten.jpg";
-import snollo from "../../images/dg2627/profiler/snollo.jpg";
-import ines from "../../images/dg2627/profiler/ines.jpg";
-import sofie from "../../images/dg2627/profiler/sofie.jpg";
-import totte from "../../images/dg2627/profiler/totte.jpg";
-import stella from "../../images/dg2627/profiler/stella.jpg";
-import felicia from "../../images/dg2627/profiler/felicia.jpg";
+import oliver from "../../images/dg2627/profiler/Oliver.jpg";
+import nanna from "../../images/dg2627/profiler/Nanna.jpg";
+import gurr from "../../images/dg2627/profiler/Gustav.jpg";
+import burbel from "../../images/dg2627/profiler/Burbel.jpg";
+import melle from "../../images/dg2627/profiler/Melle.jpg";
+import pino from "../../images/dg2627/profiler/Pino.jpg";
+import sixten from "../../images/dg2627/profiler/Sixten.jpg";
+import snollo from "../../images/dg2627/profiler/Snollo.jpg";
+import ines from "../../images/dg2627/profiler/Ines.jpg";
+import sofie from "../../images/dg2627/profiler/Sofie.jpg";
+import totte from "../../images/dg2627/profiler/Totte.jpg";
+import stella from "../../images/dg2627/profiler/Stella.jpg";
+import felicia from "../../images/dg2627/profiler/Fel.jpg";
 
 /* 
 Det som måste göras för att lägga tillbaka j'8 på hemsidan:

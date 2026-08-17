@@ -16,7 +16,7 @@ import dgroupHog from "../../images/gropies/22_23_formation.jpg";
 
 // import gruppbild from "../../images/dg2526/dg2526-gruppbild-offeciell.jpg"
 // import gruppbild from "../../images/dg2526/dg2526_jul.JPG"
-import gruppbild from "../../images/dg2627/gruppbild.jpeg";
+import gruppbild from "../../images/dg2627/dg2627-gruppbild-officiell.JPG";
 
 /* <picture>
             <source media="(min-width: 768px)" srcset={dggrupp} height={"100vh"} width={"100%"}/>
@@ -32,7 +32,7 @@ function Start() {
       sx={{
         textAlign: "center",
         pt: {
-          xs: "50px",
+          xs: "5px",
           md: 0,
         },
       }}
