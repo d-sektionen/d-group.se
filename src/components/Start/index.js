@@ -18,34 +18,28 @@ import dgroupHog from "../../images/gropies/22_23_formation.jpg";
 // import gruppbild from "../../images/dg2526/dg2526_jul.JPG"
 import gruppbild from "../../images/dg2627/dg2627-gruppbild-officiell.JPG";
 
-/* <picture>
-            <source media="(min-width: 768px)" srcset={dggrupp} height={"100vh"} width={"100%"}/>
-            <source media="(max-width: 768px)" srcset={dgroupHog} height={"84vh"} width={"100vw"}/>
-            <img src={dgroupHog} alt="D-Group gruppbild"/>
-            
-            
-          </picture>   */
-
 function Start() {
   return (
     <Box
       sx={{
         textAlign: "center",
         pt: {
-          xs: "5px",
-          md: 0,
+          xs: "50px",
+          md: "72px",
         },
       }}
     >
       <Grid container>
         <Grid sm={12} sx={{ pt: 0 }} /* Groupies Bild */>
-          <WidePictureFrame src={gruppbild} />
-          <HighPictureFrame src={gruppbild} />
+          <WidePictureFrame src={gruppbild} alt="D-Group 26/27" />
+          <HighPictureFrame src={gruppbild} alt="D-Group 26/27" />
         </Grid>
+
         <Grid
           sm={12}
           sx={{ mx: 6, mb: 6, mt: 3 }}
-          container /* Om oss text MED LOGO*/
+          container
+          /* Om oss text MED LOGO*/
         >
           <Grid sm={12} md={7}>
             <Typography
@@ -54,11 +48,10 @@ function Start() {
               fontWeight={"bold"}
               color={"#754022"}
             >
-              {" "}
               D-Group 26/27
             </Typography>
+
             <Typography variant="h6" gutterButtom>
-              {" "}
               Det är vi som är D-Group vilket är D-sektionens eminenta festeri.
               Vi har funnits sedan världen var svart-vit och popcorn inte gick
               att göra i micron. Innan dess låg vi i mammas kära mage och smed
@@ -67,15 +60,23 @@ function Start() {
               in på Groupies sidan!
             </Typography>
           </Grid>
-          <Grid sm={12} md={5} sx={{ pt: 6, mx: "auto" }} /* D-GROUP LOGO */>
+
+          <Grid
+            sm={12}
+            md={5}
+            sx={{ pt: 6, mx: "auto" }}
+            /* D-GROUP LOGO */
+          >
             <img src={logo} alt="D-Group logo" />
           </Grid>
         </Grid>
+
         <Grid sm={12} /* DömD PICTURE */>
           <Typography variant="h2" color="#754022" guttomButtom>
             Våra evenemang
           </Typography>
         </Grid>
+
         <Grid sm={12} md={6} sx={{ px: 6, mt: 6 }} /* DÖmD */>
           <Typography
             variant="h3"
@@ -83,14 +84,14 @@ function Start() {
             fontWeight={"bold"}
             color={"#E5398D"}
           >
-            {" "}
             D<span STYLE="font-size:75%">ÖM</span>D
           </Typography>
+
           <Typography variant="h6">
             Den 24:e april slås dörrarna upp till årets bästa fest, D
             <span STYLE="font-size:75%">ÖM</span>
             D! Datateknologsektionens Öppna Mästerskap i Dart är en av norra
-            Europas största darttävlingar som arrangeras för 45:e året i rad.
+            Europas största darttävlingar som arrangeras för 46:e året i rad.
             Festen som pågår i tre dagar och börjar med kravall på torsdagen,
             fortsätter med fest på fredagen och avslutas med tävling, sittning
             och eftersläpp på lördagen. Denna fest får inte missas så boka in
@@ -105,6 +106,7 @@ function Start() {
             </Link>
           </Typography>
         </Grid>
+
         <Grid sm={12} md={6} sx={{ px: 6, mt: 6 }} /* DIMD */>
           <Typography
             variant="h3"
@@ -112,9 +114,9 @@ function Start() {
             fontWeight={"bold"}
             color={"#E5398D"}
           >
-            {" "}
             D<span STYLE="font-size:75%">IM</span>D
           </Typography>
+
           <Typography variant="h6">
             Kliar det i kastarmen? Tycker du att det är lite för långt mellan D
             <span STYLE="font-size:75%">ÖM</span>D och D
@@ -127,6 +129,7 @@ function Start() {
             du som är kungen av denna ädla sport.
           </Typography>
         </Grid>
+
         <Grid container sx={{ mt: 6 }} /* ANDRA FESTER */>
           <Grid sm={12} md={6} sx={{ mb: 6, px: 5 }} /* Nolle-P */>
             <Typography
@@ -137,6 +140,7 @@ function Start() {
             >
               Nollesittningen & Nollefinalen
             </Typography>
+
             <Typography variant="h6" guttomButtom>
               När Nolle-P lider mot sitt slut och det börjar bli dags för STABEN
               att uppgradera nollan till etta bjuder D-Group in till finfest.
@@ -146,7 +150,13 @@ function Start() {
               och Y-sektionens nyblivna ettan och faddrar.
             </Typography>
           </Grid>
-          <Grid sm={12} md={6} sx={{ mb: 6, px: 5 }} /* ÅvveInvigningen */>
+
+          <Grid
+            sm={12}
+            md={6}
+            sx={{ mb: 6, px: 5 }}
+            /* ÅvveInvigningen */
+          >
             <Typography
               variant="h4"
               guttomButtom
@@ -155,6 +165,7 @@ function Start() {
             >
               Ovvefix & Ovveinvigning
             </Typography>
+
             <Typography variant="h6" guttomButtom>
               Då nolle-p är över och alla nya ettor har fått sina overaller
               kommer D-Group att hjälpa till att snygga till dem. Vi ser till
@@ -165,6 +176,7 @@ function Start() {
               deras nya ettor.
             </Typography>
           </Grid>
+
           <Grid sm={12} md={6} sx={{ mb: 6, px: 5 }} /* ToTK */>
             <Typography
               variant="h4"
@@ -174,6 +186,7 @@ function Start() {
             >
               Tenta- & Omtentakravallen
             </Typography>
+
             <Typography variant="h6" guttomButtom>
               När höstens tenta-p äntligen är genomlidet och tankeknölarna
               värker av utmattning är det dags att släpp loss. Därför bjuder
@@ -183,6 +196,7 @@ function Start() {
               du får chansen att gråta efter tentatanterna en gång.
             </Typography>
           </Grid>
+
           <Grid sm={12} md={6} sx={{ px: 5 }} /* Julfesten */>
             <Typography
               variant="h4"
@@ -192,6 +206,7 @@ function Start() {
             >
               Julfesten
             </Typography>
+
             <Typography variant="h6" guttomButtom>
               Då julen är på ingång och du börjar skymta tomtar i varje hörn
               tycker D-Group att det är ett alldeles utomordentligt tillfälle
@@ -201,16 +216,22 @@ function Start() {
               bord nära dig.
             </Typography>
           </Grid>
-          <Grid sm={12} md={6} sx={{ px: 6, mt: 6, margin: "auto" }} /* DÖmD */>
+
+          <Grid
+            sm={12}
+            md={6}
+            sx={{ px: 6, mt: 6, margin: "auto" }}
+            /* KOPS */
+          >
             <Typography
               variant="h4"
               guttomButtom
               fontWeight={"bold"}
               color={"#E5398D"}
             >
-              {" "}
               KOPS
             </Typography>
+
             <Typography variant="h6">
               I år levererar D-Group det mest episka eventet någonsin - KOPS! Ni
               kommer njuta av en kulinarisk aktivitetsrunda, delta i vårt
@@ -220,13 +241,15 @@ function Start() {
             </Typography>
           </Grid>
         </Grid>
+
         <Grid
           container
           spacing={0}
           direction="column"
           alignItems="center"
           justifyContent="center"
-          sx={{ m: 6 }} /* Våra Sponsorer*/
+          sx={{ m: 6 }}
+          /* Våra Sponsorer */
         >
           <Typography
             variant="h2"
@@ -236,21 +259,23 @@ function Start() {
           >
             Våra Sponsorer
           </Typography>
+
           {/* MicroTech spons borta */}
           {/* <Box md={6} sx={{ my:3 }}>
             <Link
-            href="https://www.microtec.eu/sv-se"
-            underlink="hover"
-            sx={{ textDecoration: "none"}}
+              href="https://www.microtec.eu/sv-se"
+              underlink="hover"
+              sx={{ textDecoration: "none"}}
             >
               <img 
-              src={microtec}
-              alt="Microtec Logo"
-              width={"80%"}
-              height={"80%"}
+                src={microtec}
+                alt="Microtec Logo"
+                width={"80%"}
+                height={"80%"}
               />
             </Link>
           </Box> */}
+
           <Box md={5} sx={{ my: 3 }}>
             <Link
               href="https://www.ericsson.com/en/careers"
@@ -260,6 +285,7 @@ function Start() {
               <img src={ericsson} alt="Ericsson Logo" />
             </Link>
           </Box>
+
           <Box md={5} sx={{ my: 3 }}>
             <Link
               href="https://idainfront.se/en/"
@@ -274,6 +300,7 @@ function Start() {
               />
             </Link>
           </Box>
+
           {/* <Box md={5} sx={{ marginTop:3 }}>
             <Link
               href="https://xamera.se/"
@@ -284,7 +311,6 @@ function Start() {
                 src={xamera}
                 alt="Xamera Logo"
                 width={"40%"}
-                // height={"30%"} 
               />
             </Link>
           </Box> */}

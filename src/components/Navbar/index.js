@@ -43,9 +43,31 @@ const ResponsiveAppBar = () => {
 
   return (
     <ThemeProvider theme={darkTheme}>
-      <AppBar position="fixed" color="primary">
+      <AppBar
+        position="fixed"
+        color="primary"
+        sx={{
+          height: {
+            md: "72px",
+          },
+        }}
+      >
         <Container maxWidth="xl">
-          <Toolbar disableGutters sx={{ alignItems: "flex-start" }}>
+          <Toolbar
+            disableGutters
+            sx={{
+              alignItems: {
+                xs: "flex-start",
+                md: "center",
+              },
+              minHeight: {
+                md: "72px !important",
+              },
+              height: {
+                md: "72px",
+              },
+            }}
+          >
             <Link to="/" /* Computer LOGO */>
               <Typography
                 variant="h6"
@@ -62,11 +84,13 @@ const ResponsiveAppBar = () => {
                 />
               </Typography>
             </Link>
+
             <Box
               sx={{
                 flexGrow: 1,
                 display: { xs: "flex", md: "none" },
-              }} /* Mobile dropdown */
+              }}
+              /* Mobile dropdown */
             >
               <IconButton
                 size="large"
@@ -79,6 +103,7 @@ const ResponsiveAppBar = () => {
               >
                 <HiMenu />
               </IconButton>
+
               <Menu1
                 id="menu-appbar"
                 anchorEl={anchorElNav}
@@ -104,6 +129,7 @@ const ResponsiveAppBar = () => {
                     </Typography>
                   </MenuItem>
                 </Link>
+
                 <Link to="groupies">
                   <MenuItem key="groupies" onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" color="white">
@@ -111,6 +137,7 @@ const ResponsiveAppBar = () => {
                     </Typography>
                   </MenuItem>
                 </Link>
+
                 <Link to="kontakt">
                   <MenuItem key="Kontakt" onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" color="white">
@@ -118,6 +145,7 @@ const ResponsiveAppBar = () => {
                     </Typography>
                   </MenuItem>
                 </Link>
+
                 <Link to="pateter">
                   <MenuItem key="WallOfFame" onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" color="white">
@@ -125,6 +153,7 @@ const ResponsiveAppBar = () => {
                     </Typography>
                   </MenuItem>
                 </Link>
+
                 <Link to="movies">
                   <MenuItem key="Taggfilmer" onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" color="white">
@@ -148,6 +177,7 @@ const ResponsiveAppBar = () => {
                     </Typography>
                   </MenuItem>
                 </Link>
+
                 <a href="http://domd.nu/" style={{ textDecoration: "none" }}>
                   <MenuItem key="DomD" onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" color="white">
@@ -155,6 +185,7 @@ const ResponsiveAppBar = () => {
                     </Typography>
                   </MenuItem>
                 </a>
+
                 <a
                   href="https://www.facebook.com/DGroup2324"
                   style={{ textDecoration: "none" }}
@@ -168,6 +199,7 @@ const ResponsiveAppBar = () => {
                     />
                   </MenuItem>
                 </a>
+
                 <a
                   href="https://www.instagram.com/dgroup2627/#"
                   style={{ textDecoration: "none" }}
@@ -184,21 +216,25 @@ const ResponsiveAppBar = () => {
                 </a>
               </Menu1>
             </Box>
+
             <Box
               sx={{
                 flexGrow: 1.5,
                 display: { xs: "flex", md: "none" },
-              }} /* Mobile LOGO */
+              }}
+              /* Mobile LOGO */
             >
               <Link to="/" sx={{ textDecoration: "none" }}>
                 <img alt="logo" src={logo} width={60} height={60} />
               </Link>
             </Box>
+
             <Box
               sx={{
                 flexGrow: 1,
                 display: { xs: "none", md: "flex" },
-              }} /* Computer LinkBar */
+              }}
+              /* Computer LinkBar */
             >
               <Link to="/">
                 <Button
@@ -209,6 +245,7 @@ const ResponsiveAppBar = () => {
                   Start
                 </Button>
               </Link>
+
               <Link to="groupies">
                 <Button
                   key="hej"
@@ -218,6 +255,7 @@ const ResponsiveAppBar = () => {
                   Groupies
                 </Button>
               </Link>
+
               <Link to="kontakt">
                 <Button
                   key="Kontakt"
@@ -227,6 +265,7 @@ const ResponsiveAppBar = () => {
                   Kontakt
                 </Button>
               </Link>
+
               <Link to="pateter">
                 <Button
                   key="WoF"
@@ -236,6 +275,7 @@ const ResponsiveAppBar = () => {
                   Wall Of Fame
                 </Button>
               </Link>
+
               <Link to="movies">
                 <Button
                   key="movies"
@@ -260,11 +300,17 @@ const ResponsiveAppBar = () => {
                 <Button
                   key="Kalender"
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: "white", display: "block", flexGrow: 1 }}
+                  sx={{
+                    my: 2,
+                    color: "white",
+                    display: "block",
+                    flexGrow: 1,
+                  }}
                 >
                   Festkalender
                 </Button>
               </Link>
+
               <a href="http://domd.nu/" style={{ textDecoration: "none" }}>
                 <Button
                   key="DomD"
@@ -275,12 +321,14 @@ const ResponsiveAppBar = () => {
                 </Button>
               </a>
             </Box>
+
             <Box
               sx={{
                 flexGrow: 0,
                 mt: 1,
                 display: { xs: "none", md: "flex" },
-              }} /* Computer FB/IG to right */
+              }}
+              /* Computer FB/IG to right */
             >
               <a href="https://www.instagram.com/dgroup2526/#">
                 <img
@@ -291,6 +339,7 @@ const ResponsiveAppBar = () => {
                   style={{ margin: "0 10px" }}
                 />
               </a>
+
               <a href="https://www.facebook.com/DGroup2324">
                 <img
                   src={FacebookIcon}
@@ -306,4 +355,5 @@ const ResponsiveAppBar = () => {
     </ThemeProvider>
   );
 };
+
 export default ResponsiveAppBar;
