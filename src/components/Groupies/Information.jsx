@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import { createTheme } from "@mui/material/styles";
-import { fontStyle, ThemeProvider } from "@mui/system";
+import { ThemeProvider } from "@mui/system";
 
 const questionTheme = createTheme({
   typography: {
@@ -25,27 +25,27 @@ export default function Questions({ user }) {
     <Box sx={{ pl: 3, mt: 3 }}>
       <Grid>
         <ThemeProvider theme={questionTheme}>
-          <Typography variant="h5" guttomButtom>
+          <Typography variant="h5" component="div" gutterBottom>
             Årgång?
-            <Typography variant="h6" guttomButtom>
+            <Typography variant="h6" gutterBottom>
               {user.age}
             </Typography>
           </Typography>
-          <Typography variant="h5" guttomButtom>
+          <Typography variant="h5" component="div" gutterBottom>
             Hemhemma?
-            <Typography variant="h6" guttomButtom>
+            <Typography variant="h6" gutterBottom>
               {user.home}
             </Typography>
           </Typography>
-          <Typography variant="h5" guttomButtom>
+          <Typography variant="h5" component="div" gutterBottom>
             Program?
-            <Typography variant="h6" guttomButtom>
+            <Typography variant="h6" gutterBottom>
               {user.pors}
             </Typography>
           </Typography>
-          <Typography variant="h5" guttomButtom>
+          <Typography variant="h5" component="div" gutterBottom>
             Funfact/Partytrick?
-            <Typography variant="h6" guttomButtom>
+            <Typography variant="h6" gutterBottom>
               {user.cons}
             </Typography>
           </Typography>

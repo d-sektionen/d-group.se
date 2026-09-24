@@ -4,7 +4,7 @@ import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import styled from "styled-components";
 
-const StyledPlayer = styled.iframe`
+const StyledPlayer = styled.iframe.attrs({ loading: "lazy", allowFullScreen: true })`
   width: 100%;
   height: 50vh;
   border: none;

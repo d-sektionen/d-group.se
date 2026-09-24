@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Website = styled.a`
-  font-size: 1.5vw;
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
 `;
 
 export const Picture = styled.img`
@@ -11,12 +11,12 @@ export const Picture = styled.img`
 `;
 
 export const Name = styled.h1`
-  font-size: 2vw;
+  font-size: clamp(1.25rem, 2vw, 2rem);
 `;
 
 export const Sektion = styled.h2`
-  font-size: 1.5vw;
-  color: "brown"
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
+  color: brown;
 `;
 
 export const Details = styled.div`

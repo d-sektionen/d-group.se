@@ -1,6 +1,9 @@
 import React from "react";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
+import { Box, Button, Typography } from "@mui/material";
+import { Link } from "react-router-dom";
+
 import FestKalender from "./Pages/FestKalender";
 import EventsGrid from "./components/fester/index";
 import Navbar from "./components/Navbar";
@@ -15,27 +18,34 @@ import Test from "./components/test";
 import KastaPil from "./components/kastaPil";
 
 const App = () => {
-  
+
   return (
     <Router>
-      
+
       <Navbar />
       <Routes>
-        <Route exact path="/" element={<Start/>} />
-        <Route exact path="/calendar" element={<FestKalender/>} />
+        <Route path="/" element={<Start/>} />
+        <Route path="/calendar" element={<FestKalender/>} />
         {/* fester path is not used */}
-        <Route exact path="/fester" element={<EventsGrid/>} />
-        <Route exact path="/pateter" element={<WallofFame/>} />
-        <Route exact path="/groupies" element={<Groupies/>} />
-        <Route exact path="/friends" element={<Ourfriends/>} />
-        <Route exact path="/movies" element={<TaggfilmerNy/>} />
-        <Route exapt path="/kontakt" element={<Contact />} />
-        <Route exapt path="/test" element={<Test />} /> 
+        <Route path="/fester" element={<EventsGrid/>} />
+        <Route path="/pateter" element={<WallofFame/>} />
+        <Route path="/groupies" element={<Groupies/>} />
+        <Route path="/friends" element={<Ourfriends/>} />
+        <Route path="/movies" element={<TaggfilmerNy/>} />
+        <Route path="/kontakt" element={<Contact />} />
+        <Route path="/test" element={<Test />} />
 
-        <Route exapt path="/kastapil" element={<KastaPil />} /> 
+        <Route path="/kastapil" element={<KastaPil />} />
+        <Route path="*" element={
+          <Box component="main" sx={{ mt: 12, px: 2, textAlign: "center" }}>
+            <Typography variant="h4" component="h1" gutterBottom>Sidan hittades inte</Typography>
+            <Typography paragraph>Adressen finns inte. Gå till startsidan för att hitta rätt.</Typography>
+            <Button component={Link} to="/" variant="contained">Till startsidan</Button>
+          </Box>
+        } />
       </Routes>
 
-      
+
     </Router>
   );
 };

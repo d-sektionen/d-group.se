@@ -44,10 +44,11 @@ const DGLogo = styled.img`
 
 const style = {
   position: "absolute",
-  top: "55%",
+  top: "50%",
   left: "50%",
-  width: "350px",
-  height: "87vh",
+  width: "min(370px, calc(100% - 32px))",
+  boxSizing: "border-box",
+  maxHeight: "calc(100% - 32px)",
   transform: "translate(-50%, -50%)",
   bgcolor: "background.paper",
   border: "10px solid #000",
@@ -79,7 +80,7 @@ export default function CardGrid({ user }) {
   const [open, setOpen] = useState(false);
 
   const handleClick = () => {
-    setOpen(!open);
+    setOpen(true);
   };
 
   return (
@@ -87,6 +88,7 @@ export default function CardGrid({ user }) {
       <Box
         onClick={handleClick}
         sx={{
+          position: "relative",
           borderRadius: "20px",
           cursor: "pointer",
           boxShadow: "2px 2px 10px #D3D3D3",
@@ -96,6 +98,7 @@ export default function CardGrid({ user }) {
         <Grid container sx={{ width: "100%" }}>
           <ThemeProvider theme={questionTheme}>
             <Grid
+              item
               xs={5}
               sx={{
                 height: {
@@ -112,8 +115,11 @@ export default function CardGrid({ user }) {
             </Grid>
 
             <Grid
+              item
               xs={7}
               sx={{
+                minWidth: 0,
+                overflowWrap: "anywhere",
                 py: "2em",
                 px: "1em",
                 display: "flex",
@@ -138,16 +144,24 @@ export default function CardGrid({ user }) {
                 </a>
               </Typography>
 
+              <Button
+                aria-label={`Läs mer om ${user.name}`}
+                onClick={(event) => { event.stopPropagation(); handleClick(); }}
+                sx={{ mt: 1 }}
+              >
+                Läs mer
+              </Button>
               <DGLogo src={dg_logo} alt="D-Group logo" />
             </Grid>
           </ThemeProvider>
         </Grid>
       </Box>
 
-      <Modal open={open} onClose={handleClick}>
-        <Box sx={style}>
+      <Modal open={open} onClose={() => setOpen(false)}>
+        <Box sx={style} role="dialog" aria-modal="true" aria-label={user.name}>
           <Grid container>
             <Grid
+              item
               xs={12}
               sx={{
                 display: "flex",
@@ -158,8 +172,9 @@ export default function CardGrid({ user }) {
                 src={user.image}
                 alt={user.name}
                 style={{
-                  width: "300px",
-                  height: "300px",
+                  width: "min(300px, 100%)",
+                  height: "auto",
+                  aspectRatio: "1",
                   marginTop: "10px",
                   objectFit: "cover",
                   objectPosition: "center",
@@ -168,11 +183,12 @@ export default function CardGrid({ user }) {
               />
             </Grid>
 
-            <Grid xs={12}>
+            <Grid item xs={12}>
               <Questions user={user} />
             </Grid>
 
             <Grid
+              item
               xs={12}
               sx={{
                 display: "flex",
@@ -181,8 +197,8 @@ export default function CardGrid({ user }) {
                 mb: 2,
               }}
             >
-              <Button variant="contained" onClick={handleClick}>
-                Close
+              <Button variant="contained" onClick={() => setOpen(false)}>
+                Stäng
               </Button>
             </Grid>
           </Grid>

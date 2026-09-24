@@ -18,15 +18,6 @@ import totte from "../../images/dg2627/profiler/profiler-optimized/Totte.jpg";
 import stella from "../../images/dg2627/profiler/profiler-optimized/Stella.jpg";
 import felicia from "../../images/dg2627/profiler/profiler-optimized/Fel.jpg";
 
-/* 
-Det som måste göras för att lägga tillbaka j'8 på hemsidan:
-J'8 har alltid haft index 5 och ska ha det, men pga en kommenterades bort tillfälligt så ska det ändras på ett antal ställen:
-1. Rad 307 ska stå Groupies[11] istället för Groupies[10]
-2. Alla som har index 5 och uppåt:
-<CardGrid user={Groupies[5]}>
-ska ökas med +1, så de faller tillbaka på korrekt plats. Denna kommentar kan tas bort när ändringarna är gjorda. Fråga mig om du är osäker :) //Max
-
-*/
 
 // const FAMILYNAME = "Lü tao paœ fi guręt";
 const FAMILYNAME = "J’æf ôniãts tiâïn îmitrôü wó’al";
@@ -56,6 +47,17 @@ function GroupieGrid() {
       cons: "3.0‰",
     },
     {
+      name: "Melvin Manieri",
+      post: "Öl & Bar",
+      image: melle,
+      smallImage: melle,
+      email: "melvin.manieri@d-group.se",
+      age: "2003",
+      home: "Malmö",
+      pors: "Informationsteknologi",
+      cons: "12,66 sekunder",
+    },
+    {
       name: "Oliver Regnstrand",
       post: "Webb & ÖverDomaren™",
       image: oliver,
@@ -76,6 +78,17 @@ function GroupieGrid() {
       home: "Leksand",
       pors: "Datateknik",
       cons: "wasabiärtor",
+    },
+    {
+      name: "Caroline Lind-Val",
+      post: "Biljett & U-Lag",
+      image: pino,
+      smallImage: pino,
+      email: "caroline.lind-val@d-group.se",
+      age: "2002",
+      home: "Stockholm",
+      pors: "Datateknik",
+      cons: "elsparkcykel",
     },
     {
       name: "Felicia Rogestedt",
@@ -122,17 +135,6 @@ function GroupieGrid() {
       cons: "dumpsterdiving",
     },
     {
-      name: "Caroline Lind-Val",
-      post: "Biljett & U-Lag",
-      image: pino,
-      smallImage: pino,
-      email: "caroline.lind-val@d-group.se",
-      age: "2002",
-      home: "Stockholm",
-      pors: "Datateknik",
-      cons: "elsparkcykel",
-    },
-    {
       name: "Sofie Ettling",
       post: "Mat & Sittning",
       image: sofie,
@@ -165,23 +167,12 @@ function GroupieGrid() {
       pors: "Datateknik",
       cons: "åh jorge",
     },
-    {
-      name: "Melvin Manieri",
-      post: "Öl & Bar",
-      image: melle,
-      smallImage: melle,
-      email: "melvin.manieri@d-group.se",
-      age: "2003",
-      home: "Malmö",
-      pors: "Informationsteknologi",
-      cons: "12,66 sekunder",
-    },
   ];
 
   return (
     <Box sx={{ mt: 10, textAlign: "center", overflowX: "hidden" }}>
       <Grid container>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* About card */>
+        <Grid item xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* About card */>
           <Grid
             sx={{
               display: { xs: "none", md: "inline" },
@@ -189,13 +180,13 @@ function GroupieGrid() {
           >
             <Typography
               variant="h2"
-              guttomButtom
+              gutterBottom
               fontWeight={"bold"}
               color={"#E5398D"}
             >
               Om D-Group
             </Typography>
-            <Typography variant="h6" guttomButtom>
+            <Typography variant="h6" gutterBottom>
               D-Group är D-sektionens eminenta festeri. Vi har funnits sedan
               världen var svart-vit och popcorn inte gick att göra i micron.
               Innan dess låg vi i mammas kära mage och smed planer om
@@ -210,22 +201,22 @@ function GroupieGrid() {
           >
             <Typography
               variant="h2"
-              guttomButtom
+              gutterBottom
               fontWeight={"bold"}
               color={"#E5398D"}
             >
               Vilka är vi?
             </Typography>
-            <Typography variant="h6" guttomButtom>
+            <Typography variant="h6" gutterBottom>
               Tjena Tjena! Vi är familjen {FAMILYNAME}, för att veta mer om en
               specifik medlem är det bara att klicka på bilden!
             </Typography>
           </Grid>
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Chief Card */>
+        <Grid item xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Chief Card */>
           <CardGrid user={Groupies[0]} />
         </Grid>
-        <Grid
+        <Grid item
           xs={12}
           md={4}
           sx={{
@@ -235,57 +226,22 @@ function GroupieGrid() {
         >
           <Typography
             variant="h2"
-            guttomButtom
+            gutterBottom
             fontWeight={"bold"}
             color={"#E5398D"}
           >
             Vilka är vi?
           </Typography>
-          <Typography variant="h6" guttomButtom>
+          <Typography variant="h6" gutterBottom>
             Tjena Tjena! Vi är familjen {FAMILYNAME}, för att veta mer om en
             specifik medlem är det bara att klicka på bilden!
           </Typography>
         </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Cash Card */>
-          <CardGrid user={Groupies[1]} />
-        </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Bar Card */>
-          <CardGrid user={Groupies[12]} />
-        </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Webb Card */>
-          <CardGrid user={Groupies[2]} />
-        </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Werk Card */>
-          <CardGrid user={Groupies[3]} />
-        </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Ticket Card */>
-          <CardGrid user={Groupies[8]} />
-        </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Pr & Event Card */>
-          <CardGrid user={Groupies[4]} />
-        </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* J^9 Card */>
-          <CardGrid user={Groupies[5]} />
-        </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Sponsor Card */>
-          <CardGrid user={Groupies[6]} />
-        </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Trykk Card */>
-          <CardGrid user={Groupies[7]} />
-        </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* MoS Card */>
-          <CardGrid user={Groupies[9]} />
-        </Grid>
-        <Grid xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} /* Trykk Card */>
-          <CardGrid user={Groupies[10]} />
-        </Grid>
-        <Grid
-          xs={12}
-          md={4}
-          sx={{ p: { xs: 1, md: 2 } }} /* Pr & Personal Card */
-        >
-          <CardGrid user={Groupies[11]} />
-        </Grid>
+        {Groupies.slice(1).map((user) => (
+          <Grid item xs={12} md={4} sx={{ p: { xs: 1, md: 2 } }} key={user.email}>
+            <CardGrid user={user} />
+          </Grid>
+        ))}
       </Grid>
     </Box>
   );

@@ -8,16 +8,16 @@ function Contact() {
   return (
     <Box sx={{ textAlign: "center", mt: 10 }}>
       <Grid container>
-        <Grid xs={12} /* HEADER */>
-          <Typography variant="h1" guttomButtom color="#754022">
+        <Grid item xs={12} /* HEADER */>
+          <Typography variant="h1" gutterBottom color="#754022">
             Kontakt
           </Typography>
         </Grid>
-        <Grid sm={12} md={6} sx={{ p: 6 }} /* Allmän kontakt + analog */>
-          <Typography variant="h4" guttomButtom paragraph color="#E5398D">
+        <Grid item sm={12} md={6} sx={{ p: 6 }} /* Allmän kontakt + analog */>
+          <Typography variant="h4" gutterBottom paragraph color="#E5398D">
             Allmän kontakt
           </Typography>
-          <Typography variant="h6" guttomButtom>
+          <Typography variant="h6" gutterBottom>
             Vid allmäna frågor, strippförfrågningar, jobbförfrågningar (vi kan
             jobba på det mesta) eller om du är osäker på vem du ska kontakta
             skicka ett mail till{" "}
@@ -25,14 +25,14 @@ function Contact() {
           </Typography>
           <Typography
             variant="h4"
-            guttomButtom
+            gutterBottom
             paragraph
             color="#E5398D"
             sx={{ pt: 5 }}
           >
             Analog (SnigelPost?) <br />
           </Typography>
-          <Typography variant="h6" guttomButtom>
+          <Typography variant="h6" gutterBottom>
             D-Group <br />
             Datateknologsektionen <br />
             Kårallen, Universitet
@@ -41,13 +41,13 @@ function Contact() {
             Org.nr: 822002-1409
           </Typography>
 
-          <Typography variant="h6" guttomButtom></Typography>
+          <Typography variant="h6" gutterBottom></Typography>
         </Grid>
-        <Grid sm={12} md={6} sx={{ p: 6 }} /* POST KONTAKT */>
-          <Typography variant="h4" guttomButtom paragraph color="#E5398D">
+        <Grid item sm={12} md={6} sx={{ p: 6 }} /* POST KONTAKT */>
+          <Typography variant="h4" gutterBottom paragraph color="#E5398D">
             Post specifik kontakt
           </Typography>
-          <Typography variant="h6" guttomButtom paragraph>
+          <Typography variant="h6" gutterBottom paragraph>
             Chief, Nanna:{" "}
             <Link href="mailto:Chief@d-group.se">Chief@d-group.se</Link> <br />
             Vid Samarbets-frågor:{" "}
@@ -72,7 +72,7 @@ function Contact() {
             </Link>{" "}
             <br />
             Vid Ljud & Ljus-frågor:{" "}
-            <Link href="mailto:j8@d-group.se">J9@d-group.se</Link> <br />
+            <Link href="mailto:j9@d-group.se">j9@d-group.se</Link> <br />
             Vid Trykk-frågor:{" "}
             <Link href="mailto:trykk@d-group.se">Trykk@d-group.se</Link> <br />
             Vid Mat & Sittnings-frågor:{" "}

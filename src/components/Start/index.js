@@ -2,21 +2,17 @@ import React from "react";
 import { WidePictureFrame, HighPictureFrame } from "./StartElements";
 import Typography from "@mui/material/Typography";
 import ericsson from "../../images/spons/ericssonSpons.webp";
-import microtec from "../../images/spons/microtec.png";
 import Ida from "../../images/spons/idainfrontSpons.webp";
-import xamera from "../../images/spons/xameraSpons.webp";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Link from "@mui/material/Link";
 import logo from "../../images/logo.webp";
-import { Slideshow } from "./DgSlideshow";
-import dggrupp from "../../images/gropies/dgroup2324.jpg";
-import dggrupp1200px from "../../images/gropies/dgroup2324_landscape.jpg";
-import dgroupHog from "../../images/gropies/22_23_formation.jpg";
 
 // import gruppbild from "../../images/dg2526/dg2526-gruppbild-offeciell.jpg"
 // import gruppbild from "../../images/dg2526/dg2526_jul.JPG"
-import gruppbild from "../../images/dg2627/dg2627-gruppbild-officiell.JPG";
+import group768 from "../../images/dg2627/group-768.webp";
+import group1536 from "../../images/dg2627/group-1536.webp";
+import group2400 from "../../images/dg2627/group-2400.webp";
 
 function Start() {
   return (
@@ -30,18 +26,18 @@ function Start() {
       }}
     >
       <Grid container>
-        <Grid sm={12} sx={{ pt: 0 }} /* Groupies Bild */>
-          <WidePictureFrame src={gruppbild} alt="D-Group 26/27" />
-          <HighPictureFrame src={gruppbild} alt="D-Group 26/27" />
+        <Grid item sm={12} sx={{ pt: 0 }} /* Groupies Bild */>
+          <WidePictureFrame src={group1536} srcSet={`${group768} 768w, ${group1536} 1536w, ${group2400} 2400w`} sizes="100vw" alt="D-Group 26/27" />
+          <HighPictureFrame src={group1536} srcSet={`${group768} 768w, ${group1536} 1536w, ${group2400} 2400w`} sizes="100vw" alt="D-Group 26/27" />
         </Grid>
 
-        <Grid
+        <Grid item
           sm={12}
           sx={{ mx: 6, mb: 6, mt: 3 }}
           container
           /* Om oss text MED LOGO*/
         >
-          <Grid sm={12} md={7}>
+          <Grid item sm={12} md={7}>
             <Typography
               variant="h3"
               gutterBottom
@@ -51,7 +47,7 @@ function Start() {
               D-Group 26/27
             </Typography>
 
-            <Typography variant="h6" gutterButtom>
+            <Typography variant="h6" gutterBottom>
               Det är vi som är D-Group vilket är D-sektionens eminenta festeri.
               Vi har funnits sedan världen var svart-vit och popcorn inte gick
               att göra i micron. Innan dess låg vi i mammas kära mage och smed
@@ -61,7 +57,7 @@ function Start() {
             </Typography>
           </Grid>
 
-          <Grid
+          <Grid item
             sm={12}
             md={5}
             sx={{ pt: 6, mx: "auto" }}
@@ -71,25 +67,25 @@ function Start() {
           </Grid>
         </Grid>
 
-        <Grid sm={12} /* DömD PICTURE */>
-          <Typography variant="h2" color="#754022" guttomButtom>
+        <Grid item sm={12} /* DömD PICTURE */>
+          <Typography variant="h2" color="#754022" gutterBottom>
             Våra evenemang
           </Typography>
         </Grid>
 
-        <Grid sm={12} md={6} sx={{ px: 6, mt: 6 }} /* DÖmD */>
+        <Grid item sm={12} md={6} sx={{ px: 6, mt: 6 }} /* DÖmD */>
           <Typography
             variant="h3"
-            guttomButtom
+            gutterBottom
             fontWeight={"bold"}
             color={"#E5398D"}
           >
-            D<span STYLE="font-size:75%">ÖM</span>D
+            D<span style={{ fontSize: "75%" }}>ÖM</span>D
           </Typography>
 
           <Typography variant="h6">
             Den 24:e april slås dörrarna upp till årets bästa fest, D
-            <span STYLE="font-size:75%">ÖM</span>
+            <span style={{ fontSize: "75%" }}>ÖM</span>
             D! Datateknologsektionens Öppna Mästerskap i Dart är en av norra
             Europas största darttävlingar som arrangeras för 46:e året i rad.
             Festen som pågår i tre dagar och börjar med kravall på torsdagen,
@@ -98,32 +94,32 @@ function Start() {
             datumen redan nu! För mer infomaton besök{" "}
             <Link
               href="http://domd.nu"
-              underlink="hover"
+              underline="hover"
               color="#E5398D"
               sx={{ textDecoration: "none" }}
             >
-              D<span STYLE="font-size:75%">ÖM</span>D.nu
+              D<span style={{ fontSize: "75%" }}>ÖM</span>D.nu
             </Link>
           </Typography>
         </Grid>
 
-        <Grid sm={12} md={6} sx={{ px: 6, mt: 6 }} /* DIMD */>
+        <Grid item sm={12} md={6} sx={{ px: 6, mt: 6 }} /* DIMD */>
           <Typography
             variant="h3"
-            guttomButtom
+            gutterBottom
             fontWeight={"bold"}
             color={"#E5398D"}
           >
-            D<span STYLE="font-size:75%">IM</span>D
+            D<span style={{ fontSize: "75%" }}>IM</span>D
           </Typography>
 
           <Typography variant="h6">
             Kliar det i kastarmen? Tycker du att det är lite för långt mellan D
-            <span STYLE="font-size:75%">ÖM</span>D och D
-            <span STYLE="font-size:75%">ÖM</span>D? Misströsta ej, du behöver
-            inte vänta ända till nästa D<span STYLE="font-size:75%">ÖM</span>D
+            <span style={{ fontSize: "75%" }}>ÖM</span>D och D
+            <span style={{ fontSize: "75%" }}>ÖM</span>D? Misströsta ej, du behöver
+            inte vänta ända till nästa D<span style={{ fontSize: "75%" }}>ÖM</span>D
             för att njuta av D-arnas favoritsport. I februari kommer nämligen D
-            <span STYLE="font-size:75%">IM</span>D, Datateknologsektionens
+            <span style={{ fontSize: "75%" }}>IM</span>D, Datateknologsektionens
             Interna Mästerskap i Dart. Här bjuds du på en helkväll med dart där
             du kan träna upp dina färdigheter och visa för alla andra att det är
             du som är kungen av denna ädla sport.
@@ -131,17 +127,17 @@ function Start() {
         </Grid>
 
         <Grid container sx={{ mt: 6 }} /* ANDRA FESTER */>
-          <Grid sm={12} md={6} sx={{ mb: 6, px: 5 }} /* Nolle-P */>
+          <Grid item sm={12} md={6} sx={{ mb: 6, px: 5 }} /* Nolle-P */>
             <Typography
               variant="h4"
-              guttomButtom
+              gutterBottom
               color="#E5398D"
               fontWeight={"bold"}
             >
               Nollesittningen & Nollefinalen
             </Typography>
 
-            <Typography variant="h6" guttomButtom>
+            <Typography variant="h6" gutterBottom>
               När Nolle-P lider mot sitt slut och det börjar bli dags för STABEN
               att uppgradera nollan till etta bjuder D-Group in till finfest.
               Faddrar och nollan välkomnas till sittning i sina finaste kläder
@@ -151,7 +147,7 @@ function Start() {
             </Typography>
           </Grid>
 
-          <Grid
+          <Grid item
             sm={12}
             md={6}
             sx={{ mb: 6, px: 5 }}
@@ -159,14 +155,14 @@ function Start() {
           >
             <Typography
               variant="h4"
-              guttomButtom
+              gutterBottom
               color="#E5398D"
               fontWeight={"bold"}
             >
               Ovvefix & Ovveinvigning
             </Typography>
 
-            <Typography variant="h6" guttomButtom>
+            <Typography variant="h6" gutterBottom>
               Då nolle-p är över och alla nya ettor har fått sina overaller
               kommer D-Group att hjälpa till att snygga till dem. Vi ser till
               att det finns färg så att man kan skriva namn och måla maskotar
@@ -177,17 +173,17 @@ function Start() {
             </Typography>
           </Grid>
 
-          <Grid sm={12} md={6} sx={{ mb: 6, px: 5 }} /* ToTK */>
+          <Grid item sm={12} md={6} sx={{ mb: 6, px: 5 }} /* ToTK */>
             <Typography
               variant="h4"
-              guttomButtom
+              gutterBottom
               color="#E5398D"
               fontWeight={"bold"}
             >
               Tenta- & Omtentakravallen
             </Typography>
 
-            <Typography variant="h6" guttomButtom>
+            <Typography variant="h6" gutterBottom>
               När höstens tenta-p äntligen är genomlidet och tankeknölarna
               värker av utmattning är det dags att släpp loss. Därför bjuder
               D-Group, tillsammans med TBI-sektionens festeri Bi6, in till fest
@@ -197,17 +193,17 @@ function Start() {
             </Typography>
           </Grid>
 
-          <Grid sm={12} md={6} sx={{ px: 5 }} /* Julfesten */>
+          <Grid item sm={12} md={6} sx={{ px: 5 }} /* Julfesten */>
             <Typography
               variant="h4"
-              guttomButtom
+              gutterBottom
               color="#E5398D"
               fontWeight={"bold"}
             >
               Julfesten
             </Typography>
 
-            <Typography variant="h6" guttomButtom>
+            <Typography variant="h6" gutterBottom>
               Då julen är på ingång och du börjar skymta tomtar i varje hörn
               tycker D-Group att det är ett alldeles utomordentligt tillfälle
               att fira den kommande helgen med en sittning. Denna julsittning
@@ -217,7 +213,7 @@ function Start() {
             </Typography>
           </Grid>
 
-          <Grid
+          <Grid item
             sm={12}
             md={6}
             sx={{ px: 6, mt: 6, margin: "auto" }}
@@ -225,7 +221,7 @@ function Start() {
           >
             <Typography
               variant="h4"
-              guttomButtom
+              gutterBottom
               fontWeight={"bold"}
               color={"#E5398D"}
             >
@@ -264,7 +260,7 @@ function Start() {
           {/* <Box md={6} sx={{ my:3 }}>
             <Link
               href="https://www.microtec.eu/sv-se"
-              underlink="hover"
+              underline="hover"
               sx={{ textDecoration: "none"}}
             >
               <img 
@@ -279,7 +275,7 @@ function Start() {
           <Box md={5} sx={{ my: 3 }}>
             <Link
               href="https://www.ericsson.com/en/careers"
-              underlink="hover"
+              underline="hover"
               sx={{ textDecoration: "none" }}
             >
               <img src={ericsson} alt="Ericsson Logo" />
@@ -289,7 +285,7 @@ function Start() {
           <Box md={5} sx={{ my: 3 }}>
             <Link
               href="https://idainfront.se/en/"
-              underlink="hover"
+              underline="hover"
               sx={{ textDecoration: "none" }}
             >
               <img
@@ -304,7 +300,7 @@ function Start() {
           {/* <Box md={5} sx={{ marginTop:3 }}>
             <Link
               href="https://xamera.se/"
-              underlink="hover"
+              underline="hover"
               sx={{ textDecoration: "none" }}
             >
               <img
@@ -315,7 +311,7 @@ function Start() {
             </Link>
           </Box> */}
 
-          <Typography varaint="h6" guttomButtom sx={{ mt: 6 }}>
+          <Typography variant="h6" gutterBottom sx={{ mt: 6 }}>
             Vill ni också synas här? Kontakta oss på{" "}
             <a href="mailto:spons@d-group.se" style={{ color: "#754022" }}>
               spons@d-group.se

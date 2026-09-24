@@ -21,6 +21,8 @@ const Link = styled(NavLink)`
   text-decoration: none;
 `;
 
+const INSTAGRAM_URL = "https://www.instagram.com/dgroup2627/";
+
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
@@ -94,9 +96,10 @@ const ResponsiveAppBar = () => {
             >
               <IconButton
                 size="large"
-                aria-label="account of current user"
+                aria-label="Öppna meny"
                 aria-controls="menu-appbar"
-                aria-haspopup="true"
+                aria-haspopup="menu"
+                aria-expanded={Boolean(anchorElNav)}
                 onClick={handleOpenNavMenu}
                 color="inherit"
                 sx={{ pt: 2 }}
@@ -122,98 +125,72 @@ const ResponsiveAppBar = () => {
                   display: { xs: "block", md: "none" },
                 }}
               >
-                <Link to="/">
-                  <MenuItem key="/" onClick={handleCloseNavMenu}>
+                <MenuItem component={NavLink} to="/" key="/" onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" color="white">
                       Start
                     </Typography>
                   </MenuItem>
-                </Link>
 
-                <Link to="groupies">
-                  <MenuItem key="groupies" onClick={handleCloseNavMenu}>
+                <MenuItem component={NavLink} to="/groupies" key="groupies" onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" color="white">
                       Groupies
                     </Typography>
                   </MenuItem>
-                </Link>
 
-                <Link to="kontakt">
-                  <MenuItem key="Kontakt" onClick={handleCloseNavMenu}>
+                <MenuItem component={NavLink} to="/kontakt" key="Kontakt" onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" color="white">
                       Kontakt
                     </Typography>
                   </MenuItem>
-                </Link>
 
-                <Link to="pateter">
-                  <MenuItem key="WallOfFame" onClick={handleCloseNavMenu}>
+                <MenuItem component={NavLink} to="/pateter" key="WallOfFame" onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" color="white">
                       Wall Of Fame
                     </Typography>
                   </MenuItem>
-                </Link>
 
-                <Link to="movies">
-                  <MenuItem key="Taggfilmer" onClick={handleCloseNavMenu}>
+                <MenuItem component={NavLink} to="/movies" key="Taggfilmer" onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" color="white">
                       Taggfilmer
                     </Typography>
                   </MenuItem>
-                </Link>
 
-                <Link to="kastapil">
-                  <MenuItem key="KastaPil" onClick={handleCloseNavMenu}>
+                <MenuItem component={NavLink} to="/kastapil" key="KastaPil" onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" color="white">
                       Kasta pil
                     </Typography>
                   </MenuItem>
-                </Link>
 
-                <Link to="calendar">
-                  <MenuItem key="Festkalender" onClick={handleCloseNavMenu}>
+                <MenuItem component={NavLink} to="/calendar" key="Festkalender" onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" color="white">
                       Festkalender
                     </Typography>
                   </MenuItem>
-                </Link>
 
-                <a href="http://domd.nu/" style={{ textDecoration: "none" }}>
-                  <MenuItem key="DomD" onClick={handleCloseNavMenu}>
+                <MenuItem component="a" href="http://domd.nu/" key="DomD" onClick={handleCloseNavMenu}>
                     <Typography textAlign="center" color="white">
-                      D<span Style="font-size:75%">ÖM</span>D
+                      D<span style={{ fontSize: "75%" }}>ÖM</span>D
                     </Typography>
                   </MenuItem>
-                </a>
 
-                <a
-                  href="https://www.facebook.com/DGroup2324"
-                  style={{ textDecoration: "none" }}
-                >
-                  <MenuItem key="Facebook" onClick={handleCloseNavMenu}>
+                <MenuItem component="a" href="https://www.facebook.com/DGroup2324" key="Facebook" onClick={handleCloseNavMenu}>
                     <img
                       src={FacebookIcon}
-                      alt="FB_logo"
-                      width={"50vw"}
-                      height={"50vh"}
+                      alt="Facebook"
+                      width={50}
+                      height={50}
                     />
                   </MenuItem>
-                </a>
 
-                <a
-                  href="https://www.instagram.com/dgroup2627/#"
-                  style={{ textDecoration: "none" }}
-                >
-                  <MenuItem key="Instagram" onClick={handleCloseNavMenu}>
+                <MenuItem component="a" href={INSTAGRAM_URL} key="Instagram" onClick={handleCloseNavMenu}>
                     <img
                       src={InstagramIcon}
-                      alt="FB_logo"
-                      width={"50vw"}
-                      height={"50vh"}
-                      sx={{ mx: 10 }}
+                      alt="Instagram"
+                      width={50}
+                      height={50}
+                      style={{ margin: "0 10px" }}
                     />
                   </MenuItem>
-                </a>
               </Menu1>
             </Box>
 
@@ -236,68 +213,55 @@ const ResponsiveAppBar = () => {
               }}
               /* Computer LinkBar */
             >
-              <Link to="/">
-                <Button
+              <Button component={NavLink} to="/"
                   key="Start"
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, color: "white", display: "block" }}
                 >
                   Start
                 </Button>
-              </Link>
 
-              <Link to="groupies">
-                <Button
+              <Button component={NavLink} to="/groupies"
                   key="hej"
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, color: "white", display: "block" }}
                 >
                   Groupies
                 </Button>
-              </Link>
 
-              <Link to="kontakt">
-                <Button
+              <Button component={NavLink} to="/kontakt"
                   key="Kontakt"
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, color: "white", display: "block" }}
                 >
                   Kontakt
                 </Button>
-              </Link>
 
-              <Link to="pateter">
-                <Button
+              <Button component={NavLink} to="/pateter"
                   key="WoF"
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, color: "white", display: "block" }}
                 >
                   Wall Of Fame
                 </Button>
-              </Link>
 
-              <Link to="movies">
-                <Button
+              <Button component={NavLink} to="/movies"
                   key="movies"
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, color: "white", display: "block" }}
                 >
                   Taggfilmer
                 </Button>
-              </Link>
 
-              <Link to="kastapil">
-                <Button
+              <Button component={NavLink} to="/kastapil"
                   key="kastapil"
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, color: "white", display: "block" }}
                 >
                   Kasta pil
                 </Button>
-              </Link>
 
-              <Link to="calendar">
-                <Button
+              <Button component={NavLink} to="/calendar"
                   key="Kalender"
                   onClick={handleCloseNavMenu}
                   sx={{
@@ -309,17 +273,14 @@ const ResponsiveAppBar = () => {
                 >
                   Festkalender
                 </Button>
-              </Link>
 
-              <a href="http://domd.nu/" style={{ textDecoration: "none" }}>
-                <Button
+              <Button component="a" href="http://domd.nu/"
                   key="DomD"
                   onClick={handleCloseNavMenu}
                   sx={{ my: 2, color: "white", display: "block" }}
                 >
-                  D<span Style="font-size:75%">ÖM</span>D
+                  D<span style={{ fontSize: "75%" }}>ÖM</span>D
                 </Button>
-              </a>
             </Box>
 
             <Box
@@ -330,12 +291,12 @@ const ResponsiveAppBar = () => {
               }}
               /* Computer FB/IG to right */
             >
-              <a href="https://www.instagram.com/dgroup2526/#">
+              <a href={INSTAGRAM_URL}>
                 <img
                   src={InstagramIcon}
-                  alt="FB_logo"
-                  width={"50vw"}
-                  height={"50vh"}
+                  alt="Instagram"
+                  width={50}
+                  height={50}
                   style={{ margin: "0 10px" }}
                 />
               </a>
@@ -343,9 +304,9 @@ const ResponsiveAppBar = () => {
               <a href="https://www.facebook.com/DGroup2324">
                 <img
                   src={FacebookIcon}
-                  alt="FB_logo"
-                  width={"50vw"}
-                  height={"50vh"}
+                  alt="Facebook"
+                  width={50}
+                  height={50}
                 />
               </a>
             </Box>
